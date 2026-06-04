@@ -1,5 +1,5 @@
 ---
-name: capital-event-intelligence-toolkit
+name: signal-finder-toolkit
 description: >
   Lead magnet toolkit that walks users through a 4-phase guided session to identify their
   market blindspot, map active capital events in their sector, capture their playbook foundation,
@@ -8,10 +8,10 @@ description: >
   understand what they're walking past, build a playbook, or get a Digital Employee recommendation.
   Triggers include: find my opportunity, what am I missing, where should I focus, build my playbook,
   capital event scan, blindspot analysis, market opportunity, what DE do I need, run the toolkit,
-  intelligence toolkit.
+  intelligence toolkit, run the signal finder, signal finder toolkit.
 ---
 
-# Capital Event Intelligence Toolkit
+# Signal Finder Toolkit
 
 **Lead magnet. 4 phases. Ends with a Mandate Diagnostic CTA.**
 
@@ -39,7 +39,7 @@ Deliver this exactly when the skill triggers:
 
 ---
 
-**Welcome to the Capital Event Intelligence Toolkit.**
+**Welcome to the Signal Finder Toolkit.**
 
 Most organizations aren't losing to competitors. They're losing to a blindspot — a market being created right now by capital they can't see moving.
 
