@@ -275,7 +275,7 @@ Deliver this after the DE recommendation — no exceptions:
 
 Whether you want to deploy your [DE Role Name] yourself, have a THINK Strategist implement it for you, or train to build Digital Employees — Find Your Start routes you to the right path.
 
-→ [Find Your Start](https://www.compoundleverage.com/findyourstart/)
+→ [Find Your Start](https://www.compoundleverage.com/findyourstart/?utm_source=signal-finder-toolkit&utm_medium=lead-magnet&utm_campaign=findyourstart)
 
 The window we mapped is open now. Don't let it close while you decide.
 
