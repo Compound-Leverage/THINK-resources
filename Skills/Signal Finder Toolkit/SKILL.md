@@ -13,7 +13,7 @@ description: >
 
 # Signal Finder Toolkit
 
-**Lead magnet. 4 phases. Ends with a Mandate Diagnostic CTA.**
+**Lead magnet. 4 phases. Ends with a Find Your Start CTA.**
 
 Walk the user through each phase one step at a time. One question per message. Never dump all questions at once. The experience should feel like a smart advisor is interviewing them — not a form they're filling out.
 
@@ -271,19 +271,13 @@ Deliver this after the DE recommendation — no exceptions:
 ✓ Your playbook foundation — captured  
 ✓ Your Digital Employee — matched  
 
-**Where do you want to go from here?**
+**One next step. Tell us where you are, and we'll send you to exactly the right place.**
 
-**A → Deploy your [DE Role Name]**  
-See the full Digital Employee library and get yours configured.  
-→ [Browse Digital Employees](https://www.compoundleverage.com/digital-employees/)
+Whether you want to deploy your [DE Role Name] yourself, have a THINK Strategist implement it for you, or train to build Digital Employees — Find Your Start routes you to the right path.
 
-**B → Get the community + more DEs**  
-Join THINK School — access Digital Employees built for your sector, live sessions, and a community of practitioners deploying AI the right way.  
-→ [Join THINK School](https://www.compoundleverage.com/training/think-school/)
+→ [Find Your Start](https://www.compoundleverage.com/findyourstart/)
 
-**C → Explore examples first**  
-See how others are deploying Digital Employees and move at your own pace.  
-→ [Browse Examples](https://www.compoundleverage.com/examples/)
+The window we mapped is open now. Don't let it close while you decide.
 
 ---
 
