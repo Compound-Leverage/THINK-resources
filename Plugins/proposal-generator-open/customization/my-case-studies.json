@@ -1,0 +1,139 @@
+{
+  "_instructions": "REQUIRED: Add your past performance and case studies. These are used to demonstrate relevant experience. Update after each win.",
+  "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
+
+  "case_studies": [
+    {
+      "case_id": "CASE-001",
+      "project_name": "[PROJECT NAME]",
+      "client": {
+        "name": "[CLIENT NAME or 'Confidential - [Industry]' if NDA]",
+        "industry": "[INDUSTRY]",
+        "size": "[EMPLOYEE COUNT or REVENUE RANGE]",
+        "type": "[Government | Commercial | Nonprofit | etc.]"
+      },
+      "engagement": {
+        "year": "[YEAR]",
+        "duration": "[DURATION - e.g., '12 weeks']",
+        "value": "[CONTRACT VALUE or 'Confidential']",
+        "offering_type": "[CONSULTING | IMPLEMENTATION | TRAINING | FULL]"
+      },
+      "challenge": "[DESCRIBE THE CLIENT'S CHALLENGE - 2-3 sentences. Be specific about their pain points.]",
+      "solution": "[DESCRIBE WHAT YOU DELIVERED - 2-3 sentences. Focus on outcomes, not activities.]",
+      "outcomes": {
+        "quantified_results": [
+          "[RESULT 1 - e.g., '40% reduction in processing time']",
+          "[RESULT 2 - e.g., '$500K annual savings']",
+          "[RESULT 3 - e.g., '3-month ROI payback']"
+        ],
+        "qualitative_results": [
+          "[QUALITATIVE RESULT - e.g., 'Team adoption exceeded expectations']"
+        ]
+      },
+      "testimonial": {
+        "quote": "[CLIENT QUOTE if available, or leave empty]",
+        "attribution": "[NAME, TITLE if quote provided]"
+      },
+      "relevance_tags": ["[TAG1]", "[TAG2]", "[TAG3]"],
+      "_instructions_for_tags": "Tags help match this case study to opportunities. Use industry, problem type, solution type, etc."
+    },
+    {
+      "case_id": "CASE-002",
+      "project_name": "[PROJECT NAME]",
+      "client": {
+        "name": "[CLIENT NAME]",
+        "industry": "[INDUSTRY]",
+        "size": "[SIZE]",
+        "type": "[TYPE]"
+      },
+      "engagement": {
+        "year": "[YEAR]",
+        "duration": "[DURATION]",
+        "value": "[VALUE]",
+        "offering_type": "[TYPE]"
+      },
+      "challenge": "[CHALLENGE DESCRIPTION]",
+      "solution": "[SOLUTION DESCRIPTION]",
+      "outcomes": {
+        "quantified_results": [
+          "[RESULT 1]",
+          "[RESULT 2]"
+        ],
+        "qualitative_results": []
+      },
+      "testimonial": {
+        "quote": "",
+        "attribution": ""
+      },
+      "relevance_tags": []
+    },
+    {
+      "case_id": "CASE-003",
+      "project_name": "[PROJECT NAME]",
+      "client": {
+        "name": "[CLIENT NAME]",
+        "industry": "[INDUSTRY]",
+        "size": "[SIZE]",
+        "type": "[TYPE]"
+      },
+      "engagement": {
+        "year": "[YEAR]",
+        "duration": "[DURATION]",
+        "value": "[VALUE]",
+        "offering_type": "[TYPE]"
+      },
+      "challenge": "[CHALLENGE DESCRIPTION]",
+      "solution": "[SOLUTION DESCRIPTION]",
+      "outcomes": {
+        "quantified_results": [
+          "[RESULT 1]",
+          "[RESULT 2]"
+        ],
+        "qualitative_results": []
+      },
+      "testimonial": {
+        "quote": "",
+        "attribution": ""
+      },
+      "relevance_tags": []
+    }
+  ],
+
+  "reference_contacts": {
+    "_instructions": "Clients who have agreed to serve as references",
+    "references": [
+      {
+        "client_name": "[CLIENT NAME]",
+        "contact_name": "[CONTACT NAME]",
+        "contact_title": "[TITLE]",
+        "contact_phone": "[PHONE]",
+        "contact_email": "[EMAIL]",
+        "relationship": "[How you know them]",
+        "best_for": "[What type of opportunity they're best reference for]",
+        "notes": "[Any notes about when/how to use this reference]"
+      },
+      {
+        "client_name": "[CLIENT NAME]",
+        "contact_name": "[CONTACT NAME]",
+        "contact_title": "[TITLE]",
+        "contact_phone": "[PHONE]",
+        "contact_email": "[EMAIL]",
+        "relationship": "[How you know them]",
+        "best_for": "[Best for what type of opportunity]",
+        "notes": ""
+      }
+    ]
+  },
+
+  "awards_and_recognition": {
+    "_instructions": "Awards, certifications, or recognition that strengthen proposals",
+    "items": [
+      {
+        "name": "[AWARD/RECOGNITION NAME]",
+        "issuer": "[WHO GAVE IT]",
+        "year": "[YEAR]",
+        "description": "[Brief description]"
+      }
+    ]
+  }
+}

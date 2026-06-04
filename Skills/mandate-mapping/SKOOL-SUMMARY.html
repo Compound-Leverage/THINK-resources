@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandate Search Agent - Claude Skill for Your Community</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f8f9fa;
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5em;
+        }
+        .header p {
+            margin: 0;
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+        .version-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        .section {
+            background: white;
+            padding: 30px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        h3 {
+            color: #764ba2;
+            margin-top: 25px;
+        }
+        .highlight-box {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .success-box {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .feature-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+        .feature-card h4 {
+            color: #667eea;
+            margin-top: 0;
+        }
+        .step-number {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li:before {
+            content: "✓ ";
+            color: #28a745;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        .code-block {
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            font-family: 'Courier New', monospace;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        .example-box {
+            background: #fff;
+            border: 2px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        .cta-button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px 10px 10px 0;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #5568d3;
+        }
+        .icon {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th {
+            background: #667eea;
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        table td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+        table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>🎯 Mandate Search Agent</h1>
+    <p>Find Funding Opportunities Customized to YOUR Business</p>
+    <div class="version-badge">Version 2.0 - Fully Configurable</div>
+</div>
+
+<div class="section">
+    <h2>🚀 What Is This?</h2>
+    <p><strong>A Claude Skill that finds grants, contracts, and funding opportunities specifically for YOUR business</strong> - any industry, any geography, any organization type.</p>
+
+    <div class="highlight-box">
+        <strong>🌟 Key Innovation:</strong> Finds <strong>pre-RFP signals</strong> (legislative bills, budget proposals, agency planning) so you can position BEFORE opportunities become competitive. Like having a funding intelligence agent working for you!
+    </div>
+
+    <div class="warning-box">
+        <strong>⚡ How It Works:</strong> This is <strong>interactive web search</strong> - you ask Claude to search, Claude uses its web search tools to find opportunities in real-time. <strong>No automated actors, no background scraping, no automation.</strong> It's conversational: you ask, Claude searches and analyzes.
+    </div>
+</div>
+
+<div class="section">
+    <h2>✨ Why This Is Valuable for Your Community</h2>
+
+    <div class="feature-grid">
+        <div class="feature-card">
+            <div class="icon">🗺️</div>
+            <h4>Any Geography</h4>
+            <p>Configure for your states, regions, or anywhere you operate</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">🏭</div>
+            <h4>Any Industry</h4>
+            <p>Manufacturing, healthcare, IT, consulting, nonprofit - you name it</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">💰</div>
+            <h4>Your Capacity</h4>
+            <p>Set your funding range, match capability, and priorities</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">⚖️</div>
+            <h4>Your Strategy</h4>
+            <p>Customize scoring to match what matters to YOU</p>
+        </div>
+    </div>
+
+    <h3>Perfect For:</h3>
+    <ul>
+        <li>Training providers</li>
+        <li>Economic development consultants</li>
+        <li>Industry associations</li>
+        <li>Nonprofit organizations</li>
+        <li>Community colleges</li>
+        <li>Workforce boards</li>
+        <li>Small businesses seeking grants</li>
+        <li>Any organization pursuing funding</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>🎓 How It Works</h2>
+
+    <div class="success-box">
+        <h3>Interactive Web Search (Not Automated)</h3>
+        <p><strong>Step 1:</strong> You ask Claude: <em>"Search for funding opportunities in Texas"</em></p>
+        <p><strong>Step 2:</strong> Claude uses WebSearch tool to query Grants.gov, state sites, agency pages</p>
+        <p><strong>Step 3:</strong> Claude analyzes results, filters by YOUR config, scores opportunities</p>
+        <p><strong>Step 4:</strong> Claude presents findings with intelligence briefs and recommendations</p>
+        <p><strong>This all happens in real-time during your conversation - no automation or actors!</strong></p>
+    </div>
+
+    <h3>1. Pre-RFP Signal Detection</h3>
+    <p>Finds opportunities <strong>before they become competitive RFPs:</strong></p>
+    <ul>
+        <li>Legislative bills with appropriation language</li>
+        <li>Budget proposals with new funding</li>
+        <li>Agency strategic plans (unfunded priorities)</li>
+        <li>Listening sessions and stakeholder engagement</li>
+        <li>Expiring appropriations</li>
+    </ul>
+
+    <h3>2. Intelligent Scoring (0-100)</h3>
+    <p>Every opportunity is scored based on YOUR priorities:</p>
+    <table>
+        <tr>
+            <th>Factor</th>
+            <th>Points</th>
+            <th>What It Means</th>
+        </tr>
+        <tr>
+            <td>Funding Size</td>
+            <td>40</td>
+            <td>Based on your funding preferences</td>
+        </tr>
+        <tr>
+            <td>Timeline</td>
+            <td>20</td>
+            <td>6-12 months = optimal positioning</td>
+        </tr>
+        <tr>
+            <td>Competition</td>
+            <td>20</td>
+            <td>Unsolicited = highest score</td>
+        </tr>
+        <tr>
+            <td>Geography</td>
+            <td>20</td>
+            <td>Your target states = max points</td>
+        </tr>
+    </table>
+    <p><em>* Weights are customizable in your configuration</em></p>
+
+    <h3>3. Smart Routing Tags</h3>
+    <ul>
+        <li><strong>white-paper-ready (80+):</strong> Write thought leadership, position early</li>
+        <li><strong>proposal-ready (70+):</strong> Active RFP, develop proposal</li>
+        <li><strong>nurture-needed (50-69):</strong> Build relationships</li>
+        <li><strong>monitor-only (&lt;50):</strong> Archive for reference</li>
+    </ul>
+
+    <h3>4. Custom Intelligence Reports</h3>
+    <ul>
+        <li>Individual opportunity briefs</li>
+        <li>Weekly digests</li>
+        <li>Monthly trend analysis</li>
+        <li>High-priority alerts (your thresholds)</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>⚙️ Easy Setup (10-15 Minutes)</h2>
+
+    <p><span class="step-number">1</span> <strong>Download the skill package</strong></p>
+
+    <p><span class="step-number">2</span> <strong>Open CONFIG-TEMPLATE.md</strong> and fill in:</p>
+    <ul>
+        <li>Your business profile and services</li>
+        <li>Your target states/regions</li>
+        <li>Your industry focus areas</li>
+        <li>Your custom keywords</li>
+        <li>Your funding thresholds</li>
+        <li>Your scoring preferences</li>
+    </ul>
+
+    <p><span class="step-number">3</span> <strong>Save as CONFIG.md</strong> in the skill folder</p>
+
+    <p><span class="step-number">4</span> <strong>ZIP the folder</strong> (include your CONFIG.md)</p>
+
+    <p><span class="step-number">5</span> <strong>Upload to Claude</strong> → Settings → Capabilities → Skills</p>
+
+    <p><span class="step-number">6</span> <strong>Test it:</strong></p>
+    <div class="code-block">
+        "Search for funding opportunities in my target regions"
+    </div>
+</div>
+
+<div class="section">
+    <h2>💡 Configuration Examples</h2>
+
+    <div class="example-box">
+        <h3>Example 1: California Training Provider</h3>
+        <div class="code-block">
+primary_states: [California]
+primary_keywords: [workforce training, technical skills, job placement]
+minimum_funding: $25,000
+sweet_spot_range: $50,000 - $250,000
+        </div>
+    </div>
+
+    <div class="example-box">
+        <h3>Example 2: Multi-State Economic Development Consultant</h3>
+        <div class="code-block">
+primary_states: [North Carolina, South Carolina, Georgia, Virginia]
+regions: [Appalachian region]
+primary_keywords: [economic development, entrepreneurship, regional planning]
+minimum_funding: $100,000
+sweet_spot_range: $250,000 - $1,000,000
+        </div>
+    </div>
+
+    <div class="example-box">
+        <h3>Example 3: Manufacturing Industry Association</h3>
+        <div class="code-block">
+primary_states: [Illinois, Indiana, Wisconsin, Michigan]
+primary_keywords: [manufacturing, Industry 4.0, AI workforce, automation]
+minimum_funding: $500,000
+sweet_spot_range: $1,000,000 - $5,000,000
+        </div>
+    </div>
+
+    <div class="example-box">
+        <h3>Example 4: Texas Nonprofit</h3>
+        <div class="code-block">
+primary_states: [Texas]
+primary_keywords: [disadvantaged workers, job training, career pathways]
+minimum_funding: $50,000
+sweet_spot_range: $100,000 - $500,000
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>🔧 What You Can Customize</h2>
+
+    <h3>Business Profile</h3>
+    <ul>
+        <li>Organization type, services, expertise</li>
+        <li>Industry focus areas</li>
+        <li>Target populations</li>
+        <li>Differentiators</li>
+    </ul>
+
+    <h3>Geographic Scope</h3>
+    <ul>
+        <li>Primary states/regions</li>
+        <li>Adjacent areas to monitor</li>
+        <li>Federal program preferences</li>
+    </ul>
+
+    <h3>Search Criteria</h3>
+    <ul>
+        <li>Custom keywords for your industry</li>
+        <li>Exclusion terms</li>
+        <li>Minimum/maximum funding</li>
+        <li>Sweet spot range</li>
+    </ul>
+
+    <h3>Scoring Preferences</h3>
+    <ul>
+        <li>Weight allocation (must total 100)</li>
+        <li>Routing tag thresholds</li>
+        <li>Alert triggers</li>
+    </ul>
+
+    <h3>Capacity & Constraints</h3>
+    <ul>
+        <li>Lead vs. subcontractor</li>
+        <li>Partnership capabilities</li>
+        <li>Match/cost-share capacity</li>
+        <li>Max concurrent projects</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>📖 Usage Examples</h2>
+
+    <h3>Search & Discovery</h3>
+    <div class="code-block">
+"Search for opportunities in my target regions"
+"Find pre-RFP opportunities I can position for"
+"Check for new opportunities this week"
+"Look for opportunities in manufacturing AI"
+    </div>
+
+    <h3>Scoring & Evaluation</h3>
+    <div class="code-block">
+"Score this opportunity: [URL or description]"
+"Evaluate this based on my business profile"
+"Compare these 3 opportunities"
+    </div>
+
+    <h3>Reports & Analysis</h3>
+    <div class="code-block">
+"Generate intelligence brief for top 5 opportunities"
+"Create my weekly digest"
+"Show all white-paper-ready opportunities"
+"What funding trends are emerging in my focus areas?"
+"Show opportunities matching my sweet spot"
+    </div>
+</div>
+
+<div class="section">
+    <h2>🌟 Why This Is Valuable</h2>
+
+    <div class="feature-grid">
+        <div class="feature-card">
+            <h4>⏰ Saves Time</h4>
+            <p>No more manual searching across dozens of websites or reviewing irrelevant opportunities</p>
+        </div>
+
+        <div class="feature-card">
+            <h4>🔍 Finds Hidden Gems</h4>
+            <p>Catches pre-RFP signals others miss and identifies expiring appropriations</p>
+        </div>
+
+        <div class="feature-card">
+            <h4>🎯 Strategic Positioning</h4>
+            <p>White paper recommendations and score-based prioritization</p>
+        </div>
+
+        <div class="feature-card">
+            <h4>🎨 Fully Customized</h4>
+            <p>Your geography, your industry, your capacity, your priorities</p>
+        </div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>📦 What's Included</h2>
+
+    <table>
+        <tr>
+            <th>File</th>
+            <th>Purpose</th>
+        </tr>
+        <tr>
+            <td><strong>Skill.md</strong></td>
+            <td>Main skill file (reads your CONFIG.md)</td>
+        </tr>
+        <tr>
+            <td><strong>SKILL-generic.md</strong></td>
+            <td>Version for OpenAI GPTs, other platforms</td>
+        </tr>
+        <tr>
+            <td><strong>CONFIG-TEMPLATE.md</strong></td>
+            <td>Template with examples for all business types</td>
+        </tr>
+        <tr>
+            <td><strong>CONFIG-COMMUNITY-PRESET.md</strong></td>
+            <td>Generic preset with placeholders for easy customization</td>
+        </tr>
+        <tr>
+            <td><strong>CONFIG.md</strong></td>
+            <td>YOUR configuration (you create from template or preset)</td>
+        </tr>
+        <tr>
+            <td><strong>REFERENCE.md</strong></td>
+            <td>Detailed workflow and best practices</td>
+        </tr>
+        <tr>
+            <td><strong>search-criteria.md</strong></td>
+            <td>Default keywords (supplement with yours)</td>
+        </tr>
+        <tr>
+            <td><strong>target-regions.md</strong></td>
+            <td>Default agencies (supplement with yours)</td>
+        </tr>
+        <tr>
+            <td><strong>scoring-examples.md</strong></td>
+            <td>Sample opportunities with scoring</td>
+        </tr>
+        <tr>
+            <td><strong>output-templates.md</strong></td>
+            <td>JSON and markdown report templates</td>
+        </tr>
+        <tr>
+            <td><strong>README.md</strong></td>
+            <td>Complete overview and quick start</td>
+        </tr>
+        <tr>
+            <td><strong>SKILLS-SUMMARY.md</strong></td>
+            <td>Quick reference card</td>
+        </tr>
+        <tr>
+            <td><strong>SKOOL-SUMMARY.html</strong></td>
+            <td>Beautiful HTML version for sharing (this file)</td>
+        </tr>
+        <tr>
+            <td><strong>SETUP-GUIDE.md</strong></td>
+            <td>Step-by-step setup instructions</td>
+        </tr>
+    </table>
+</div>
+
+<div class="section">
+    <h2>🤝 Perfect for Community Sharing</h2>
+
+    <div class="success-box">
+        <p><strong>This skill is designed to be shared with your entire community:</strong></p>
+        <ul>
+            <li>Each user creates their own CONFIG.md</li>
+            <li>Works for any business type or geography</li>
+            <li>Includes template with extensive examples</li>
+            <li>Clear setup instructions (10-15 minutes)</li>
+            <li>No coding required - just fill in a template</li>
+        </ul>
+    </div>
+
+    <h3>Share With:</h3>
+    <ul>
+        <li>Your consulting clients</li>
+        <li>Your community members</li>
+        <li>Your network/association members</li>
+        <li>Your training program participants</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>🚀 Get Started Now</h2>
+
+    <div class="highlight-box">
+        <h3>For Claude Skills:</h3>
+        <ol>
+            <li>Fill out <strong>CONFIG-TEMPLATE.md</strong> with your information</li>
+            <li>Save as <strong>CONFIG.md</strong></li>
+            <li>ZIP the folder (including your CONFIG.md)</li>
+            <li>Upload to Claude → Settings → Capabilities → Skills</li>
+            <li>Test: <code>"Search for opportunities in my target regions"</code></li>
+        </ol>
+    </div>
+
+    <div class="highlight-box">
+        <h3>For OpenAI GPTs:</h3>
+        <ol>
+            <li>Fill out <strong>CONFIG-TEMPLATE.md</strong></li>
+            <li>Use <strong>SKILL-generic.md</strong> as system prompt</li>
+            <li>Upload all .md files as knowledge base</li>
+            <li>Test with your configured geography/industry</li>
+        </ol>
+    </div>
+</div>
+
+<div class="section">
+    <h2>⭐ Key Takeaway</h2>
+
+    <div class="warning-box">
+        <h3>This is NOT a one-size-fits-all skill.</h3>
+        <p>It's a <strong>configurable framework</strong> that adapts to:</p>
+        <ul>
+            <li>YOUR geography (any states/regions)</li>
+            <li>YOUR industry (any focus areas)</li>
+            <li>YOUR capacity (any funding range)</li>
+            <li>YOUR priorities (custom scoring)</li>
+        </ul>
+        <p><strong>Take 10-15 minutes to configure it, then enjoy hours of automated, relevant opportunity intelligence!</strong></p>
+    </div>
+</div>
+
+<div class="section" style="text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+    <h2 style="color: white; border: none;">Ready to Get Started?</h2>
+    <p style="font-size: 1.2em; margin: 20px 0;">Download the Mandate Search Agent and configure it for YOUR business today!</p>
+    <p style="font-size: 0.9em; opacity: 0.9;">Questions? Check the README.md file or CONFIG-TEMPLATE.md for detailed examples and guidance.</p>
+</div>
+
+<div class="section">
+    <h2>📞 Support & Questions</h2>
+
+    <h3>Questions about configuration?</h3>
+    <ul>
+        <li>See <strong>CONFIG-TEMPLATE.md</strong> for detailed examples</li>
+        <li>Review <strong>REFERENCE.md</strong> for implementation details</li>
+        <li>Check <strong>scoring-examples.md</strong> for scoring guidance</li>
+    </ul>
+
+    <h3>Questions about usage?</h3>
+    <p>Run: <code>"Help me use my Mandate Search Agent"</code></p>
+    <p>Claude will guide you based on your configuration!</p>
+</div>
+
+<div style="text-align: center; padding: 30px; color: #666; border-top: 2px solid #e9ecef; margin-top: 30px;">
+    <p><strong>Mandate Search Agent v2.0</strong></p>
+    <p>Configurable Funding Intelligence for Any Organization</p>
+    <p style="font-size: 0.9em; margin-top: 20px;">Made with ❤️ for community members seeking funding opportunities</p>
+</div>
+
+</body>
+</html>
