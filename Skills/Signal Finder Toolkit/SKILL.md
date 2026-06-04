@@ -123,7 +123,24 @@ Then search for real, current funding signals using web search. Look for:
 - Contract vehicles, IDIQ awards, BPA activity tied to their sector
 - Pre-RFP activity: planning grants, task orders, RFIs
 
-Score each event using the Capital Event Radar scoring system (Funding Size + Timeline + Competition + Geography = 0-100).
+**Score each event** using the canonical Capital Event Radar rubric. For consistent scoring, **run the scoring script — do not read it into context**:
+
+```
+python3 scripts/score_event.py '{"funding": 2500000, "timeline": "pre-rfp", "competition": "unsolicited", "geography": "target"}'
+```
+
+Pass `timeline` as `pre-rfp` | `6-12mo` | `3-6mo` | `<3mo`, `competition` as `unsolicited` | `limited` | `set-aside` | `open`, `geography` as `target` | `federal-local` | `adjacent` | `out-of-region`. The script returns the 0-100 score and tier.
+
+If you're running on a platform without a code sandbox (ChatGPT, Gemini, etc.), apply this table by hand instead:
+
+| Factor | Points | Criteria |
+|---|---|---|
+| Funding Size | 40 | $1M+ = 40, $250K-$1M = 30, $50-249K = 20, <$50K = 10 |
+| Timeline | 20 | Pre-RFP/planning = 20, 6-12mo = 15, 3-6mo = 10, <3mo = 5 |
+| Competition | 20 | Unsolicited/sole-source = 20, Limited = 15, Set-aside = 10, Open = 5 |
+| Geography | 20 | Target (DE/MD/PA/VA/DC) = 20, Federal w/ local delivery = 15, Adjacent = 10, Out-of-region = 0 |
+
+Bonus +10 (unsolicited / multi-year / planning grant), +5 (partnership / regional / intermediary-eligible). Penalty -5 (single-state non-target / previous-awardee preference). Tiers: **85+ = MOVE NOW**, **70-84 = MOVE THIS MONTH**, **50-69 = WATCH**.
 
 **Deliver the map in this format:**
 
@@ -132,17 +149,17 @@ Score each event using the Capital Event Radar scoring system (Funding Size + Ti
 CAPITAL EVENT MAP — [Sector]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔴 MOVE NOW — Score: [X]/100
+🔴 MOVE NOW (85-100) — Score: [X]/100
 [Event Name]
 What it is: [1 sentence]
 Funding: $[X] | Timeline: [X months to window]
 Your angle: [How their blindspot positions them here]
 Who to partner with: [Org type — HBCU, EDO, prime, chamber]
 
-🟡 MOVE THIS MONTH — Score: [X]/100
+🟡 MOVE THIS MONTH (70-84) — Score: [X]/100
 [Same format]
 
-🟢 WATCH — Score: [X]/100
+🟢 WATCH (50-69) — Score: [X]/100
 [Abbreviated — event, why it matters, timeline]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━
