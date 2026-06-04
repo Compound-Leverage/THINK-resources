@@ -77,11 +77,13 @@ When you ask, Claude uses **web search tools** to find funding opportunities mat
 ### 2. Scoring (0-100 Scale)
 Score each opportunity based on YOUR priorities:
 
-**Default scoring (customizable in CONFIG.md):**
-- **Funding Size (40 pts):** Based on your funding preferences
-- **Timeline (20 pts):** 6-12mo = 20, 3-6mo = 15, <3mo = 10, >12mo = 5
-- **Competition (20 pts):** Unsolicited = 20, Limited = 15, Set-aside = 10, Open = 5
-- **Geography (20 pts):** Your target states = 20, Adjacent = 10, Federal = 5
+**Default scoring — CL-wide Capital Event (CE) rubric** (matches `score_event.py` and capital-event-radar; customizable in CONFIG.md):
+- **Funding Size (40 pts):** $1M+ = 40, $250K-$1M = 30, $50-249K = 20, <$50K = 10
+- **Timeline (20 pts):** Pre-RFP/planning = 20, 6-12mo = 15, 3-6mo = 10, <3mo = 5
+- **Competition (20 pts):** Unsolicited/sole-source = 20, Limited = 15, Set-aside = 10, Open = 5
+- **Geography (20 pts):** Target states = 20, Federal w/ local delivery = 15, Adjacent = 10, Out-of-region = 0
+
+**Bonuses/penalties:** +10 (unsolicited / multi-year / planning grant), +5 (partnership-required / regional / intermediary-eligible / pre-proposal conference), −5 (single-state non-target / previous-awardee preference). Score is clamped to 0-100.
 
 **Adjust weights in CONFIG.md** to match your priorities (must total 100).
 

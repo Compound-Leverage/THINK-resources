@@ -64,9 +64,9 @@ Every opportunity is scored based on YOUR configured priorities:
 
 | Factor | Default Points | What It Means |
 |--------|---------------|---------------|
-| **Funding Size** | 40 | Based on your funding preferences |
-| **Timeline** | 20 | 6-12 months = optimal positioning |
-| **Competition** | 20 | Unsolicited = highest score |
+| **Funding Size** | 40 | $1M+ = max (CE rubric) |
+| **Timeline** | 20 | Pre-RFP/planning stage = optimal positioning |
+| **Competition** | 20 | Unsolicited/sole-source = highest score |
 | **Geography** | 20 | Your target states = max points |
 
 **Weights are customizable** - adjust to match your priorities (must total 100).
