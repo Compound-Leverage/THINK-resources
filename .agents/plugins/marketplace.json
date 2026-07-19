@@ -1,0 +1,134 @@
+{
+  "name": "think-school",
+  "interface": {
+    "displayName": "THINK School"
+  },
+  "plugins": [
+    {
+      "name": "lead-discovery",
+      "source": {
+        "source": "local",
+        "path": "./Plugins/lead-discovery"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Sales",
+      "interface": {
+        "displayName": "Lead Discovery"
+      }
+    },
+    {
+      "name": "proposal-generator-open",
+      "source": {
+        "source": "local",
+        "path": "./Plugins/proposal-generator-open"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Sales",
+      "interface": {
+        "displayName": "Proposal Generator Open"
+      }
+    },
+    {
+      "name": "proposal-team-open",
+      "source": {
+        "source": "local",
+        "path": "./Plugins/proposal-team-open"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Sales",
+      "interface": {
+        "displayName": "Proposal Team Open"
+      }
+    },
+    {
+      "name": "content-team-open",
+      "source": {
+        "source": "local",
+        "path": "./Plugins/content-team-open"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Marketing",
+      "interface": {
+        "displayName": "Content Team Open"
+      }
+    },
+    {
+      "name": "sales-bd-team-open",
+      "source": {
+        "source": "local",
+        "path": "./Plugins/sales-bd-team-open"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Sales",
+      "interface": {
+        "displayName": "Sales BD Team Open"
+      }
+    },
+    {
+      "name": "sales-enablement-open",
+      "source": {
+        "source": "local",
+        "path": "./Plugins/sales-enablement-open"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Sales",
+      "interface": {
+        "displayName": "Sales Enablement Open"
+      }
+    },
+    {
+      "name": "operations-open",
+      "source": {
+        "source": "local",
+        "path": "./Plugins/operations-open"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "Operations Open"
+      }
+    },
+    {
+      "name": "fulfillment-open",
+      "source": {
+        "source": "local",
+        "path": "./Plugins/fulfillment-open"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "Fulfillment Open"
+      }
+    },
+    {
+      "name": "ops-team-open",
+      "source": {
+        "source": "local",
+        "path": "./Plugins/ops-team-open"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity",
+      "interface": {
+        "displayName": "Ops Team Open"
+      }
+    }
+  ]
+}
