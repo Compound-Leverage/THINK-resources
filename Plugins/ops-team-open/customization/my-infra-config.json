@@ -1,0 +1,35 @@
+{
+  "_instructions": "REQUIRED: Configure your hosting account, branch names, performance thresholds, and approval rules for Infra Lead. Update whenever your infra setup changes.",
+  "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
+
+  "hosting": {
+    "provider": "[e.g. Cloudflare Pages]",
+    "account_id": "[YOUR ACCOUNT ID]"
+  },
+
+  "branches": {
+    "staging_branch": "[e.g. staging]",
+    "production_branch": "[e.g. main]"
+  },
+
+  "performance_thresholds": {
+    "_instructions": "Core Web Vitals and bundle-size targets. Infra Lead flags any deploy that regresses past these.",
+    "lcp_ms": "[e.g. 2500]",
+    "cls": "[e.g. 0.1]",
+    "inp_ms": "[e.g. 200]",
+    "bundle_size_kb": "[e.g. 250]"
+  },
+
+  "caching_rules": {
+    "_instructions": "Your caching policy per asset type.",
+    "static_assets_ttl": "[e.g. 1 year, immutable]",
+    "html_ttl": "[e.g. no-cache, revalidate]"
+  },
+
+  "approval_rules": {
+    "_instructions": "What Infra Lead can do autonomously vs. what requires you.",
+    "config_fix_prs_autonomous": true,
+    "dns_changes_require_owner": true,
+    "production_promotions_require_owner": true
+  }
+}

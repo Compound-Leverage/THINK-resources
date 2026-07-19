@@ -1,0 +1,25 @@
+{
+  "_instructions": "REQUIRED: Configure your Notion DB IDs, delivery destinations, and template structures for Signal Delivery and Playbook Builder. Update whenever your fulfillment process changes.",
+  "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
+
+  "notion": {
+    "signal_inbox_db_id": "[YOUR SIGNAL/INTELLIGENCE INBOX DB ID]",
+    "client_records_db_id": "[YOUR CLIENT RECORDS DB ID]"
+  },
+
+  "delivery": {
+    "_instructions": "Where finished briefs and playbooks land.",
+    "google_drive_folder_id": "[YOUR GOOGLE DRIVE FOLDER ID]",
+    "share_with_owner_on_completion": true
+  },
+
+  "brief_structure": {
+    "_instructions": "Section headers for Signal Delivery output. Customize to your delivery format.",
+    "sections": ["[Executive Summary]", "[Signal Detail]", "[Market Context]", "[Recommended Actions]"]
+  },
+
+  "playbook_types": {
+    "_instructions": "The playbook frameworks Playbook Builder can generate. Populate a base template for each in your own docs before first use.",
+    "types": ["[Onboarding]", "[Customer Success]", "[Expansion]"]
+  }
+}

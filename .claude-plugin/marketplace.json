@@ -21,6 +21,36 @@
       "name": "proposal-team-open",
       "source": "./Plugins/proposal-team-open",
       "description": "Open-source 7-role Proposal Team (orchestrator, researcher, analyst, strategist, writer, QA, grant/funder pitch development) -- the free version of the paid sales-proposal-team bundle. Bring your own pricing, case studies, and brand guidelines. No proprietary CL logic."
+    },
+    {
+      "name": "content-team-open",
+      "source": "./Plugins/content-team-open",
+      "description": "Open-source 9-role Content Team: Intel Scanner, Newsletter Editor, Blog Writer, LinkedIn Content, YouTube Scripts, Intelligence Brief, Theme Proposer, Weekly Brief, and Course Builder. Bring your own signal sources, ICP voice profiles, and Notion DB IDs. No proprietary CL logic."
+    },
+    {
+      "name": "sales-bd-team-open",
+      "source": "./Plugins/sales-bd-team-open",
+      "description": "Open-source 3-role BD Team: Lead Scout (intent-signal sourcing), BD Research (enrichment and signal detection), and BD Execution (scored outreach and deal admin). Bring your own ICP, enrichment tool, and send-from config. No proprietary CL logic."
+    },
+    {
+      "name": "sales-enablement-open",
+      "source": "./Plugins/sales-enablement-open",
+      "description": "Open-source Sales Enablement role: Proof Points, which extracts 1-page case study narratives from active engagements and maintains a minimum evidence inventory. Bring your own buyer tags and Notion DB IDs. No proprietary CL logic."
+    },
+    {
+      "name": "operations-open",
+      "source": "./Plugins/operations-open",
+      "description": "Open-source Operations role: CRM Intake, which enriches incoming org and contact records, classifies each by your ICP, and creates or updates CRM entries from inbound leads and prospect lists. No proprietary CL logic."
+    },
+    {
+      "name": "fulfillment-open",
+      "source": "./Plugins/fulfillment-open",
+      "description": "Open-source 2-role Fulfillment team: Signal Delivery (client-ready intelligence briefs) and Playbook Builder (onboarding, success, and expansion playbooks for active clients). Bring your own Notion DB IDs and templates. No proprietary CL logic."
+    },
+    {
+      "name": "ops-team-open",
+      "source": "./Plugins/ops-team-open",
+      "description": "Open-source 3-role site Ops team: QA Reviewer (post-deploy audits), Design Lead (brand-consistent visual assets and web specs), and Infra Lead (build pipeline, CDN, DNS, GitHub Actions). Bring your own site standards, brand guidelines, and infra config. No proprietary CL logic."
     }
   ]
 }

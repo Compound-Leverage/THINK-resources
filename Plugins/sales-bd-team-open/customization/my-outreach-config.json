@@ -1,0 +1,29 @@
+{
+  "_instructions": "REQUIRED for BD Execution only. Configure your send-from address, approval gate, cadence, and escalation rules. Never sends without this configured.",
+  "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
+
+  "send_from": {
+    "name": "[YOUR NAME OR SENDER NAME]",
+    "email": "[YOUR SEND-FROM EMAIL]"
+  },
+
+  "cc_addresses": ["[EMAIL TO CC ON EVERY SEND]"],
+
+  "approval_gate": {
+    "_instructions": "Owner must approve the prospect profile once per new segment before autonomous sending begins.",
+    "new_segment_requires_approval": true,
+    "notes": "[Any additional approval conditions]"
+  },
+
+  "follow_up_cadence": [
+    { "step": 1, "days_after_initial": "[NUMBER]" },
+    { "step": 2, "days_after_initial": "[NUMBER]" },
+    { "step": 3, "days_after_initial": "[NUMBER]" }
+  ],
+
+  "escalation_triggers": [
+    "[e.g. reply contains an objection]",
+    "[e.g. no response after final follow-up]",
+    "[e.g. reply from someone outside target persona]"
+  ]
+}

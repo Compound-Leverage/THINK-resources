@@ -1,0 +1,65 @@
+{
+  "_instructions": "REQUIRED: Configure your signal sources, ICP voice profiles, and Notion DB IDs. This drives every skill in the Content Team. Update quarterly, or whenever you add/remove a channel.",
+  "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
+
+  "notion": {
+    "_instructions": "Replace with your own Notion database IDs. Leave blank and skills will fall back to local file output only.",
+    "content_assets_db_id": "[YOUR CONTENT ASSETS DB ID]",
+    "theme_proposals_db_id": "[YOUR THEME PROPOSALS DB ID]",
+    "signal_inbox_db_id": "[YOUR SIGNAL/INTELLIGENCE INBOX DB ID]"
+  },
+
+  "signal_sources": {
+    "_instructions": "Where Intel Scanner fans out each week. Add or remove sources to match what you actually monitor.",
+    "sources": [
+      { "name": "Reddit", "scope": "[Subreddits or search terms]" },
+      { "name": "News", "scope": "[Publications or search terms]" },
+      { "name": "YouTube", "scope": "[Channels or search terms]" },
+      { "name": "Google PAA", "scope": "[Seed queries]" },
+      { "name": "Platform performance", "scope": "[Which analytics source -- GA4, newsletter platform, etc.]" }
+    ]
+  },
+
+  "icp_voice_profiles": {
+    "_instructions": "Define the two audiences your content speaks to. Used by Blog Writer, Intelligence Brief, and LinkedIn Content for voice differentiation.",
+    "practitioner": {
+      "label": "[e.g. 'Individual practitioner / operator']",
+      "voice_notes": "[What this reader cares about, vocabulary, tone]",
+      "cta_style": "[What action you want them to take]"
+    },
+    "org_buyer": {
+      "label": "[e.g. 'Org-scale decision maker']",
+      "voice_notes": "[What this reader cares about, vocabulary, tone]",
+      "cta_style": "[What action you want them to take]"
+    }
+  },
+
+  "linkedin_personas": {
+    "_instructions": "Define each persona LinkedIn Content writes for and which day it posts.",
+    "personas": [
+      { "persona_name": "[Personal brand]", "posting_day": "[Day of week]", "posts_per_week": "[NUMBER]" },
+      { "persona_name": "[Company page]", "posting_day": "[Day of week]", "posts_per_week": "[NUMBER]" },
+      { "persona_name": "[Product/program]", "posting_day": "[Day of week]", "posts_per_week": "[NUMBER]" }
+    ]
+  },
+
+  "newsletter_platform": {
+    "_instructions": "Your newsletter platform connection details.",
+    "platform_name": "[Beehiiv | ConvertKit | etc.]",
+    "platform_id": "[YOUR PLATFORM ID OR API IDENTIFIER]"
+  },
+
+  "scoring": {
+    "_instructions": "Weights used to rank TopicCards and theme proposals. Must sum in a way that makes sense for your priorities.",
+    "signal_strength_weight": "[0-5]",
+    "offer_alignment_weight": "[0-5]",
+    "audience_fit_weight": "[0-5]",
+    "proof_gate_threshold": "[Minimum score required before a topic is eligible for Intelligence Brief]"
+  },
+
+  "output_paths": {
+    "_instructions": "Local file output locations, relative to the plugin working directory.",
+    "topic_cards": "topic-cards.json",
+    "weekly_output_root": "output/{week}/"
+  }
+}
