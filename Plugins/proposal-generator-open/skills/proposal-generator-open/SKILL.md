@@ -17,7 +17,7 @@ Generate winning proposals for high-value deals ($25K-$150K+) using a structured
 
 ## Before You Start: Configuration Required
 
-This skill requires YOUR company data to generate proposals. You MUST complete the customization files before first use:
+This skill requires YOUR company data to generate proposals. You MUST complete the customization files before first use (paths below are relative to the plugin root, i.e. `../../customization/...` from this file):
 
 | File | What to Add | Update Frequency |
 |------|-------------|------------------|
@@ -412,9 +412,10 @@ The system accepts 3 input formats:
 ## Files in This Skill
 
 ```
-proposal-generator/
-├── SKILL.md                           # This file - main instructions
-├── references/
+proposal-generator-open/                    # Plugin root
+├── skills/proposal-generator-open/
+│   └── SKILL.md                       # This file - main instructions
+├── references/                        # Relative to plugin root, two levels up from this file
 │   ├── frameworks/
 │   │   ├── deal-types.md              # Deal type definitions
 │   │   ├── offering-types.md          # Offering definitions
@@ -429,13 +430,13 @@ proposal-generator/
 │       ├── assessment-prompts.md      # Classification prompts
 │       ├── construction-prompts.md    # Writing prompts
 │       └── review-prompts.md          # QA check prompts
-├── customization/
+├── customization/                     # Relative to plugin root, two levels up from this file
 │   ├── my-company-profile.json        # YOUR company data
 │   ├── my-pricing-model.json          # YOUR pricing
 │   ├── my-case-studies.json           # YOUR past performance
 │   └── my-brand-guidelines.md         # YOUR voice/messaging
 └── assets/
-    └── Setup-Guide.pdf                # Platform setup instructions
+    └── Setup-Guide.md                 # Platform setup instructions
 ```
 
 ---
