@@ -1,0 +1,19 @@
+{
+  "_instructions": "REQUIRED for grant/funder proposals only. Define how you size a bid relative to a funder's available allocation, per funder category you work with. Skip if you don't do funder/grant proposals.",
+  "funder_categories": [
+    {
+      "category_id": "[CATEGORY-1, e.g. WORKFORCE_BOARD]",
+      "label": "[Display name, e.g. Workforce Board]",
+      "bid_basis": "[percentage | flat_range]",
+      "percentage_range": { "min": "[e.g. 0.25]", "max": "[e.g. 0.33]" },
+      "flat_range": { "min": "[AMOUNT]", "max": "[AMOUNT]" }
+    },
+    {
+      "category_id": "[CATEGORY-2]",
+      "label": "[Display name]",
+      "bid_basis": "[percentage | flat_range]",
+      "percentage_range": { "min": "[]", "max": "[]" },
+      "flat_range": { "min": "[]", "max": "[]" }
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "_instructions": "REQUIRED: Fill in your company data. This is the source of truth for all proposals. Update quarterly.",
+  "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
+
+  "company_information": {
+    "legal_company_name": "[YOUR COMPANY LEGAL NAME]",
+    "doing_business_as": ["[DBA NAME 1]", "[DBA NAME 2 if any]"],
+    "tagline": "[YOUR COMPANY TAGLINE]",
+    "headquarters_city_state": "[CITY, STATE]",
+    "main_phone": "[PHONE NUMBER]",
+    "main_email": "[EMAIL]",
+    "main_website": "[WEBSITE URL]",
+    "company_founded_year": "[YEAR]",
+    "current_employee_count": "[NUMBER]",
+    "business_structure": "[LLC, Corporation, etc.]"
+  },
+
+  "core_capabilities": {
+    "_instructions": "List your primary service lines and what makes you good at each",
+    "primary_service_lines": [
+      {
+        "service_line_name": "[SERVICE LINE 1 NAME]",
+        "description": "[Brief description of this service]",
+        "key_competencies": [
+          "[Competency 1]",
+          "[Competency 2]",
+          "[Competency 3]"
+        ]
+      },
+      {
+        "service_line_name": "[SERVICE LINE 2 NAME]",
+        "description": "[Brief description of this service]",
+        "key_competencies": [
+          "[Competency 1]",
+          "[Competency 2]",
+          "[Competency 3]"
+        ]
+      },
+      {
+        "service_line_name": "[SERVICE LINE 3 NAME]",
+        "description": "[Brief description of this service]",
+        "key_competencies": [
+          "[Competency 1]",
+          "[Competency 2]",
+          "[Competency 3]"
+        ]
+      }
+    ]
+  },
+
+  "differentiators": {
+    "_instructions": "What makes you different from competitors? Be specific and provable.",
+    "primary_differentiators": [
+      {
+        "differentiator": "[DIFFERENTIATOR 1]",
+        "evidence": "[How you can prove this]",
+        "why_it_matters": "[Why clients should care]"
+      },
+      {
+        "differentiator": "[DIFFERENTIATOR 2]",
+        "evidence": "[How you can prove this]",
+        "why_it_matters": "[Why clients should care]"
+      },
+      {
+        "differentiator": "[DIFFERENTIATOR 3]",
+        "evidence": "[How you can prove this]",
+        "why_it_matters": "[Why clients should care]"
+      }
+    ]
+  },
+
+  "team_and_staffing": {
+    "_instructions": "Key team members who appear in proposals. Include bios and relevant experience.",
+    "management_team": [
+      {
+        "name": "[NAME]",
+        "title": "[TITLE]",
+        "years_with_company": "[NUMBER]",
+        "years_industry_experience": "[NUMBER]",
+        "background": "[2-3 sentence bio highlighting relevant experience]",
+        "key_strengths": "[What they're known for]",
+        "linkedin_url": "[LINKEDIN URL if desired]"
+      },
+      {
+        "name": "[NAME]",
+        "title": "[TITLE]",
+        "years_with_company": "[NUMBER]",
+        "years_industry_experience": "[NUMBER]",
+        "background": "[2-3 sentence bio]",
+        "key_strengths": "[What they're known for]",
+        "linkedin_url": "[LINKEDIN URL]"
+      }
+    ],
+    "technical_leadership": [
+      {
+        "name": "[NAME]",
+        "title": "[TITLE]",
+        "years_with_company": "[NUMBER]",
+        "areas_of_expertise": ["[Area 1]", "[Area 2]", "[Area 3]"],
+        "typical_proposal_role": "[Role they usually play on proposals]",
+        "background": "[2-3 sentence bio]"
+      }
+    ],
+    "additional_team": [
+      {
+        "name": "[NAME]",
+        "title": "[TITLE]",
+        "typical_role": "[What they do on engagements]"
+      }
+    ]
+  },
+
+  "certifications_and_credentials": {
+    "_instructions": "List certifications, clearances, registrations relevant to your work",
+    "certifications": [
+      "[CERTIFICATION 1]",
+      "[CERTIFICATION 2]"
+    ],
+    "registrations": [
+      "[SAM.gov, state registrations, etc.]"
+    ],
+    "clearances": [
+      "[Security clearances if applicable]"
+    ],
+    "memberships": [
+      "[Professional associations]"
+    ]
+  },
+
+  "contact_for_proposals": {
+    "_instructions": "Who should be the primary contact on proposals?",
+    "primary_contact": {
+      "name": "[NAME]",
+      "title": "[TITLE]",
+      "email": "[EMAIL]",
+      "phone": "[PHONE]"
+    },
+    "alternate_contact": {
+      "name": "[NAME]",
+      "title": "[TITLE]",
+      "email": "[EMAIL]",
+      "phone": "[PHONE]"
+    }
+  }
+}

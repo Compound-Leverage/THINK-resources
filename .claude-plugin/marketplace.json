@@ -16,6 +16,11 @@
       "name": "proposal-generator-open",
       "source": "./Plugins/proposal-generator-open",
       "description": "Generate institutional proposals for high-value deals using a structured 7-phase methodology. Bring your own company data -- fill in the customization/ files."
+    },
+    {
+      "name": "proposal-team-open",
+      "source": "./Plugins/proposal-team-open",
+      "description": "Open-source 7-role Proposal Team (orchestrator, researcher, analyst, strategist, writer, QA, grant/funder pitch development) -- the free version of the paid sales-proposal-team bundle. Bring your own pricing, case studies, and brand guidelines. No proprietary CL logic."
     }
   ]
 }
