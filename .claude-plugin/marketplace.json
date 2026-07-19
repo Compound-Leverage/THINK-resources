@@ -1,0 +1,21 @@
+{
+  "name": "think-school",
+  "owner": {
+    "name": "Compound Leverage"
+  },
+  "metadata": {
+    "description": "THINK School — free, open-source Digital Employee plugins for members. Bring-your-own-data templates, no proprietary CL logic or pricing included. Link to this from Skool instead of pasting content directly."
+  },
+  "plugins": [
+    {
+      "name": "lead-discovery",
+      "source": "./Plugins/lead-discovery",
+      "description": "Automate lead qualification for government contractors and economic development organizations. Scores opportunities across 5 dimensions and surfaces weekly decision-ready prospects."
+    },
+    {
+      "name": "proposal-generator-open",
+      "source": "./Plugins/proposal-generator-open",
+      "description": "Generate institutional proposals for high-value deals using a structured 7-phase methodology. Bring your own company data -- fill in the customization/ files."
+    }
+  ]
+}
