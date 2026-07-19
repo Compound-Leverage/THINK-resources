@@ -1,6 +1,8 @@
-# Compound Leverage — Public Repository
+# THINK School
 
-Community-shareable skills, plugins, and educational resources. Open source and free to use.
+Compound Leverage's training and educational resource hub — every training we produce is
+THINK School, whether or not the person using it is a formal (paid) member. Free,
+open-source, community-shareable skills and plugins.
 
 ## Structure
 
