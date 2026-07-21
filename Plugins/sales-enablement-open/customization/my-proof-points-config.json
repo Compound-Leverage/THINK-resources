@@ -1,0 +1,30 @@
+{
+  "_instructions": "REQUIRED: Configure your buyer-type tags, minimum inventory rule, and Notion DB ID. Drives the Proof Points skill. Update whenever your buyer segments change.",
+  "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
+
+  "notion": {
+    "proof_points_db_id": "[YOUR NOTION PROOF POINTS DB ID]",
+    "source_db_ids": {
+      "fulfillment_tracker": "[YOUR FULFILLMENT/ENGAGEMENT TRACKER DB ID]",
+      "additional_sources": ["[ANY OTHER SOURCE DB ID]"]
+    }
+  },
+
+  "buyer_type_tags": {
+    "_instructions": "The buyer segments a case study can be tagged relevant to.",
+    "tags": ["[TAG 1 -- e.g. Government Contractor]", "[TAG 2]", "[TAG 3]"]
+  },
+
+  "minimum_inventory": {
+    "_instructions": "Minimum number of active, tagged proof points to maintain per buyer tag. Alert when below.",
+    "threshold": "[NUMBER -- e.g. 5]"
+  },
+
+  "case_study_formula": {
+    "_instructions": "The 1-page structure every proof point follows.",
+    "challenge": "[2-3 sentences, specific to the client's pain point]",
+    "solution": "[2-3 sentences, focused on outcomes not activities]",
+    "quantified_results": ["[RESULT 1]", "[RESULT 2]"],
+    "buyer_relevance_note": "[Why this proves value to the tagged buyer type]"
+  }
+}

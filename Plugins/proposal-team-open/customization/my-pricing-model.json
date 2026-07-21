@@ -1,0 +1,148 @@
+{
+  "_instructions": "REQUIRED: Configure your pricing structure. This drives investment sections in proposals. Update quarterly.",
+  "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
+
+  "product_components": {
+    "_instructions": "Define your product/service components that can be combined into proposals",
+    "components": [
+      {
+        "product_id": "[COMPONENT-ID-1]",
+        "name": "[COMPONENT 1 NAME]",
+        "description": "[What this component includes]",
+        "base_price": "[AMOUNT - number only, no $]",
+        "pricing_unit": "[fixed | hourly | per_user | etc.]",
+        "typical_scope": "[When this component is used]"
+      },
+      {
+        "product_id": "[COMPONENT-ID-2]",
+        "name": "[COMPONENT 2 NAME]",
+        "description": "[What this component includes]",
+        "base_price": "[AMOUNT]",
+        "pricing_unit": "[fixed | hourly | per_user | etc.]",
+        "typical_scope": "[When this component is used]"
+      },
+      {
+        "product_id": "[COMPONENT-ID-3]",
+        "name": "[COMPONENT 3 NAME]",
+        "description": "[What this component includes]",
+        "base_price": "[AMOUNT]",
+        "pricing_unit": "[fixed | hourly | per_user | etc.]",
+        "typical_scope": "[When this component is used]"
+      },
+      {
+        "product_id": "[COMPONENT-ID-4]",
+        "name": "[COMPONENT 4 NAME]",
+        "description": "[What this component includes]",
+        "base_price": "[AMOUNT]",
+        "pricing_unit": "[fixed | hourly | per_user | etc.]",
+        "typical_scope": "[When this component is used]"
+      }
+    ]
+  },
+
+  "standard_packages": {
+    "_instructions": "Pre-configured packages for common engagement types",
+    "packages": [
+      {
+        "package_name": "[PACKAGE 1 NAME - e.g., 'Starter']",
+        "description": "[When to use this package]",
+        "components_included": ["[COMPONENT-ID-1]", "[COMPONENT-ID-2]"],
+        "package_price": "[AMOUNT]",
+        "typical_timeline": "[Duration]",
+        "best_for": "[Type of client/project]"
+      },
+      {
+        "package_name": "[PACKAGE 2 NAME - e.g., 'Standard']",
+        "description": "[When to use this package]",
+        "components_included": ["[COMPONENT-ID-1]", "[COMPONENT-ID-2]", "[COMPONENT-ID-3]"],
+        "package_price": "[AMOUNT]",
+        "typical_timeline": "[Duration]",
+        "best_for": "[Type of client/project]"
+      },
+      {
+        "package_name": "[PACKAGE 3 NAME - e.g., 'Full']",
+        "description": "[When to use this package]",
+        "components_included": ["[COMPONENT-ID-1]", "[COMPONENT-ID-2]", "[COMPONENT-ID-3]", "[COMPONENT-ID-4]"],
+        "package_price": "[AMOUNT]",
+        "typical_timeline": "[Duration]",
+        "best_for": "[Type of client/project]"
+      }
+    ]
+  },
+
+  "success_fee_structure": {
+    "_instructions": "Configure if you offer performance-based pricing",
+    "enabled": "[true | false]",
+    "percentage": "[PERCENTAGE - number only]",
+    "basis": "[What triggers the success fee - e.g., 'Year 1 documented savings']",
+    "cap": "[MAXIMUM AMOUNT]",
+    "minimum": "[MINIMUM AMOUNT or 0]",
+    "trigger_description": "[When the success fee kicks in]"
+  },
+
+  "payment_terms": {
+    "_instructions": "Your standard payment milestones",
+    "standard_terms": [
+      {
+        "milestone": "[MILESTONE 1 - e.g., 'Contract Execution']",
+        "percentage": "[PERCENTAGE]",
+        "timing": "[When payment is due]"
+      },
+      {
+        "milestone": "[MILESTONE 2 - e.g., 'Midpoint']",
+        "percentage": "[PERCENTAGE]",
+        "timing": "[When payment is due]"
+      },
+      {
+        "milestone": "[MILESTONE 3 - e.g., 'Completion']",
+        "percentage": "[PERCENTAGE]",
+        "timing": "[When payment is due]"
+      }
+    ],
+    "net_days": "[30 | 45 | 60 - payment due within X days of invoice]"
+  },
+
+  "pricing_adjustments": {
+    "_instructions": "Standard adjustments you make to base pricing",
+    "complexity_adjustments": {
+      "low": "[PERCENTAGE adjustment - e.g., '-10']",
+      "medium": "[0]",
+      "high": "[PERCENTAGE adjustment - e.g., '+15']"
+    },
+    "timeline_adjustments": {
+      "accelerated": "[PERCENTAGE adjustment for rushed timeline]",
+      "extended": "[PERCENTAGE adjustment for longer timeline]"
+    },
+    "volume_discounts": {
+      "small": "[No discount]",
+      "medium": "[PERCENTAGE discount]",
+      "large": "[PERCENTAGE discount]"
+    }
+  },
+
+  "hourly_rates": {
+    "_instructions": "If you use hourly rates, define them here",
+    "rates": [
+      {
+        "role": "[ROLE NAME - e.g., 'Senior Consultant']",
+        "rate": "[HOURLY RATE]"
+      },
+      {
+        "role": "[ROLE NAME - e.g., 'Project Manager']",
+        "rate": "[HOURLY RATE]"
+      },
+      {
+        "role": "[ROLE NAME - e.g., 'Technical Lead']",
+        "rate": "[HOURLY RATE]"
+      }
+    ],
+    "blended_rate": "[Your blended rate if applicable]"
+  },
+
+  "roi_defaults": {
+    "_instructions": "Default assumptions for ROI calculations",
+    "typical_improvement_percentage": "[30 | 40 | 50 - typical efficiency gain]",
+    "typical_break_even_months": "[3 | 6 | 9 - typical break-even period]",
+    "hourly_value_assumption": "[Dollar value of client hour saved]"
+  }
+}

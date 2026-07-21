@@ -1,0 +1,52 @@
+{
+  "_instructions": "REQUIRED: Define your Ideal Customer Profile. Drives lead qualification across Lead Scout, BD Research, and BD Execution. Update quarterly.",
+  "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
+
+  "icp_profiles": [
+    {
+      "profile_id": "[PROFILE-1]",
+      "label": "[e.g. 'Government contractor, 10-200 employees']",
+      "org_types": ["[TYPE 1]", "[TYPE 2]"],
+      "size_range": "[e.g. 10-200 employees or a revenue range]",
+      "signals_required": [
+        "[Time-bound need -- deadline or timeline]",
+        "[Intent signal -- RFP, grant, budget filing, hiring announcement]",
+        "[Business tie -- revenue, compliance, or operational necessity]",
+        "[Addressable work -- manual process you can take on]"
+      ]
+    }
+  ],
+
+  "disqualifiers": {
+    "_instructions": "Auto-exclude criteria. Applied by Lead Scout, BD Research, and CRM Intake.",
+    "auto_exclude": [
+      "[Exploratory only -- no commitment signal]",
+      "[No timeline or deadline]",
+      "[No decision authority identified]",
+      "[Capability gap too large]"
+    ]
+  },
+
+  "scoring_dimensions": {
+    "_instructions": "1-5 scale per dimension. Define what each score means for your business.",
+    "fit": "[Does capability match need?]",
+    "win_probability": "[Can you credibly win?]",
+    "economic_value": "[Revenue potential bands]",
+    "timeline_realism": "[Can you deliver in the stated window?]",
+    "strategic_leverage": "[Long-term value beyond this deal]"
+  },
+
+  "signal_sources": {
+    "_instructions": "Where Lead Scout and BD Research look for intent signals.",
+    "primary": ["[SOURCE 1]", "[SOURCE 2]"],
+    "secondary": ["[SOURCE 1]"]
+  },
+
+  "routing": {
+    "_instructions": "Where qualified, monitor, and disqualified leads go.",
+    "deals_pipeline_db_id": "[YOUR NOTION DEALS PIPELINE DB ID]",
+    "contacts_db_id": "[YOUR NOTION CONTACTS DB ID]",
+    "orgs_db_id": "[YOUR NOTION ORGS DB ID]",
+    "monitor_recheck_days": "[NUMBER]"
+  }
+}
