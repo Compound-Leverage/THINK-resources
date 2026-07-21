@@ -9,23 +9,37 @@ open-source, community-shareable skills and plugins.
 - `Skills/` — Reusable skills (THINK School modules, community tooling, open-source contributions)
 - `Plugins/` — Community plugins (UI generators, proposal assistants, shareable integrations)
 
-## Skills & Plugins Catalog
+## Skills Catalog
 
-### Skills
+Skills are organized by workstream. Install from `Skills/[name]/SKILL.md` in Claude.ai (Settings > Feature preview > Add skills) or Claude Desktop (Settings > Extensions > Add).
 
-| Skill | Category | Description | Status |
-|-------|----------|-------------|--------|
-| THINK Core | Education | Foundational THINK Intelligence methodology modules | Live |
-| THINK School | Education | Structured curriculum for strategist training | Live |
-| Proposal Framework | Tooling | Open framework for institutional proposal generation | Live |
-| Mandate Mapping | Tooling | Helper for identifying funding sources and eligibility | In Development |
+### Foundations
 
-### Plugins
+| Skill | Description | Install |
+|-------|-------------|---------|
+| THINK Foundations | 7-module curriculum — Thinking Crisis through your first DE | `Skills/think-foundations/` |
 
-| Plugin | Purpose | Status |
-|--------|---------|--------|
-| Proposal Generator (Open) | Generate community proposals | Live |
-| Lead Discovery | Identify prospects from public data | Live |
+### Sales & BD
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| Mandate Search Agent | Monitors and scores funding opportunities against your business profile; surfaces pre-RFP signals | `Skills/mandate-mapping/` |
+| Community Grant Radar | Scans for grant opportunities in your community and sector | `Skills/community-grant-radar/` |
+
+### Intelligence & Research
+
+| Skill | Description | Install |
+|-------|-------------|---------|
+| Signal Finder Toolkit | 4-phase guided session to identify your market blindspot, map active capital events, and capture your playbook foundation | `Skills/Signal Finder Toolkit/` |
+
+### Coming Soon
+
+| Skill | Workstream |
+|-------|------------|
+| THINK Signal | Intelligence |
+| THINK Intelligence | Intelligence |
+| THINK Execution | Operations |
+| THINK Score | Sales & BD |
 
 ## About Compound Leverage
 
