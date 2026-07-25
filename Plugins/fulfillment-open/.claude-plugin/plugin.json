@@ -1,7 +1,7 @@
 {
   "name": "fulfillment-open",
-  "version": "1.0.0",
-  "description": "Open-source 2-role Fulfillment team: Signal Delivery (client-ready intelligence briefs from your signal inbox) and Playbook Builder (onboarding, success, and expansion playbooks for active clients). Bring your own Notion DB IDs and brief/playbook templates via customization/. No proprietary CL logic.",
+  "version": "1.0.1",
+  "description": "Open-source Fulfillment role: Playbook Builder (onboarding, success, and expansion playbooks for active clients). Bring your own Notion DB IDs and playbook templates via customization/. No proprietary CL logic.",
   "author": {
     "name": "Compound Leverage"
   }

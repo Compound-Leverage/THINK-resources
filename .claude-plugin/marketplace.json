@@ -4,7 +4,7 @@
     "name": "Compound Leverage"
   },
   "metadata": {
-    "description": "THINK School — free, open-source Digital Employee plugins for members. Bring-your-own-data templates, no proprietary CL logic or pricing included. Link to this from Skool instead of pasting content directly."
+    "description": "THINK School — free, source-available Digital Employee plugins for members (PolyForm Shield License: free to use, no competing product/service). Bring-your-own-data templates, no proprietary CL logic or pricing included. Link to this from Skool instead of pasting content directly."
   },
   "plugins": [
     {
@@ -38,14 +38,14 @@
       "description": "Open-source Sales Enablement role: Proof Points, which extracts 1-page case study narratives from active engagements and maintains a minimum evidence inventory. Bring your own buyer tags and Notion DB IDs. No proprietary CL logic."
     },
     {
-      "name": "operations-open",
-      "source": "./Plugins/operations-open",
-      "description": "Open-source Operations role: CRM Intake, which enriches incoming org and contact records, classifies each by your ICP, and creates or updates CRM entries from inbound leads and prospect lists. No proprietary CL logic."
+      "name": "capture-team-open",
+      "source": "./Plugins/capture-team-open",
+      "description": "Open-source 3-role Capture Team: Cluster Discovery (Chet), CRM Intake (Kipp), and Signal Delivery (Ben) -- find capacity-gap groups, enrich and classify inbound records, deliver client-ready briefs. No proprietary CL logic. Note: CE Scoring and Signal Intake (Cassie, Kyle) are intentionally not included -- those are tied to CL's own methodology and stay placement-exclusive."
     },
     {
       "name": "fulfillment-open",
       "source": "./Plugins/fulfillment-open",
-      "description": "Open-source 2-role Fulfillment team: Signal Delivery (client-ready intelligence briefs) and Playbook Builder (onboarding, success, and expansion playbooks for active clients). Bring your own Notion DB IDs and templates. No proprietary CL logic."
+      "description": "Open-source Fulfillment role: Playbook Builder (onboarding, success, and expansion playbooks for active clients). Bring your own Notion DB IDs and templates. No proprietary CL logic."
     },
     {
       "name": "ops-team-open",

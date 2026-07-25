@@ -11,7 +11,7 @@ intelligence briefs.
 
 ## Setup required
 
-Configure `customization/my-fulfillment-config.json` before first use:
+Configure `customization/my-capture-config.json` before first use:
 - `notion.signal_inbox_db_id` -- your source signal database
 - `delivery.google_drive_folder_id` -- where finished briefs get stored
 - `brief_structure.sections` -- your section headers

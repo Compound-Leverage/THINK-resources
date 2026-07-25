@@ -11,7 +11,7 @@ CRM.
 
 ## Setup required
 
-Configure `customization/my-icp-profile.json` before first use:
+Configure `customization/my-capture-config.json` before first use:
 - `icp_profiles` -- your classification criteria
 - `routing_flags` -- how classified records get flagged
 - `notion.*_db_id` -- your Contacts, Orgs, and Deals Pipeline database IDs

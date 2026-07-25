@@ -1,8 +1,0 @@
-{
-  "name": "operations-open",
-  "version": "1.0.0",
-  "description": "Open-source Operations role: CRM Intake, which enriches incoming org and contact records, classifies each by your ICP, and creates or updates CRM entries from inbound leads and prospect lists. Bring your own ICP definitions and enrichment/CRM config via customization/. No proprietary CL logic.",
-  "author": {
-    "name": "Compound Leverage"
-  }
-}
