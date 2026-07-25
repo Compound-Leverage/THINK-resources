@@ -12,8 +12,8 @@ Starter prompts for every Digital Employee in the THINK School marketplace. Each
 | Proposal Team (proposal-team-open) | [`proposal-team-open.md`](./proposal-team-open.md) |
 | Proposal Generator (proposal-generator-open) | [`proposal-generator-open.md`](./proposal-generator-open.md) |
 | Content Team (content-team-open) | [`content-team-open.md`](./content-team-open.md) |
+| Capture Team (capture-team-open) | [`capture-team-open.md`](./capture-team-open.md) |
 | Fulfillment (fulfillment-open) | [`fulfillment-open.md`](./fulfillment-open.md) |
-| Operations (operations-open) | [`operations-open.md`](./operations-open.md) |
 | Ops Team (ops-team-open) | [`ops-team-open.md`](./ops-team-open.md) |
 | Sales Enablement (sales-enablement-open) | [`sales-enablement-open.md`](./sales-enablement-open.md) |
 | Lead Discovery (lead-discovery) | [`lead-discovery.md`](./lead-discovery.md) |
