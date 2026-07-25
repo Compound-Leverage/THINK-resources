@@ -89,17 +89,17 @@
       }
     },
     {
-      "name": "operations-open",
+      "name": "capture-team-open",
       "source": {
         "source": "local",
-        "path": "./Plugins/operations-open"
+        "path": "./Plugins/capture-team-open"
       },
       "policy": {
         "installation": "AVAILABLE"
       },
-      "category": "Productivity",
+      "category": "Sales",
       "interface": {
-        "displayName": "Operations Open"
+        "displayName": "Capture Team Open"
       }
     },
     {

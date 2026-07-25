@@ -2,7 +2,7 @@
 
 Compound Leverage's training and educational resource hub — every training we produce is
 THINK School, whether or not the person using it is a formal (paid) member. Free,
-open-source, community-shareable skills and plugins.
+source-available, community-shareable skills and plugins.
 
 ## Structure
 
@@ -64,7 +64,7 @@ Skills are organized by workstream. Upload the `.zip` from `Skills/[workstream]/
 - **Digital Employee (DE) Training** — Certifying strategic practitioners to deploy THINK methodology at scale
 - **Institutional Funding Capture** — Enabling government agencies, state workforce boards, and foundations to deploy THINK across their networks
 
-### Open Source Commitment
+### Community Commitment
 
 This repository contains community-shareable components that help organizations:
 - Learn and apply THINK methodology
@@ -74,7 +74,11 @@ This repository contains community-shareable components that help organizations:
 
 ### License & Usage
 
-All skills and plugins in this repository are free to use and modify under the MIT License. Attribution appreciated, not required.
+All skills and plugins in this repository are free to use and modify for your own
+organization's purposes under the [PolyForm Shield License 1.0.0](LICENSE) -- the one
+restriction is that you can't use them to build or offer a competing product or service.
+Everything else (internal use, client work, modification, redistribution within your own
+org) is permitted. Attribution appreciated, not required.
 
 ### Questions?
 
