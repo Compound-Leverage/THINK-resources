@@ -1,4 +1,4 @@
-# Repo Map — What's Where
+# Repo Map: What's Where
 
 This repo has grown past "Skills and Plugins." Here's what each top-level folder is for
 and when to reach for it.

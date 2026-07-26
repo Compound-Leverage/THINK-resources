@@ -43,7 +43,7 @@ Assumptions: [every assumption documented]
 Components: [component_id(s) from my-pricing-model.json]
 Package: [package name, or "custom"]
 Investment range: [low] - [high]
-Success fee (if enabled): [percentage] / [basis] / cap [amount]
+Additional fee structure (if your pricing model has one): [describe]
 
 ## Risk Assessment
 [Risk] - [severity] - [mitigation]

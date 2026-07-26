@@ -1,8 +1,11 @@
 # THINK School
 
-Compound Leverage's training and educational resource hub — every training we produce is
+Compound Leverage's training and educational resource hub, every training we produce is
 THINK School, whether or not the person using it is a formal (paid) member. Free,
 source-available, community-shareable skills and plugins.
+
+New here and wondering what THINK School is? Learn more at
+[skool.com/thinkschool/about](https://www.skool.com/thinkschool/about).
 
 ## Structure
 
@@ -170,5 +173,7 @@ org) is permitted. Attribution appreciated, not required.
 ### Questions?
 
 For skill documentation, usage examples, or contribution guidelines, see individual skill directories.
+
+Already a THINK School member? Post any question in the [community](https://www.skool.com/thinkschool/about), or drop a win in Wins about how you're using these resources to get work done that wasn't getting done before.
 
 For collaboration, partnerships, or institutional licensing, visit our [Partner page](https://www.compoundleverage.com/contact-sales/) (referral or infrastructure partner) or contact [partners@compoundleverage.com](mailto:partners@compoundleverage.com).

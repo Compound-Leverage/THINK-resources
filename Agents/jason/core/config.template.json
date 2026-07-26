@@ -1,0 +1,65 @@
+{
+  "_instructions": "Copy this file (e.g. to config.json), fill in your own values, and point Jason at the copy. Never edit this template directly.",
+  "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
+
+  "site": {
+    "_instructions": "Your primary site's repo and any secondary properties Jason audits.",
+    "primary_repo": "[YOUR-ORG/YOUR-SITE-REPO]",
+    "framework": "[e.g. Astro, Next.js, Hugo, plain HTML]",
+    "staging_branch": "[YOUR STAGING BRANCH NAME]",
+    "production_branch": "[YOUR PRODUCTION BRANCH NAME]",
+    "secondary_properties": [
+      {
+        "name": "[e.g. newsletter]",
+        "url": "[YOUR SECONDARY SITE URL]",
+        "platform": "[e.g. Beehiiv, Substack, Ghost]"
+      }
+    ]
+  },
+
+  "standards": {
+    "_instructions": "Where your filled-in site standards live. See Plugins/ops-team-open/customization/my-site-standards.md for the format this repo already ships.",
+    "site_standards_path": "[PATH TO YOUR FILLED-IN my-site-standards.md OR EQUIVALENT]"
+  },
+
+  "page_types": {
+    "_instructions": "How content-qa tells a conversion page from a utility page. Use path patterns, not full URLs.",
+    "product_patterns": ["[e.g. / (homepage)]", "[e.g. /solutions/*]"],
+    "utility_patterns": ["[e.g. /about]", "[e.g. /resources/*]"],
+    "excluded_patterns": ["[e.g. /privacy]", "[e.g. /404]", "[e.g. /blog/*]"]
+  },
+
+  "routing": {
+    "_instructions": "What counts as a rule-based fix (safe to auto-PR) vs a judgment call (flag to owner). Adjust to your own risk tolerance.",
+    "rule_based": [
+      "[e.g. redirect chain collapse]",
+      "[e.g. removing a redirect for a source that never existed]",
+      "[e.g. missing image width/height attributes]"
+    ],
+    "judgment_call": [
+      "[e.g. H1 rewrite]",
+      "[e.g. tone or copy restructure]",
+      "[e.g. redirect destination is ambiguous]",
+      "[e.g. redirect source file still exists -- possible conflict]"
+    ]
+  },
+
+  "thresholds": {
+    "_instructions": "Tunable pass/fail bars used by site-audit.",
+    "meta_description_max_chars": 160,
+    "secondary_property_sample_size": 10,
+    "secondary_property_sample_days": 7
+  },
+
+  "notifications": {
+    "_instructions": "Where Jason posts findings.",
+    "destination": "[e.g. 'Google Chat', 'Slack', 'email']",
+    "webhook_url_env": "[NAME OF YOUR ENV VAR -- never paste the URL itself here]"
+  },
+
+  "scheduling": {
+    "_instructions": "Suggested cadence -- see hooks/hook-map.md for the full trigger table.",
+    "weekly_audit_day": "[e.g. Sunday]",
+    "monthly_audit_day": "[e.g. first of the month]"
+  }
+}

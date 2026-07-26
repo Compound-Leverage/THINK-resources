@@ -1,0 +1,80 @@
+{
+  "_instructions": "Copy this file (e.g. to config.json), fill in your own values, and point Eric at the copy. Never edit this template directly.",
+  "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
+
+  "hosting": {
+    "provider": "[e.g. Cloudflare Pages, Vercel, Netlify]",
+    "account_id": "[YOUR ACCOUNT/PROJECT ID]",
+    "custom_domains": ["[YOUR DOMAIN]", "[e.g. www VARIANT]"]
+  },
+
+  "branches": {
+    "staging_branch": "[e.g. staging]",
+    "production_branch": "[e.g. main]"
+  },
+
+  "repos": {
+    "_instructions": "One entry per repo Eric should audit. Add more as needed.",
+    "site_repo": "[YOUR ORG/SITE REPO NAME]",
+    "automation_repo": "[YOUR ORG/AUTOMATION OR AGENT REPO NAME, IF SEPARATE FROM THE SITE REPO]"
+  },
+
+  "performance_thresholds": {
+    "_instructions": "Core Web Vitals and bundle-size targets. Eric flags any deploy that regresses past these.",
+    "lcp_ms": "[e.g. 2500]",
+    "cls": "[e.g. 0.1]",
+    "inp_ms": "[e.g. 200]",
+    "fcp_ms": "[e.g. 1800]",
+    "bundle_size_kb": "[e.g. 250]",
+    "lighthouse_performance_min": "[e.g. 90]",
+    "lighthouse_accessibility_min": "[e.g. 90]",
+    "lighthouse_seo_min": "[e.g. 95]",
+    "priority_pages": ["[e.g. /]", "[e.g. /pricing]", "[add your own high-traffic pages]"]
+  },
+
+  "caching_rules": {
+    "_instructions": "Your caching policy per asset type.",
+    "static_assets_ttl": "[e.g. 1 year, immutable]",
+    "html_ttl": "[e.g. no-cache, revalidate]"
+  },
+
+  "build": {
+    "_instructions": "What build-check validates your config against.",
+    "build_tool": "[e.g. Astro, Next.js, Hugo]",
+    "build_command": "[e.g. npm run build]",
+    "output_directory": "[e.g. dist/]",
+    "max_build_time_seconds": "[e.g. 60]"
+  },
+
+  "ci_cd": {
+    "_instructions": "Minimum versions github-actions-audit and preflight-check enforce. Update as upstream actions release new majors.",
+    "minimum_action_versions": {
+      "actions/checkout": "[e.g. v4]",
+      "actions/setup-node": "[e.g. v4]",
+      "actions/upload-artifact": "[e.g. v4]",
+      "actions/download-artifact": "[e.g. v4]",
+      "actions/cache": "[e.g. v4]"
+    }
+  },
+
+  "preflight": {
+    "_instructions": "Provider API(s) preflight-check pings to confirm keys are valid before scheduled runs fire. Add one entry per model/API provider you depend on.",
+    "model_providers_to_check": ["[e.g. Anthropic]", "[e.g. your fallback provider]"]
+  },
+
+  "approval_rules": {
+    "_instructions": "What Eric can do autonomously vs. what requires a human. These three are hard defaults -- loosen only if you fully understand the risk.",
+    "config_fix_prs_autonomous": true,
+    "dns_changes_require_human": true,
+    "edge_function_changes_require_human": true,
+    "env_var_changes_require_human": true,
+    "production_promotions_require_human": true
+  },
+
+  "notifications": {
+    "_instructions": "Where Eric reports exceptions, regressions, and completion summaries.",
+    "destination": "[e.g. 'Google Chat', 'Slack', 'email']",
+    "webhook_url_env": "[NAME OF YOUR ENV VAR -- never paste the URL itself here]",
+    "silent_on_zero_findings": true
+  }
+}

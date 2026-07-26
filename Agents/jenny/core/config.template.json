@@ -1,0 +1,67 @@
+{
+  "_instructions": "Copy this file (e.g. to config.json), fill in your own values, and point Jenny at the copy. Never edit this template directly.",
+  "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
+
+  "brand": {
+    "_instructions": "Your own brand system. If you're also running a plugin with its own brand guidelines file (same schema), point brand_source_path at your filled-in copy instead of re-entering everything below. Otherwise fill in the summary fields directly.",
+    "brand_source_path": "[PATH TO YOUR OWN BRAND GUIDELINES OR DESIGN TOKENS FILE, IF YOU HAVE ONE]",
+    "colors": {
+      "primary_accent": "[YOUR ACCENT COLOR HEX]",
+      "neutral_backgrounds": ["[BACKGROUND HEX 1]", "[BACKGROUND HEX 2]"],
+      "text_primary": "[YOUR BODY TEXT HEX]",
+      "accent_max_percent": 10
+    },
+    "typography": {
+      "heading_font": "[YOUR HEADING FONT]",
+      "body_font": "[YOUR BODY FONT]",
+      "disallowed_fonts": ["[e.g. 'serif']", "[e.g. 'decorative/script']"]
+    },
+    "imagery_policy": "[e.g. 'no stock photography', 'illustration only', 'photography allowed']",
+    "logo": {
+      "min_size_px": "[YOUR MINIMUM LOGO SIZE]",
+      "clear_space_px": "[YOUR MINIMUM CLEAR SPACE]"
+    },
+    "voice_rules": ["no em dashes", "[e.g. 'max 15 words per sentence']", "[e.g. 'specific numbers over vague benefits']"]
+  },
+
+  "surfaces": {
+    "_instructions": "One entry per recurring asset or output type you produce. Add as many as you need.",
+    "types": [
+      {
+        "surface_id": "[e.g. 'newsletter-thumbnail']",
+        "dimensions": "[e.g. '1200x628px']",
+        "format": "[e.g. 'PNG']",
+        "notes": "[e.g. 'cover/section placement only']"
+      }
+    ]
+  },
+
+  "web": {
+    "_instructions": "Only needed if you're using web-spec-handoff or web-consistency-audit.",
+    "style_guide_path": "[PATH TO YOUR SITE'S STYLE GUIDE / DESIGN SYSTEM FILE]",
+    "component_library_path": "[PATH TO YOUR REUSABLE COMPONENTS FOLDER]",
+    "primary_cta_destination": "[YOUR PRIMARY CTA PATH]"
+  },
+
+  "tools": {
+    "design_tool": "[e.g. 'Canva', 'Figma']",
+    "render_pipeline": "[e.g. 'HTML-to-PNG tool', or 'N/A']",
+    "delivery_destination": "[e.g. 'Google Drive folder', 'Dropbox folder']"
+  },
+
+  "file_naming_convention": "[YOUR PATTERN, e.g. 'ORG_TYPE-YYMMDD-Project']",
+
+  "notifications": {
+    "_instructions": "Where Jenny reports deliveries, findings, and approval requests.",
+    "destination": "[e.g. 'Slack', 'Google Chat', 'email']",
+    "webhook_url_env": "[NAME OF YOUR ENV VAR -- never paste the URL itself here]"
+  },
+
+  "authority": {
+    "_instructions": "Adjust to your own risk tolerance -- see core/capabilities.md for the suggested split.",
+    "asset_production": "[e.g. 'autonomous once QA checklist passes']",
+    "rule_based_web_fixes": "[e.g. 'open a PR to staging, human merges']",
+    "template_promotion": "[e.g. 'propose, wait for my confirmation before marking active']",
+    "design_system_changes": "[e.g. 'propose only, I approve before anything commits']"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "_instructions": "Copy this file (e.g. to config.json), fill in your own values, and point Kipp at the copy. Never edit this template directly.",
+  "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
+
+  "icp_profiles": {
+    "_instructions": "One entry per ICP profile you classify inbound records into.",
+    "profiles": [
+      {
+        "profile_id": "[PROFILE-1]",
+        "label": "[e.g. 'Government contractor, 10-200 employees']",
+        "org_types": ["[TYPE 1]", "[TYPE 2]"],
+        "size_range": "[e.g. 10-200 employees or a revenue range]",
+        "qualifying_signals": [
+          "[Signal or field that qualifies a record for this profile]"
+        ],
+        "enrichment_tier": "[standard | deep]"
+      }
+    ]
+  },
+
+  "routing_flags": {
+    "_instructions": "What happens to a record once it's classified into a profile above.",
+    "qualified_flag": "[e.g. 'ICP-Match']",
+    "unqualified_flag": "[e.g. 'Monitor']",
+    "escalation_flag": "[e.g. 'Warm Inbound -- Review']",
+    "unresolved_flag": "[e.g. 'ICP unconfirmed -- review needed']"
+  },
+
+  "intake_sources": {
+    "_instructions": "Every queue Kipp sweeps for new records, and how often.",
+    "sources": ["[e.g. Signal Inbox]", "[e.g. Scored Prospect List]", "[e.g. Warm Inbound Leads]"],
+    "cadence": "[e.g. daily]"
+  },
+
+  "enrichment": {
+    "_instructions": "Kipp's contact/company enrichment provider and key.",
+    "provider": "[e.g. Hunter.io]",
+    "api_key_env_var": "[NAME OF YOUR ENV VAR -- never paste the key itself here]",
+    "confidence_threshold": 70,
+    "deep_enrichment_provider": "[optional, e.g. Clay -- only for profiles marked enrichment_tier: deep]"
+  },
+
+  "audit": {
+    "_instructions": "Used by the periodic audit step in crm-intake/workflow.md.",
+    "stalled_after_days": 7
+  },
+
+  "database": {
+    "_instructions": "Wherever you keep CRM records -- Notion, Airtable, a spreadsheet.",
+    "contacts_db_id": "[YOUR CONTACTS DB ID]",
+    "orgs_db_id": "[YOUR ORGANIZATIONS DB ID]",
+    "pipeline_db_id": "[YOUR DEALS/PIPELINE DB ID]",
+    "signal_inbox_db_id": "[YOUR SIGNAL/INTELLIGENCE INBOX DB ID, IF YOU SWEEP ONE]"
+  },
+
+  "notifications": {
+    "_instructions": "Where Kipp reports run summaries and exceptions.",
+    "destination": "[e.g. 'Google Chat', 'Slack', 'email']",
+    "webhook_url_env": "[NAME OF YOUR ENV VAR -- never paste the URL itself here]"
+  }
+}
