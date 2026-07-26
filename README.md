@@ -9,6 +9,10 @@ New here and wondering what THINK School is? Learn more at
 
 ## Structure
 
+This repo is an installable marketplace: add it directly in Claude Code, Codex CLI, or
+ChatGPT to install any plugin as a full bundle, no manual file upload needed. See
+[`Plugins/README.md`](Plugins/README.md) for install steps.
+
 - `Skills/` — Reusable skills (THINK School modules, community tooling, open-source contributions)
 - `Plugins/` : Bundled multi-role Claude Code plugins, each with its own `skills/` and `customization/*.json`
 - `Agents/` : Standalone THINK Framework methodology agents, plus full downloadable persona folders (config, hooks, Skills, templates) for personas that also ship inside a `Plugins/` team
