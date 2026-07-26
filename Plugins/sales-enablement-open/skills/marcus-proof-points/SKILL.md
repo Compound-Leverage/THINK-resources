@@ -1,5 +1,5 @@
 ---
-name: "Marcus — Proof Points"
+name: marcus-proof-points
 description: "Extracts and packages proof points from active client engagements into 1-page case study narratives tagged for buyer relevance. Maintains a minimum inventory and feeds proposal work with ready-to-use evidence."
 ---
 

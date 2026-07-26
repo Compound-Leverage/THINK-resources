@@ -1,5 +1,5 @@
 ---
-name: "Josh — Intelligence Brief"
+name: josh-brief-writer
 description: "Produces Leader and Strategist editions of a weekly intelligence brief from top-scoring TopicCards, applying a proof gate and two-audience ICP voice extraction."
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "Ben — Signal Delivery"
+name: ben-signal-delivery
 description: "Synthesizes capital event or market signals into client-ready intelligence briefs. Reads your signal inbox, applies structured analysis, and produces brief documents clients can act on immediately."
 ---
 

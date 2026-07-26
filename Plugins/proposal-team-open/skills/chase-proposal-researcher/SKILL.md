@@ -1,5 +1,5 @@
 ---
-name: "Chase — Proposal Researcher"
+name: chase-proposal-researcher
 description: "Gathers client and industry intelligence to inform proposal development. Produces a Discovery Brief with a Go/No-Go recommendation. Never writes proposal content."
 ---
 

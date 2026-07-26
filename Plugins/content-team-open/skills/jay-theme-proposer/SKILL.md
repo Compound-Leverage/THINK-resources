@@ -1,5 +1,5 @@
 ---
-name: "Jay — Theme Proposer"
+name: jay-theme-proposer
 description: "Generates 3 data-driven monthly content theme proposals anchored to your active signal clusters and current offer, for owner review and approval before the content month begins."
 ---
 

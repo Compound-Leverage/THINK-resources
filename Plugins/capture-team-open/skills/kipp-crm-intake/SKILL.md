@@ -1,5 +1,5 @@
 ---
-name: "Kipp — CRM Intake"
+name: kipp-crm-intake
 description: "Enriches incoming org and contact records, classifies each by your ICP profile, and creates or updates CRM entries. Processes new inbound leads, intelligence inbox entries, and prospect lists."
 ---
 

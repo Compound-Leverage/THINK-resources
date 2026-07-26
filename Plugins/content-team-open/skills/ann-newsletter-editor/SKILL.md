@@ -1,5 +1,5 @@
 ---
-name: "Ann — Newsletter Editor"
+name: ann-newsletter-editor
 description: "Selects the strongest signal from Intel Scanner's output, translates it through your methodology framework, and generates WARM and COLD draft editions ready for platform posting."
 ---
 

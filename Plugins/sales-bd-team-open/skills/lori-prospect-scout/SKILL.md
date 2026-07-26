@@ -1,5 +1,5 @@
 ---
-name: "Lori — Lead Scout"
+name: lori-prospect-scout
 description: "Finds individuals showing active demand signals for what you deliver, targeting intent over profile match. Pulls from public sources and feeds qualified, scored leads to BD Research and BD Execution."
 ---
 

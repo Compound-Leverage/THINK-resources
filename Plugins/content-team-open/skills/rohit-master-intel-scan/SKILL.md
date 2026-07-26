@@ -1,5 +1,5 @@
 ---
-name: "Rohit — Intel Scanner"
+name: rohit-master-intel-scan
 description: "Weekly signal scan across Reddit, news, YouTube, and Google PAA plus your own platform performance data. Synthesizes scored TopicCards that gate every downstream content skill in this plugin."
 ---
 

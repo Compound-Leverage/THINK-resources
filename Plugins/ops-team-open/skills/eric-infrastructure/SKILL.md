@@ -1,5 +1,5 @@
 ---
-name: "Eric — Infra Lead"
+name: eric-infrastructure
 description: "Owns every layer below the code: build pipeline, GitHub Actions, DNS, caching, and performance for a static-site deploy. Config fix PRs go to staging; DNS and production promotions route to owner."
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "Cal — Weekly Brief"
+name: cal-weekly-brief
 description: "Pulls from all active intelligence sources each week and synthesizes a single owner brief -- one page, overwritten weekly -- for full situational awareness with no reading required."
 ---
 

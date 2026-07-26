@@ -1,5 +1,5 @@
 ---
-name: "Jason — QA Reviewer"
+name: jason-qa-reviewer
 description: "Audits your site after deploys: SEO, redirects, H1 consistency, copy accuracy, and broken links. Generates changelogs and inline docs. Rule-based fixes go through PRs; judgment calls route to owner."
 ---
 

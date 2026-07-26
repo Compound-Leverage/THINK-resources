@@ -5,5 +5,10 @@
   "author": {
     "name": "Compound Leverage"
   },
-  "skills": "./skills"
+  "skills": "./skills",
+  "interface": {
+    "displayName": "Capture Team Open",
+    "shortDescription": "Find capacity-gap groups, enrich inbound records, and deliver client-ready briefs",
+    "category": "Sales"
+  }
 }

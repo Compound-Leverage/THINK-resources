@@ -1,5 +1,5 @@
 ---
-name: "Chet — Cluster Discovery"
+name: chet-cluster-discovery
 description: "Finds named, bounded groups (consortiums, cohorts, membership bodies) that share a capacity gap your team already knows how to fill, starting from a known capability rather than a single event. Call on a recurring scan, or ask directly to scan clusters."
 ---
 

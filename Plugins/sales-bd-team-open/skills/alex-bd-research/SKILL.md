@@ -1,5 +1,5 @@
 ---
-name: "Alex — BD Research"
+name: alex-bd-research
 description: "The research and enrichment layer for your pipeline. Detects intent signals, enriches leads with company data, and feeds structured prospect records to BD Execution. Never sends external communications."
 ---
 

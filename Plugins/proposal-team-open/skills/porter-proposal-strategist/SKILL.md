@@ -1,5 +1,5 @@
 ---
-name: "Porter — Proposal Strategist"
+name: porter-proposal-strategist
 description: "Develops competitive positioning, win themes, and case study selection for each proposal. Builds the messaging framework the Writer executes."
 ---
 

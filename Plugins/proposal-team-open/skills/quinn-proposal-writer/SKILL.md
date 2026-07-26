@@ -1,5 +1,5 @@
 ---
-name: "Quinn — Proposal Writer"
+name: quinn-proposal-writer
 description: "Drafts all proposal content from the researcher, analyst, and strategist outputs into a complete, submission-ready document. Writes problem-first, outcome-focused, no filler."
 ---
 

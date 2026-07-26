@@ -1,5 +1,5 @@
 ---
-name: "Amy — YouTube Scripts"
+name: amy-youtube-scripts
 description: "Generates 4-5 minute YouTube video scripts targeting your primary ICP from a research file and the current weekly brief. Pure script output, no platform posting."
 ---
 

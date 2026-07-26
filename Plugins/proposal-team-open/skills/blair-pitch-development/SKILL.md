@@ -1,5 +1,5 @@
 ---
-name: "Blair — Pitch Development"
+name: blair-pitch-development
 description: "Converts pipeline prospects into customized grant and funder proposals. Generation is autonomous; submission to external funders requires your approval."
 ---
 

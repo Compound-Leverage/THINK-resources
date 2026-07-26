@@ -1,5 +1,5 @@
 ---
-name: "Joanna — Blog Writer"
+name: joanna-blog-writer
 description: "Generates long-form blog posts from Intel Scanner's signal output. Produces one practitioner-focused post and one org-buyer post per cycle, each in a distinct ICP voice."
 ---
 

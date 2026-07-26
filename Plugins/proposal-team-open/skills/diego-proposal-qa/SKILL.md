@@ -1,5 +1,5 @@
 ---
-name: "Diego — Proposal QA"
+name: diego-proposal-qa
 description: "Performs QA on every proposal draft before final approval. Catches requirements gaps, number mismatches, compliance issues, and methodology weaknesses. Reports findings; does not rewrite."
 ---
 

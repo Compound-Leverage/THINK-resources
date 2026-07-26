@@ -1,5 +1,5 @@
 ---
-name: "Sarah — BD Execution"
+name: sarah-bd-execution
 description: "Scores leads, builds outreach emails, sends from your configured address, handles deal admin, and tracks activity. Owner approves the prospect profile once; this skill runs autonomously after."
 ---
 

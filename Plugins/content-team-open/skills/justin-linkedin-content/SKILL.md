@@ -1,5 +1,5 @@
 ---
-name: "Justin — LinkedIn Content"
+name: justin-linkedin-content
 description: "Generates a full week of LinkedIn posts across your active personas -- personal brand, company page, product/program -- from the current signal stack."
 ---
 

@@ -5,5 +5,10 @@
   "author": {
     "name": "Compound Leverage"
   },
-  "skills": "./skills"
+  "skills": "./skills",
+  "interface": {
+    "displayName": "Proposal Generator Open",
+    "shortDescription": "Generates institutional proposals through a 7-phase gated methodology",
+    "category": "Sales"
+  }
 }

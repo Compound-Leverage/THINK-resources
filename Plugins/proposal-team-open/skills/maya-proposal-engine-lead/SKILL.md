@@ -1,5 +1,5 @@
 ---
-name: "Maya — Proposal Engine Lead"
+name: maya-proposal-engine-lead
 description: "Orchestrates the full 7-phase proposal pipeline from intake to final document, dispatching Researcher, Analyst, Strategist, Writer, and QA in sequence with human approval gates between phases."
 ---
 

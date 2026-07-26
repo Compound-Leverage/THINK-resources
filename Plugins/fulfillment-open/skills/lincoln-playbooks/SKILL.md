@@ -1,5 +1,5 @@
 ---
-name: "Lincoln — Playbook Builder"
+name: lincoln-playbooks
 description: "Builds customer success playbooks, onboarding frameworks, and expansion motion designs for your active clients. Reads client data, produces structured playbook documents, and routes finished work to owner for review."
 ---
 

@@ -5,5 +5,10 @@
   "author": {
     "name": "Compound Leverage"
   },
-  "skills": "./skills"
+  "skills": "./skills",
+  "interface": {
+    "displayName": "Proposal Team Open",
+    "shortDescription": "7-role proposal pipeline from research through QA and grant/funder pitch development",
+    "category": "Sales"
+  }
 }

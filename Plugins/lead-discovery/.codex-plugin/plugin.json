@@ -5,5 +5,10 @@
   "author": {
     "name": "Compound Leverage"
   },
-  "skills": "./skills"
+  "skills": "./skills",
+  "interface": {
+    "displayName": "Lead Discovery",
+    "shortDescription": "Scores and surfaces weekly decision-ready government/EDO leads",
+    "category": "Sales"
+  }
 }

@@ -1,5 +1,5 @@
 ---
-name: "Jenny — Design Lead"
+name: jenny-head-of-design
 description: "The single design authority for your brand: thumbnails, social graphics, decks, proposal visuals, and web page specs. Every visual surface passes through this skill or is audited by it."
 ---
 

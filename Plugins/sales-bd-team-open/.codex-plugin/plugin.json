@@ -5,5 +5,10 @@
   "author": {
     "name": "Compound Leverage"
   },
-  "skills": "./skills"
+  "skills": "./skills",
+  "interface": {
+    "displayName": "Sales BD Team Open",
+    "shortDescription": "3-role BD pipeline: lead sourcing, enrichment, and scored outreach",
+    "category": "Sales"
+  }
 }

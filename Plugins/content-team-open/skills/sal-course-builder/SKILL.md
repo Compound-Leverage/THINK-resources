@@ -1,5 +1,5 @@
 ---
-name: "Sal — Course Builder"
+name: sal-course-builder
 description: "Produces a complete, platform-ready course from a single course brief. Three-phase pipeline -- sequential setup, parallel module generation, sequential close -- with no human input between invocation and completion."
 ---
 

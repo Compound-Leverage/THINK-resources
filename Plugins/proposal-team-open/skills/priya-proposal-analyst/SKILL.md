@@ -1,5 +1,5 @@
 ---
-name: "Priya — Proposal Analyst"
+name: priya-proposal-analyst
 description: "Deal classification, capability fit scoring, ROI modeling, and pricing configuration for proposals. Call when a qualified opportunity needs an assessment before a proposal is drafted."
 ---
 
