@@ -170,6 +170,8 @@ restriction is that you can't use them to build or offer a competing product or 
 Everything else (internal use, client work, modification, redistribution within your own
 org) is permitted. Attribution appreciated, not required.
 
+Built or modified something useful with this? Share it in Wins in the [THINK School community](https://www.skool.com/thinkschool/about).
+
 ### Questions?
 
 For skill documentation, usage examples, or contribution guidelines, see individual skill directories.
