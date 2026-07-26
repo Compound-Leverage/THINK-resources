@@ -1,4 +1,4 @@
-# Lead Discovery (lead-discovery): Deliverable Template
+# Lead Discovery (lead-discovery) -- Deliverable Templates
 
 Blank version of the document this skill produces. lead-discovery is a single standalone
 skill, not a multi-persona team, so there's one template below covering the weekly
@@ -35,4 +35,4 @@ Excluded this run: [count], [top disqualifier reasons, or "none"]
 
 ## Questions
 
-Contact [marvin@compoundleverage.co](mailto:marvin@compoundleverage.co) or visit [compoundleverage.com](https://compoundleverage.com).
+Post in the [THINK School community](https://www.skool.com/thinkschool/about) or visit [compoundleverage.com](https://compoundleverage.com).

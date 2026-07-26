@@ -1,4 +1,4 @@
-# Proposal Generator (proposal-generator-open) - Automation Setup
+# Proposal Generator (proposal-generator-open) -- Automation Setup
 
 How to put the Proposal Generator to work, and where recurring automation actually fits
 a plugin that's built to run per-deal, not on a timer.
@@ -94,4 +94,4 @@ in a normal conversation - that part stays manual and gated in both platforms.
 
 ## Questions
 
-Contact [marvin@compoundleverage.co](mailto:marvin@compoundleverage.co) or visit [compoundleverage.com](https://compoundleverage.com).
+Post in the [THINK School community](https://www.skool.com/thinkschool/about) or visit [compoundleverage.com](https://compoundleverage.com).

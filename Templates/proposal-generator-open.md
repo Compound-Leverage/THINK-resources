@@ -1,4 +1,4 @@
-# Proposal Generator (proposal-generator-open) - Deliverable Template
+# Proposal Generator (proposal-generator-open) -- Deliverable Templates
 
 Blank version of the document the Proposal Generator produces. Use this directly (fill in
 your own data by hand) or as the reference format the plugin's output should match. Every
@@ -84,4 +84,4 @@ Proposal valid until: [Date]
 
 ## Questions
 
-Contact [marvin@compoundleverage.co](mailto:marvin@compoundleverage.co) or visit [compoundleverage.com](https://compoundleverage.com).
+Post in the [THINK School community](https://www.skool.com/thinkschool/about) or visit [compoundleverage.com](https://compoundleverage.com).

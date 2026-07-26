@@ -1,4 +1,4 @@
-# Lead Discovery (lead-discovery): Automation Setup
+# Lead Discovery (lead-discovery) -- Automation Setup
 
 How to put lead-discovery on a recurring schedule instead of running it by hand. Two
 options depending on your platform: Claude's scheduled routines, or ChatGPT's Scheduled
@@ -84,4 +84,4 @@ unless you've connected the equivalent tool.
 
 ## Questions
 
-Contact [marvin@compoundleverage.co](mailto:marvin@compoundleverage.co) or visit [compoundleverage.com](https://compoundleverage.com).
+Post in the [THINK School community](https://www.skool.com/thinkschool/about) or visit [compoundleverage.com](https://compoundleverage.com).

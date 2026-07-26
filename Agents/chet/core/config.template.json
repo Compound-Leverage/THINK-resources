@@ -1,0 +1,54 @@
+{
+  "_instructions": "Copy this file (e.g. to config.json), fill in your own values, and point Chet at the copy. Never edit this template directly.",
+  "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
+
+  "capability_map": {
+    "_instructions": "One entry per placement-capable capability you want Chet hunting groups for.",
+    "capabilities": [
+      {
+        "capability_id": "[CAPABILITY-1]",
+        "capacity_solved": "[e.g. 'Grant-writing support for HBCU research offices']",
+        "signal_keywords": ["[KEYWORD 1]", "[KEYWORD 2]"],
+        "known_groups": []
+      }
+    ]
+  },
+
+  "scanning": {
+    "_instructions": "Where Chet looks for new signals, and the minimum group size to qualify as a cluster.",
+    "sources": ["[e.g. Grants.gov]", "[e.g. sector news]", "[e.g. Federal Register]"],
+    "gap_volume_threshold": 3,
+    "cadence": "[e.g. weekly]"
+  },
+
+  "thresholds": {
+    "_instructions": "When a cluster's window counts as closing, in days remaining.",
+    "saturating_window_days": 30
+  },
+
+  "qualification": {
+    "_instructions": "Used by cluster-monitoring to decide auto-advancement. Adjust to your own bar.",
+    "cluster_score_threshold": 70,
+    "require_reachable_contact": true,
+    "require_open_window": true
+  },
+
+  "database": {
+    "_instructions": "Wherever you keep cluster records -- Notion, Airtable, a spreadsheet.",
+    "clusters_db_id": "[YOUR CLUSTERS/CAMPAIGN DB ID]",
+    "pipeline_db_id": "[YOUR DEALS/PIPELINE DB ID, IF YOU ADVANCE CLUSTERS THERE]",
+    "contacts_db_id": "[YOUR CONTACTS DB ID, IF YOU CHECK FOR A REACHABLE CONTACT]",
+    "signal_inbox_db_id": "[YOUR SIGNAL/INTELLIGENCE INBOX, IF YOU RUN cluster-monitoring]"
+  },
+
+  "notifications": {
+    "_instructions": "Where Chet reports exceptions and completion summaries.",
+    "destination": "[e.g. 'Google Chat', 'Slack', 'email']",
+    "webhook_url_env": "[NAME OF YOUR ENV VAR -- never paste the URL itself here]"
+  },
+
+  "unmatched_signal_routing": {
+    "_instructions": "Where a signal that doesn't match any capability, seen more than once, gets logged.",
+    "destination": "[e.g. 'a product/build backlog', 'flagged to me directly']"
+  }
+}
