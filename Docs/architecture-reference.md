@@ -1,6 +1,6 @@
 # Where this fits
 
-THINK-resources is the free, public tier of Compound Leverage's Digital Employee
+THINK-school is the free, public tier of Compound Leverage's Digital Employee
 distribution. It never connects to CL's proprietary MCP — everything here is
 bring-your-own-data.
 
