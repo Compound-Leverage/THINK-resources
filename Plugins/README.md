@@ -73,9 +73,12 @@ config values into the conversation instead, or reference them inline in your pr
 ## Plugin Directory
 
 What each plugin does, what to ask it, the personas inside it, and what external tools
-it needs. "Connectors" are generic tool categories — bring your own account for
-whichever one you list in `customization/*.json`; none of these ship with live
-credentials.
+it needs. Where a real, maintained MCP server exists for a connector, the plugin ships
+a `.mcp.json` at its root so Claude Code and Codex CLI can connect it directly — marked
+**(wired)** below. Connectors without a standard MCP server today are listed for
+awareness only; configure those however you already do. None of these ship with live
+credentials — API keys are read from an environment variable you set yourself, named in
+each server's `env`/`headers` block in the plugin's `.mcp.json`.
 
 ### capture-team
 
@@ -91,8 +94,11 @@ client-ready intelligence briefs.
 
 **Skills**: Chet — Cluster Discovery · Kipp — CRM Intake · Ben — Signal Delivery
 
-**Connectors**: Notion (clusters, contacts, orgs, deals pipeline, signal inbox) · a
-contact/company enrichment provider (e.g. Hunter.io) · Google Drive (brief delivery)
+**Connectors**: Notion (wired) — clusters, contacts, orgs, deals pipeline, signal inbox
+· Hunter.io (wired) — enrichment, needs `HUNTER_API_KEY` · Google Drive (wired) — brief
+delivery, via the community-maintained `server-gdrive` package (Anthropic's reference
+server, no longer actively maintained — swap in your own if you'd rather not depend on
+it)
 
 ### proposal-team
 
@@ -131,9 +137,10 @@ theme proposals, a weekly owner brief, and full courses.
 Theme Proposer · Joanna — Blog Writer · Josh — Intelligence Brief · Justin — LinkedIn
 Content · Amy — YouTube Scripts · Sal — Course Builder
 
-**Connectors**: Notion (content assets, theme proposals, signal inbox — optional, falls
-back to local files) · a newsletter platform (e.g. Beehiiv, ConvertKit) · Reddit,
-YouTube, news, and Google PAA as signal sources · GA4 or equivalent analytics
+**Connectors**: Notion (wired) — content assets, theme proposals, signal inbox;
+optional, falls back to local files · a newsletter platform (e.g. Beehiiv, ConvertKit) ·
+Reddit, YouTube, news, and Google PAA as signal sources · GA4 or equivalent analytics —
+no standard MCP server for these four yet, configure however you already do
 
 ### sales-bd-team
 
@@ -149,9 +156,11 @@ logs the resulting deal activity.
 
 **Skills**: Lori — Prospect Scout · Alex — BD Research · Sarah — BD Execution
 
-**Connectors**: Notion (deals pipeline, contacts, orgs) · a contact/company enrichment
-tool (e.g. Clay) · an email send account for outreach · public signal sources (forums,
-event registrations, newsletter click data)
+**Connectors**: Notion (wired) — deals pipeline, contacts, orgs · Clay (wired) —
+enrichment; requires the separate `clay` CLI installed and logged in (`clay login`)
+first, the MCP server just wraps that session · an email send account for outreach ·
+public signal sources (forums, event registrations, newsletter click data) — no
+standard MCP server for these two yet
 
 ### sales-enablement
 
@@ -166,7 +175,8 @@ outreach work.
 
 **Skills**: Marcus — Proof Points
 
-**Connectors**: Notion (proof points database, engagement/fulfillment tracker source)
+**Connectors**: Notion (wired) — proof points database, engagement/fulfillment tracker
+source
 
 ### fulfillment
 
@@ -179,7 +189,9 @@ active client, using your own base frameworks and that client's CRM record as in
 
 **Skills**: Lincoln — Playbook Builder
 
-**Connectors**: Notion (client records) · Google Drive (playbook delivery)
+**Connectors**: Notion (wired) — client records · Google Drive (wired) — playbook
+delivery, via the community-maintained `server-gdrive` package (see the note under
+capture-team above)
 
 ### ops-team
 
@@ -195,8 +207,11 @@ and CI so you don't have to touch infrastructure directly.
 
 **Skills**: Jenny — Design Lead · Jason — QA Reviewer · Eric — Infra Lead
 
-**Connectors**: GitHub (Actions, PRs to staging) · a hosting/CDN provider (e.g.
-Cloudflare Pages) · a design tool (e.g. Canva) · Google Drive (asset delivery)
+**Connectors**: GitHub (wired) — Actions, PRs to staging; runs via Docker, needs
+`GITHUB_PERSONAL_ACCESS_TOKEN` · Cloudflare (wired) — hosting/CDN, OAuth on first
+connect · Canva (wired) — design assets, OAuth on first connect, per-user account ·
+Google Drive (wired) — asset delivery, via the community-maintained `server-gdrive`
+package (see the note under capture-team above)
 
 ### proposal-generator
 
