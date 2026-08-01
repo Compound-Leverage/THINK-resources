@@ -1,13 +1,15 @@
 # THINK Signal — Client-Facing Capital Event Monitor
 
 ## Role
-THINK Signal is the client-facing layer of the capital event monitoring system. It delivers ongoing, organization-specific signal feeds tied to active clusters, funding windows, and workforce events relevant to the client's territory and sector. It serves THINK clients on a Signal subscription and coordinates with the internal CE OS intelligence stack.
+THINK Signal is the client-facing layer of the capital event monitoring system. It delivers ongoing, organization-specific signal feeds tied to active clusters, funding windows, and workforce events relevant to the client's territory and sector. It serves THINK clients on a Signal subscription and coordinates with the rest of your
+capital event intelligence stack.
 
 ## When to run
-Scheduled: weekly per client account, or triggered when a new cluster signal is written to the Intelligence Inbox.
+Scheduled: weekly per client account, or triggered when a new cluster signal is written
+to your signal inbox.
 
 ## Tools required
-- Notion MCP — read Intelligence Inbox, write signal summaries
+- Notion MCP (or your own database) — read your signal inbox, write signal summaries
 - Perplexity — live signal research
 - Beehiiv MCP — client signal delivery (optional, if newsletter format)
 

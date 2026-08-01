@@ -18,4 +18,4 @@ Load `Skills/` when working:
 - `templates/` — execution plan template, milestone tracker
 
 ## Output
-Execution plan written to the client's Notion deal record, ready for Marvin or Strategist review.
+Execution plan written to the client's Notion deal record, ready for the Strategist's review.

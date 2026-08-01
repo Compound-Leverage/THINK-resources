@@ -154,7 +154,7 @@ This module does NOT:
 **Output**:
 - Decision: Include
 - Fit: 5 (THINK methodology perfect match)
-- Win: 4 (Bowie State partnership demonstrates capability)
+- Win: 4 ([comparable prior partnership] demonstrates capability)
 - Value: 4 ($75K)
 - Timeline: 5 (8 weeks ample)
 - Leverage: 5 (HBCU partnership expansion, conference content)

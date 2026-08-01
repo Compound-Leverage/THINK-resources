@@ -32,4 +32,4 @@ Starter prompts for every Digital Employee in the THINK School marketplace. Each
 
 ## Questions
 
-Contact [marvin@compoundleverage.co](mailto:marvin@compoundleverage.co) or visit [compoundleverage.com](https://compoundleverage.com).
+Post in the [THINK School community](https://www.skool.com/thinkschool/about) or visit [compoundleverage.com](https://compoundleverage.com).

@@ -103,4 +103,4 @@ More skills added as Compound Leverage builds and deploys new Digital Employee f
 
 ## Questions
 
-Contact [marvin@compoundleverage.co](mailto:marvin@compoundleverage.co) or visit [compoundleverage.com](https://compoundleverage.com).
+Post in the [THINK School community](https://www.skool.com/thinkschool/about) or visit [compoundleverage.com](https://compoundleverage.com).
