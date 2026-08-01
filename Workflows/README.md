@@ -9,7 +9,7 @@ plugin's other persona files first.
 
 ## Workflows in This Library
 
-### Capture Team (capture-team-open)
+### Capture Team (capture-team)
 
 | Persona | Role | File |
 |---|---|---|
@@ -17,7 +17,7 @@ plugin's other persona files first.
 | Kipp | CRM Intake | [`kipp-crm-intake.md`](./kipp-crm-intake.md) |
 | Ben | Signal Delivery | [`ben-signal-delivery.md`](./ben-signal-delivery.md) (full pipeline note lives here) |
 
-### Proposal Team (proposal-team-open)
+### Proposal Team (proposal-team)
 
 | Persona | Role | File |
 |---|---|---|
@@ -29,7 +29,7 @@ plugin's other persona files first.
 | Diego | Proposal QA | [`diego-proposal-qa.md`](./diego-proposal-qa.md) |
 | Blair | Pitch Development (separate track) | [`blair-pitch-development.md`](./blair-pitch-development.md) |
 
-### Content Team (content-team-open)
+### Content Team (content-team)
 
 | Persona | Role | File |
 |---|---|---|
@@ -43,7 +43,7 @@ plugin's other persona files first.
 | Cal | Weekly Brief | [`cal-weekly-brief.md`](./cal-weekly-brief.md) (full pipeline note lives here) |
 | Sal | Course Builder (outside the weekly chain) | [`sal-course-builder.md`](./sal-course-builder.md) |
 
-### Sales BD Team (sales-bd-team-open)
+### Sales BD Team (sales-bd-team)
 
 | Persona | Role | File |
 |---|---|---|
@@ -51,19 +51,19 @@ plugin's other persona files first.
 | Alex | BD Research | [`alex-bd-research.md`](./alex-bd-research.md) |
 | Sarah | BD Execution | [`sarah-bd-execution.md`](./sarah-bd-execution.md) |
 
-### Sales Enablement (sales-enablement-open)
+### Sales Enablement (sales-enablement)
 
 | Persona | Role | File |
 |---|---|---|
 | Marcus | Proof Points | [`marcus-proof-points.md`](./marcus-proof-points.md) |
 
-### Fulfillment (fulfillment-open)
+### Fulfillment (fulfillment)
 
 | Persona | Role | File |
 |---|---|---|
 | Lincoln | Playbook Builder | [`lincoln-playbooks.md`](./lincoln-playbooks.md) |
 
-### Ops Team (ops-team-open)
+### Ops Team (ops-team)
 
 | Persona | Role | File |
 |---|---|---|
@@ -76,7 +76,7 @@ plugin's other persona files first.
 | Plugin | File |
 |---|---|
 | Lead Discovery | [`lead-discovery.md`](./lead-discovery.md) |
-| Proposal Generator | [`proposal-generator-open.md`](./proposal-generator-open.md) |
+| Proposal Generator | [`proposal-generator.md`](./proposal-generator.md) |
 
 ---
 

@@ -1,4 +1,4 @@
-# Marcus (sales-enablement-open) -- Automation Setup
+# Marcus (sales-enablement) -- Automation Setup
 
 How to put Marcus on a recurring schedule instead of running him by hand. Two options
 depending on your platform: Claude's scheduled routines, or ChatGPT's Scheduled Tasks.
@@ -6,7 +6,7 @@ Pick one, you don't need both.
 
 Install the plugin and fill in `customization/my-proof-points-config.json` first.
 Automation just runs the same prompts from
-[`Prompts/sales-enablement-open.md`](../Prompts/sales-enablement-open.md) on a timer.
+[`Prompts/sales-enablement.md`](../Prompts/sales-enablement.md) on a timer.
 
 ---
 
@@ -32,7 +32,7 @@ up front, but it survives independent of any Claude session.
 **Preferred pattern: point the routine at your repo instead of pasting everything in.**
 If your `customization/my-proof-points-config.json` lives in a GitHub repo (this one,
 your fork, or your own), set the routine's source to that repo and keep the CCR prompt
-itself thin: "Read `Plugins/sales-enablement-open/skills/marcus-proof-points/SKILL.md`
+itself thin: "Read `Plugins/sales-enablement/skills/marcus-proof-points/SKILL.md`
 and `customization/my-proof-points-config.json` in this repo, then run this week's
 harvest." Claude Code CCRs re-clone the source repo fresh on every run, so editing the
 SKILL.md or your customization file is enough: you never have to touch the routine's

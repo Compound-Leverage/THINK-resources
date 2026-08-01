@@ -1,4 +1,4 @@
-# Maya (proposal-team-open) -- Automation Setup
+# Maya (proposal-team) -- Automation Setup
 
 How to put Maya, the Proposal Engine Lead, on a recurring schedule instead of running her
 by hand. Two options depending on your platform: Claude's scheduled routines, or ChatGPT's
@@ -10,7 +10,7 @@ but the phases she sequences do - `customization/my-pricing-model.json`,
 `customization/my-brand-guidelines.md`, and (if you handle grant/funder deals)
 `customization/my-bid-sizing.json` - so fill those in too before running a full pipeline.
 Automation just runs the same prompt from
-[`Prompts/proposal-team-open.md`](../Prompts/proposal-team-open.md) on a timer.
+[`Prompts/proposal-team.md`](../Prompts/proposal-team.md) on a timer.
 
 ---
 
@@ -38,7 +38,7 @@ up front, but it survives independent of any Claude session.
 **Preferred pattern - point the routine at your repo instead of pasting everything in.**
 If your `customization/` files live in a GitHub repo (this one, your fork, or your own),
 set Maya's routine source to that repo and keep the CCR prompt itself thin: "Read
-`Plugins/proposal-team-open/skills/maya-proposal-engine-lead/SKILL.md` and your
+`Plugins/proposal-team/skills/maya-proposal-engine-lead/SKILL.md` and your
 `customization/` files in this repo, then run today's pipeline scan." Claude Code CCRs
 re-clone the source repo fresh on every run, so editing the SKILL.md or your
 customization files is enough - you never have to touch the routine's stored prompt.

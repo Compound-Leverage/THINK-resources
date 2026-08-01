@@ -3,7 +3,7 @@
 Eric has a handful of recurring workflows plus several on-demand modes. This maps which
 trigger fires which skill -- for how to actually put these on a schedule (Claude
 scheduled routine or ChatGPT Scheduled Task), see `Workflows/eric-infrastructure.md`,
-which already documents Eric's cadence as part of the ops-team-open plugin. Don't
+which already documents Eric's cadence as part of the ops-team plugin. Don't
 duplicate that setup guidance here; this file just tells you which skill each trigger
 should point at, including the skills this fuller folder adds beyond the plugin version.
 

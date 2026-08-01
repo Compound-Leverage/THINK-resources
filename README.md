@@ -81,74 +81,74 @@ deliverable template, and automation setup. Personas with a standalone `Skills/`
 full `Agents/` folder are noted -- everyone else is only available bundled inside their
 plugin.
 
-### Capture Team (`capture-team-open`)
+### Capture Team (`capture-team`)
 
 | Persona | Role | Prompt | Template | Workflow | Also available as |
 |---|---|---|---|---|---|
-| Chet | Cluster Discovery | `Prompts/capture-team-open.md` | `Templates/chet-cluster-discovery.md` | `Workflows/chet-cluster-discovery.md` | `Skills/cluster-discovery-chet.zip`, `Agents/chet/` |
-| Kipp | CRM Intake | `Prompts/capture-team-open.md` | `Templates/kipp-crm-intake.md` | `Workflows/kipp-crm-intake.md` | `Skills/crm-intake-kipp.zip` |
-| Ben | Signal Delivery | `Prompts/capture-team-open.md` | `Templates/ben-signal-delivery.md` | `Workflows/ben-signal-delivery.md` | `Skills/signal-delivery-ben.zip` |
+| Chet | Cluster Discovery | `Prompts/capture-team.md` | `Templates/chet-cluster-discovery.md` | `Workflows/chet-cluster-discovery.md` | `Skills/cluster-discovery-chet.zip`, `Agents/chet/` |
+| Kipp | CRM Intake | `Prompts/capture-team.md` | `Templates/kipp-crm-intake.md` | `Workflows/kipp-crm-intake.md` | `Skills/crm-intake-kipp.zip` |
+| Ben | Signal Delivery | `Prompts/capture-team.md` | `Templates/ben-signal-delivery.md` | `Workflows/ben-signal-delivery.md` | `Skills/signal-delivery-ben.zip` |
 
-### Proposal Team (`proposal-team-open`)
-
-| Persona | Role | Prompt | Template | Workflow | Also available as |
-|---|---|---|---|---|---|
-| Maya | Proposal Engine Lead (orchestrator) | `Prompts/proposal-team-open.md` | `Templates/maya-proposal-engine-lead.md` | `Workflows/maya-proposal-engine-lead.md` | `Skills/proposal-engine-lead-maya.zip` |
-| Chase | Proposal Researcher | `Prompts/proposal-team-open.md` | `Templates/chase-proposal-researcher.md` | `Workflows/chase-proposal-researcher.md` | `Skills/proposal-researcher-chase.zip` |
-| Priya | Proposal Analyst | `Prompts/proposal-team-open.md` | `Templates/priya-proposal-analyst.md` | `Workflows/priya-proposal-analyst.md` | `Skills/proposal-analyst-priya.zip` |
-| Porter | Proposal Strategist | `Prompts/proposal-team-open.md` | `Templates/porter-proposal-strategist.md` | `Workflows/porter-proposal-strategist.md` | `Skills/proposal-strategist-porter.zip` |
-| Quinn | Proposal Writer | `Prompts/proposal-team-open.md` | `Templates/quinn-proposal-writer.md` | `Workflows/quinn-proposal-writer.md` | `Skills/proposal-writer-quinn.zip` |
-| Diego | Proposal QA | `Prompts/proposal-team-open.md` | `Templates/diego-proposal-qa.md` | `Workflows/diego-proposal-qa.md` | `Skills/proposal-qa-diego.zip` |
-| Blair | Pitch Development (grant/funder track) | `Prompts/proposal-team-open.md` | `Templates/blair-pitch-development.md` | `Workflows/blair-pitch-development.md` | `Skills/pitch-development-blair.zip` |
-
-### Content Team (`content-team-open`)
+### Proposal Team (`proposal-team`)
 
 | Persona | Role | Prompt | Template | Workflow | Also available as |
 |---|---|---|---|---|---|
-| Rohit | Master Intel Scan | `Prompts/content-team-open.md` | `Templates/rohit-master-intel-scan.md` | `Workflows/rohit-master-intel-scan.md` | -- |
-| Ann | Newsletter Editor | `Prompts/content-team-open.md` | `Templates/ann-newsletter-editor.md` | `Workflows/ann-newsletter-editor.md` | -- |
-| Joanna | Blog Writer | `Prompts/content-team-open.md` | `Templates/joanna-blog-writer.md` | `Workflows/joanna-blog-writer.md` | -- |
-| Justin | LinkedIn Content | `Prompts/content-team-open.md` | `Templates/justin-linkedin-content.md` | `Workflows/justin-linkedin-content.md` | `Skills/linkedin-content-justin.zip` |
-| Amy | YouTube Scripts | `Prompts/content-team-open.md` | `Templates/amy-youtube-scripts.md` | `Workflows/amy-youtube-scripts.md` | -- |
-| Josh | Intelligence Brief | `Prompts/content-team-open.md` | `Templates/josh-brief-writer.md` | `Workflows/josh-brief-writer.md` | -- |
-| Jay | Theme Proposer | `Prompts/content-team-open.md` | `Templates/jay-theme-proposer.md` | `Workflows/jay-theme-proposer.md` | -- |
-| Cal | Weekly Brief | `Prompts/content-team-open.md` | `Templates/cal-weekly-brief.md` | `Workflows/cal-weekly-brief.md` | -- |
-| Sal | Course Builder | `Prompts/content-team-open.md` | `Templates/sal-course-builder.md` | `Workflows/sal-course-builder.md` | -- |
+| Maya | Proposal Engine Lead (orchestrator) | `Prompts/proposal-team.md` | `Templates/maya-proposal-engine-lead.md` | `Workflows/maya-proposal-engine-lead.md` | `Skills/proposal-engine-lead-maya.zip` |
+| Chase | Proposal Researcher | `Prompts/proposal-team.md` | `Templates/chase-proposal-researcher.md` | `Workflows/chase-proposal-researcher.md` | `Skills/proposal-researcher-chase.zip` |
+| Priya | Proposal Analyst | `Prompts/proposal-team.md` | `Templates/priya-proposal-analyst.md` | `Workflows/priya-proposal-analyst.md` | `Skills/proposal-analyst-priya.zip` |
+| Porter | Proposal Strategist | `Prompts/proposal-team.md` | `Templates/porter-proposal-strategist.md` | `Workflows/porter-proposal-strategist.md` | `Skills/proposal-strategist-porter.zip` |
+| Quinn | Proposal Writer | `Prompts/proposal-team.md` | `Templates/quinn-proposal-writer.md` | `Workflows/quinn-proposal-writer.md` | `Skills/proposal-writer-quinn.zip` |
+| Diego | Proposal QA | `Prompts/proposal-team.md` | `Templates/diego-proposal-qa.md` | `Workflows/diego-proposal-qa.md` | `Skills/proposal-qa-diego.zip` |
+| Blair | Pitch Development (grant/funder track) | `Prompts/proposal-team.md` | `Templates/blair-pitch-development.md` | `Workflows/blair-pitch-development.md` | `Skills/pitch-development-blair.zip` |
 
-### Sales BD Team (`sales-bd-team-open`)
+### Content Team (`content-team`)
 
 | Persona | Role | Prompt | Template | Workflow | Also available as |
 |---|---|---|---|---|---|
-| Lori | Prospect Scout | `Prompts/sales-bd-team-open.md` | `Templates/lori-prospect-scout.md` | `Workflows/lori-prospect-scout.md` | -- |
-| Alex | BD Research | `Prompts/sales-bd-team-open.md` | `Templates/alex-bd-research.md` | `Workflows/alex-bd-research.md` | `Skills/bd-research-alex.zip` |
-| Sarah | BD Execution | `Prompts/sales-bd-team-open.md` | `Templates/sarah-bd-execution.md` | `Workflows/sarah-bd-execution.md` | `Skills/bd-execution-sarah.zip` |
+| Rohit | Master Intel Scan | `Prompts/content-team.md` | `Templates/rohit-master-intel-scan.md` | `Workflows/rohit-master-intel-scan.md` | -- |
+| Ann | Newsletter Editor | `Prompts/content-team.md` | `Templates/ann-newsletter-editor.md` | `Workflows/ann-newsletter-editor.md` | -- |
+| Joanna | Blog Writer | `Prompts/content-team.md` | `Templates/joanna-blog-writer.md` | `Workflows/joanna-blog-writer.md` | -- |
+| Justin | LinkedIn Content | `Prompts/content-team.md` | `Templates/justin-linkedin-content.md` | `Workflows/justin-linkedin-content.md` | `Skills/linkedin-content-justin.zip` |
+| Amy | YouTube Scripts | `Prompts/content-team.md` | `Templates/amy-youtube-scripts.md` | `Workflows/amy-youtube-scripts.md` | -- |
+| Josh | Intelligence Brief | `Prompts/content-team.md` | `Templates/josh-brief-writer.md` | `Workflows/josh-brief-writer.md` | -- |
+| Jay | Theme Proposer | `Prompts/content-team.md` | `Templates/jay-theme-proposer.md` | `Workflows/jay-theme-proposer.md` | -- |
+| Cal | Weekly Brief | `Prompts/content-team.md` | `Templates/cal-weekly-brief.md` | `Workflows/cal-weekly-brief.md` | -- |
+| Sal | Course Builder | `Prompts/content-team.md` | `Templates/sal-course-builder.md` | `Workflows/sal-course-builder.md` | -- |
 
-### Sales Enablement (`sales-enablement-open`)
-
-| Persona | Role | Prompt | Template | Workflow | Also available as |
-|---|---|---|---|---|---|
-| Marcus | Proof Points | `Prompts/sales-enablement-open.md` | `Templates/marcus-proof-points.md` | `Workflows/marcus-proof-points.md` | `Skills/proof-points-marcus.zip` |
-
-### Fulfillment (`fulfillment-open`)
-
-| Persona | Role | Prompt | Template | Workflow | Also available as |
-|---|---|---|---|---|---|
-| Lincoln | Playbook Builder | `Prompts/fulfillment-open.md` | `Templates/lincoln-playbooks.md` | `Workflows/lincoln-playbooks.md` | `Skills/playbooks-lincoln.zip` |
-
-### Ops Team (`ops-team-open`)
+### Sales BD Team (`sales-bd-team`)
 
 | Persona | Role | Prompt | Template | Workflow | Also available as |
 |---|---|---|---|---|---|
-| Jenny | Design Lead | `Prompts/ops-team-open.md` | `Templates/jenny-head-of-design.md` | `Workflows/jenny-head-of-design.md` | -- |
-| Jason | QA Reviewer | `Prompts/ops-team-open.md` | `Templates/jason-qa-reviewer.md` | `Workflows/jason-qa-reviewer.md` | -- |
-| Eric | Infra Lead | `Prompts/ops-team-open.md` | `Templates/eric-infrastructure.md` | `Workflows/eric-infrastructure.md` | -- |
+| Lori | Prospect Scout | `Prompts/sales-bd-team.md` | `Templates/lori-prospect-scout.md` | `Workflows/lori-prospect-scout.md` | -- |
+| Alex | BD Research | `Prompts/sales-bd-team.md` | `Templates/alex-bd-research.md` | `Workflows/alex-bd-research.md` | `Skills/bd-research-alex.zip` |
+| Sarah | BD Execution | `Prompts/sales-bd-team.md` | `Templates/sarah-bd-execution.md` | `Workflows/sarah-bd-execution.md` | `Skills/bd-execution-sarah.zip` |
+
+### Sales Enablement (`sales-enablement`)
+
+| Persona | Role | Prompt | Template | Workflow | Also available as |
+|---|---|---|---|---|---|
+| Marcus | Proof Points | `Prompts/sales-enablement.md` | `Templates/marcus-proof-points.md` | `Workflows/marcus-proof-points.md` | `Skills/proof-points-marcus.zip` |
+
+### Fulfillment (`fulfillment`)
+
+| Persona | Role | Prompt | Template | Workflow | Also available as |
+|---|---|---|---|---|---|
+| Lincoln | Playbook Builder | `Prompts/fulfillment.md` | `Templates/lincoln-playbooks.md` | `Workflows/lincoln-playbooks.md` | `Skills/playbooks-lincoln.zip` |
+
+### Ops Team (`ops-team`)
+
+| Persona | Role | Prompt | Template | Workflow | Also available as |
+|---|---|---|---|---|---|
+| Jenny | Design Lead | `Prompts/ops-team.md` | `Templates/jenny-head-of-design.md` | `Workflows/jenny-head-of-design.md` | -- |
+| Jason | QA Reviewer | `Prompts/ops-team.md` | `Templates/jason-qa-reviewer.md` | `Workflows/jason-qa-reviewer.md` | -- |
+| Eric | Infra Lead | `Prompts/ops-team.md` | `Templates/eric-infrastructure.md` | `Workflows/eric-infrastructure.md` | -- |
 
 ### Standalone (no named persona)
 
 | Plugin | Prompt | Template | Workflow |
 |---|---|---|---|
 | `lead-discovery` | `Prompts/lead-discovery.md` | `Templates/lead-discovery.md` | `Workflows/lead-discovery.md` |
-| `proposal-generator-open` | `Prompts/proposal-generator-open.md` | `Templates/proposal-generator-open.md` | `Workflows/proposal-generator-open.md` |
+| `proposal-generator` | `Prompts/proposal-generator.md` | `Templates/proposal-generator.md` | `Workflows/proposal-generator.md` |
 
 ## About Compound Leverage
 

@@ -1,4 +1,4 @@
-# Sal (content-team-open) -- Automation Setup
+# Sal (content-team) -- Automation Setup
 
 How to put Sal on a recurring schedule instead of running him by hand. Two options
 depending on your platform: Claude's scheduled routines, or ChatGPT's Scheduled Tasks.
@@ -6,7 +6,7 @@ Pick one -- you don't need both.
 
 Install the plugin and fill in `customization/my-content-sources.json` (and
 `customization/my-brand-guidelines.md`) first. Automation just runs the same prompt
-from [`Prompts/content-team-open.md`](../Prompts/content-team-open.md) on a timer.
+from [`Prompts/content-team.md`](../Prompts/content-team.md) on a timer.
 
 ---
 
@@ -37,7 +37,7 @@ up front, but it survives independent of any Claude session.
 If your `customization/my-content-sources.json` and `my-brand-guidelines.md` live in a
 GitHub repo (this one, your fork, or your own), set the routine's source to that repo and
 keep the CCR prompt itself thin: "Read
-`Plugins/content-team-open/skills/sal-course-builder/SKILL.md` and your
+`Plugins/content-team/skills/sal-course-builder/SKILL.md` and your
 `customization/` files in this repo, then build the course from the new brief in
 `inputs/`." Claude Code CCRs re-clone the source repo fresh on every run, so editing the
 SKILL.md or your customization files is enough -- you never have to touch the routine's

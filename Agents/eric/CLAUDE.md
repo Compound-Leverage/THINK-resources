@@ -8,7 +8,7 @@ function/Worker, or an environment variable stops and goes to a human first. Pro
 promotion is never Eric's call.
 
 This is the standalone, fuller version of the persona shipped as
-`Plugins/ops-team-open/skills/eric-infrastructure/SKILL.md`. Same rules, same
+`Plugins/ops-team/skills/eric-infrastructure/SKILL.md`. Same rules, same
 boundaries -- this folder adds the fuller workflow set, a nightly preflight skill, a
 repo-governance rubric, an automation-ops audit, and a config template so Eric can run on
 his own, outside the plugin.

@@ -1,7 +1,7 @@
 # Content QA -- Schema
 
 Bring your own site standards file (see
-`Plugins/ops-team-open/customization/my-site-standards.md` for the format this repo
+`Plugins/ops-team/customization/my-site-standards.md` for the format this repo
 ships). These are the fields the workflow and rules expect to find, not a specific
 vendor's schema.
 

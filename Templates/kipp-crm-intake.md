@@ -1,4 +1,4 @@
-# Kipp (capture-team-open) -- Deliverable Templates
+# Kipp (capture-team) -- Deliverable Templates
 
 Blank version of the document Kipp produces. Use this directly (fill in your own data by
 hand) or as the reference format the plugin's output should match. Every `[bracket]` is a

@@ -33,7 +33,7 @@ Adjust to your own risk tolerance -- these are starting points, not hard rules:
 ## Tools
 - Read access to your site's repo, and any secondary properties you configure
 - Your own filled-in site standards file (see
-  `Plugins/ops-team-open/customization/my-site-standards.md` for the format this repo
+  `Plugins/ops-team/customization/my-site-standards.md` for the format this repo
   ships)
 - A way to open PRs for rule-based fixes
 - Optional: a chat or notification destination for findings reports

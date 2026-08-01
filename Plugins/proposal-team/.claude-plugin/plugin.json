@@ -1,0 +1,8 @@
+{
+  "name": "proposal-team",
+  "version": "1.0.0",
+  "description": "Open-source 7-role Proposal Team: orchestrator, researcher, analyst, strategist, writer, QA, and grant/funder pitch development. Bring your own pricing, case studies, and brand guidelines via customization/. No proprietary logic included.",
+  "author": {
+    "name": "Compound Leverage"
+  }
+}

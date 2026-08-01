@@ -1,4 +1,4 @@
-# Jason, QA Reviewer (ops-team-open) -- Deliverable Templates
+# Jason, QA Reviewer (ops-team) -- Deliverable Templates
 
 Blank version of the document Jason produces. Use it directly (fill in your own data by
 hand) or as the reference format the plugin's output should match. Every `[bracket]` is

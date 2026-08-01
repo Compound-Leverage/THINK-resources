@@ -1,4 +1,4 @@
-# Marcus (sales-enablement-open) -- Deliverable Templates
+# Marcus (sales-enablement) -- Deliverable Templates
 
 Blank version of the document Marcus produces. Use this directly (fill in your own data
 by hand) or as the reference format the plugin's output should match. Every `[bracket]`

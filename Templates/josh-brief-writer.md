@@ -1,4 +1,4 @@
-# Josh (content-team-open) -- Deliverable Templates
+# Josh (content-team) -- Deliverable Templates
 
 Blank version of the document Josh produces. Use this directly (fill in your own data
 by hand) or as the reference format the plugin's output should match. Every `[bracket]`

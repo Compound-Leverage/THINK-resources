@@ -1,0 +1,8 @@
+{
+  "name": "capture-team",
+  "version": "1.0.0",
+  "description": "Open-source 3-role Capture Team: Cluster Discovery (Chet), CRM Intake (Kipp), and Signal Delivery (Ben) -- find capacity-gap groups, enrich and classify inbound records, deliver client-ready briefs. Bring your own capability map, ICP, Notion DB IDs, and enrichment provider via customization/. No proprietary CL logic.",
+  "author": {
+    "name": "Compound Leverage"
+  }
+}

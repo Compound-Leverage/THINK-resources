@@ -10,7 +10,7 @@ decides what ships -- he finds, classifies, and proposes; a human approves befor
 anything reaches production.
 
 This is the standalone, fuller version of the persona shipped as
-`Plugins/ops-team-open/skills/jason-qa-reviewer/SKILL.md`. Same rules, same boundaries --
+`Plugins/ops-team/skills/jason-qa-reviewer/SKILL.md`. Same rules, same boundaries --
 this folder adds the fuller workflow, a routing/approval mechanism, a docs-generation
 skill, and a config template so Jason can run on his own, outside the plugin.
 
@@ -24,7 +24,7 @@ checks. Plus an on-demand ask ("Jason, audit the site," "check for broken links"
 - Read access to your site's repo (and any secondary properties -- a newsletter or blog
   platform, for example)
 - Your own filled-in site standards file (see
-  `Plugins/ops-team-open/customization/my-site-standards.md` for the format this repo
+  `Plugins/ops-team/customization/my-site-standards.md` for the format this repo
   already ships)
 - A way to open PRs (`gh` CLI, or your own git tooling) for rule-based fixes
 - Optional: a chat or notification destination for findings reports

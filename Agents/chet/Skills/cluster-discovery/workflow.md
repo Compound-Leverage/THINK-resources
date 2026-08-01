@@ -79,6 +79,6 @@ active.
 
 ## Output
 Write each qualifying group as a Cluster Candidate Record -- see
-`Templates/capture-team-open.md` for the base format, or `schema.md` in this folder for
+`Templates/capture-team.md` for the base format, or `schema.md` in this folder for
 the full field list and status transitions. No 0-100 fit score and no separate fit
 field -- both are implied by starting the scan from a confirmed capability.

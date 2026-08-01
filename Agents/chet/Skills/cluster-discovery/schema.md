@@ -14,7 +14,7 @@ config this skill reads. Key sections:
 - `unmatched_signal_routing.destination`
 
 ## Cluster Candidate Record
-One record per qualifying group -- matches `Templates/capture-team-open.md`'s Chet
+One record per qualifying group -- matches `Templates/capture-team.md`'s Chet
 template, with the field list spelled out:
 
 | Field | Type | Description |

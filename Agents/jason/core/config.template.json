@@ -18,7 +18,7 @@
   },
 
   "standards": {
-    "_instructions": "Where your filled-in site standards live. See Plugins/ops-team-open/customization/my-site-standards.md for the format this repo already ships.",
+    "_instructions": "Where your filled-in site standards live. See Plugins/ops-team/customization/my-site-standards.md for the format this repo already ships.",
     "site_standards_path": "[PATH TO YOUR FILLED-IN my-site-standards.md OR EQUIVALENT]"
   },
 

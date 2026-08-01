@@ -1,4 +1,4 @@
-# Priya (proposal-team-open) -- Deliverable Templates
+# Priya (proposal-team) -- Deliverable Templates
 
 Blank version of the document Priya, the Proposal Analyst, produces. Use this directly
 (fill in your own data by hand) or as the reference format the plugin's output should

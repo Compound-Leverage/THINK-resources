@@ -1,4 +1,4 @@
-# Jason, QA Reviewer (ops-team-open) -- Automation Setup
+# Jason, QA Reviewer (ops-team) -- Automation Setup
 
 How to put Jason on a recurring schedule instead of running him by hand. Two options
 depending on your platform: Claude's scheduled routines, or ChatGPT's Scheduled Tasks.
@@ -33,7 +33,7 @@ up front, but it survives independent of any Claude session.
 **Preferred pattern, point the routine at your repo instead of pasting everything in.**
 If your `customization/my-site-standards.md` lives in a GitHub repo (this one, your fork,
 or your own), set the routine's source to that repo and keep the CCR prompt itself thin:
-"Read `Plugins/ops-team-open/skills/jason-qa-reviewer/SKILL.md` and your
+"Read `Plugins/ops-team/skills/jason-qa-reviewer/SKILL.md` and your
 `customization/` files in this repo, then run today's check." Claude Code CCRs re-clone
 the source repo fresh on every run, so editing the SKILL.md or your customization file is
 enough, you never have to touch the routine's stored prompt. Save the full trigger

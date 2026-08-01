@@ -8,14 +8,14 @@ Starter prompts for every Digital Employee in the THINK School marketplace. Each
 
 | Bundle / Skill | File |
 |---|---|
-| Sales BD Team (sales-bd-team-open) | [`sales-bd-team-open.md`](./sales-bd-team-open.md) |
-| Proposal Team (proposal-team-open) | [`proposal-team-open.md`](./proposal-team-open.md) |
-| Proposal Generator (proposal-generator-open) | [`proposal-generator-open.md`](./proposal-generator-open.md) |
-| Content Team (content-team-open) | [`content-team-open.md`](./content-team-open.md) |
-| Capture Team (capture-team-open) | [`capture-team-open.md`](./capture-team-open.md) |
-| Fulfillment (fulfillment-open) | [`fulfillment-open.md`](./fulfillment-open.md) |
-| Ops Team (ops-team-open) | [`ops-team-open.md`](./ops-team-open.md) |
-| Sales Enablement (sales-enablement-open) | [`sales-enablement-open.md`](./sales-enablement-open.md) |
+| Sales BD Team (sales-bd-team) | [`sales-bd-team.md`](./sales-bd-team.md) |
+| Proposal Team (proposal-team) | [`proposal-team.md`](./proposal-team.md) |
+| Proposal Generator (proposal-generator) | [`proposal-generator.md`](./proposal-generator.md) |
+| Content Team (content-team) | [`content-team.md`](./content-team.md) |
+| Capture Team (capture-team) | [`capture-team.md`](./capture-team.md) |
+| Fulfillment (fulfillment) | [`fulfillment.md`](./fulfillment.md) |
+| Ops Team (ops-team) | [`ops-team.md`](./ops-team.md) |
+| Sales Enablement (sales-enablement) | [`sales-enablement.md`](./sales-enablement.md) |
 | Lead Discovery (lead-discovery) | [`lead-discovery.md`](./lead-discovery.md) |
 | Standalone Skills | [`standalone-skills.md`](./standalone-skills.md) |
 

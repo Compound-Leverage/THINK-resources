@@ -1,8 +1,0 @@
-{
-  "name": "sales-bd-team-open",
-  "version": "1.0.0",
-  "description": "Open-source 3-role BD Team: Lead Scout (intent-signal sourcing), BD Research (enrichment and signal detection), and BD Execution (scored outreach and deal admin). Bring your own ICP, enrichment tool, and send-from config via customization/. No proprietary CL logic.",
-  "author": {
-    "name": "Compound Leverage"
-  }
-}

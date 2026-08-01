@@ -1,4 +1,4 @@
-# Rohit (content-team-open) -- Automation Setup
+# Rohit (content-team) -- Automation Setup
 
 How to put Rohit on a recurring schedule instead of running him by hand. Two options
 depending on your platform: Claude's scheduled routines, or ChatGPT's Scheduled Tasks.
@@ -6,7 +6,7 @@ Pick one -- you don't need both.
 
 Install the plugin and fill in `customization/my-content-sources.json` (and
 `customization/my-brand-guidelines.md`) first. Automation just runs the same prompt
-from [`Prompts/content-team-open.md`](../Prompts/content-team-open.md) on a timer.
+from [`Prompts/content-team.md`](../Prompts/content-team.md) on a timer.
 
 ---
 
@@ -32,7 +32,7 @@ up front, but it survives independent of any Claude session.
 If your `customization/my-content-sources.json` and `my-brand-guidelines.md` live in a
 GitHub repo (this one, your fork, or your own), set the routine's source to that repo and
 keep the CCR prompt itself thin: "Read
-`Plugins/content-team-open/skills/rohit-master-intel-scan/SKILL.md` and your
+`Plugins/content-team/skills/rohit-master-intel-scan/SKILL.md` and your
 `customization/` files in this repo, then run this week's scan." Claude Code CCRs
 re-clone the source repo fresh on every run, so editing the SKILL.md or your
 customization files is enough -- you never have to touch the routine's stored prompt.

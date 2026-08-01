@@ -1,11 +1,11 @@
-# Kipp (capture-team-open) -- Automation Setup
+# Kipp (capture-team) -- Automation Setup
 
 How to put Kipp on a recurring schedule instead of running him by hand. Two options
 depending on your platform: Claude's scheduled routines, or ChatGPT's Scheduled Tasks.
 Pick one -- you don't need both.
 
 Install the plugin and fill in `customization/my-capture-config.json` first. Automation
-just runs the same prompt from [`Prompts/capture-team-open.md`](../Prompts/capture-team-open.md)
+just runs the same prompt from [`Prompts/capture-team.md`](../Prompts/capture-team.md)
 on a timer.
 
 ---
@@ -32,7 +32,7 @@ up front, but it survives independent of any Claude session.
 **Preferred pattern -- point the routine at your repo instead of pasting everything in.**
 If your `customization/my-capture-config.json` lives in a GitHub repo (this one, your
 fork, or your own), set the routine's source to that repo and keep the CCR prompt itself
-thin: "Read `Plugins/capture-team-open/skills/kipp-crm-intake/SKILL.md` and
+thin: "Read `Plugins/capture-team/skills/kipp-crm-intake/SKILL.md` and
 `customization/my-capture-config.json` in this repo, then run today's scan." Claude Code
 CCRs re-clone the source repo fresh on every run, so editing the SKILL.md or your
 customization file is enough -- you never have to touch the routine's stored prompt.

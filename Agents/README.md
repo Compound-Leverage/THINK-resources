@@ -26,11 +26,11 @@ modified for your own use, or be pointed at directly by a scheduled routine (see
 
 | Persona | Also ships in | Folder |
 |---|---|---|
-| Chet | `Plugins/capture-team-open` | [`chet/`](./chet/) |
-| Eric | `Plugins/ops-team-open` | [`eric/`](./eric/) |
-| Jason | `Plugins/ops-team-open` | [`jason/`](./jason/) |
-| Jenny | `Plugins/ops-team-open` | [`jenny/`](./jenny/) |
-| Kipp | `Plugins/capture-team-open` | [`kipp/`](./kipp/) |
+| Chet | `Plugins/capture-team` | [`chet/`](./chet/) |
+| Eric | `Plugins/ops-team` | [`eric/`](./eric/) |
+| Jason | `Plugins/ops-team` | [`jason/`](./jason/) |
+| Jenny | `Plugins/ops-team` | [`jenny/`](./jenny/) |
+| Kipp | `Plugins/capture-team` | [`kipp/`](./kipp/) |
 
 More persona folders get added here over time. If a persona you want isn't here yet, the
 condensed version in their `Plugins/<team>/skills/<persona>/SKILL.md` still works on its

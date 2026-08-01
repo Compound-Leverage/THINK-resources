@@ -1,4 +1,4 @@
-# Priya (proposal-team-open) -- Automation Setup
+# Priya (proposal-team) -- Automation Setup
 
 How to put Priya, the Proposal Analyst, on a recurring schedule instead of running her by
 hand. Two options depending on your platform: Claude's scheduled routines, or ChatGPT's
@@ -6,7 +6,7 @@ Scheduled Tasks. Pick one - you don't need both.
 
 Install the plugin and fill in `customization/my-pricing-model.json` and
 `customization/my-company-profile.json` first. Automation just runs the same prompt from
-[`Prompts/proposal-team-open.md`](../Prompts/proposal-team-open.md) on a trigger.
+[`Prompts/proposal-team.md`](../Prompts/proposal-team.md) on a trigger.
 
 This role runs as part of Maya's gated pipeline - see
 [`Workflows/maya-proposal-engine-lead.md`](./maya-proposal-engine-lead.md) for the full
@@ -38,7 +38,7 @@ up front, but it survives independent of any Claude session.
 **Preferred pattern - point the routine at your repo instead of pasting everything in.**
 If your `customization/` files live in a GitHub repo (this one, your fork, or your own),
 set Priya's routine source to that repo and keep the CCR prompt itself thin: "Read
-`Plugins/proposal-team-open/skills/priya-proposal-analyst/SKILL.md` and your
+`Plugins/proposal-team/skills/priya-proposal-analyst/SKILL.md` and your
 `customization/` files in this repo, then run the assessment for today's approved
 Discovery Brief." Claude Code CCRs re-clone the source repo fresh on every run, so
 editing the SKILL.md or your customization files is enough - you never have to touch the

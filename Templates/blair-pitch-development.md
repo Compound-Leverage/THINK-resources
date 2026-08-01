@@ -1,4 +1,4 @@
-# Blair (proposal-team-open) -- Deliverable Templates
+# Blair (proposal-team) -- Deliverable Templates
 
 Blank version of the document Blair, Pitch Development, produces. Use this directly
 (fill in your own data by hand) or as the reference format the plugin's output should

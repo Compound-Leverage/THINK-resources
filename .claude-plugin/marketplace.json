@@ -13,43 +13,43 @@
       "description": "Automate lead qualification for government contractors and economic development organizations. Scores opportunities across 5 dimensions and surfaces weekly decision-ready prospects."
     },
     {
-      "name": "proposal-generator-open",
-      "source": "./Plugins/proposal-generator-open",
+      "name": "proposal-generator",
+      "source": "./Plugins/proposal-generator",
       "description": "Generate institutional proposals for high-value deals using a structured 7-phase methodology. Bring your own company data -- fill in the customization/ files."
     },
     {
-      "name": "proposal-team-open",
-      "source": "./Plugins/proposal-team-open",
+      "name": "proposal-team",
+      "source": "./Plugins/proposal-team",
       "description": "Open-source 7-role Proposal Team (orchestrator, researcher, analyst, strategist, writer, QA, grant/funder pitch development) -- the free version of the paid sales-proposal-team bundle. Bring your own pricing, case studies, and brand guidelines. No proprietary CL logic."
     },
     {
-      "name": "content-team-open",
-      "source": "./Plugins/content-team-open",
+      "name": "content-team",
+      "source": "./Plugins/content-team",
       "description": "Open-source 9-role Content Team: Intel Scanner, Newsletter Editor, Blog Writer, LinkedIn Content, YouTube Scripts, Intelligence Brief, Theme Proposer, Weekly Brief, and Course Builder. Bring your own signal sources, ICP voice profiles, and Notion DB IDs. No proprietary CL logic."
     },
     {
-      "name": "sales-bd-team-open",
-      "source": "./Plugins/sales-bd-team-open",
+      "name": "sales-bd-team",
+      "source": "./Plugins/sales-bd-team",
       "description": "Open-source 3-role BD Team: Lead Scout (intent-signal sourcing), BD Research (enrichment and signal detection), and BD Execution (scored outreach and deal admin). Bring your own ICP, enrichment tool, and send-from config. No proprietary CL logic."
     },
     {
-      "name": "sales-enablement-open",
-      "source": "./Plugins/sales-enablement-open",
+      "name": "sales-enablement",
+      "source": "./Plugins/sales-enablement",
       "description": "Open-source Sales Enablement role: Proof Points, which extracts 1-page case study narratives from active engagements and maintains a minimum evidence inventory. Bring your own buyer tags and Notion DB IDs. No proprietary CL logic."
     },
     {
-      "name": "capture-team-open",
-      "source": "./Plugins/capture-team-open",
+      "name": "capture-team",
+      "source": "./Plugins/capture-team",
       "description": "Open-source 3-role Capture Team: Cluster Discovery (Chet), CRM Intake (Kipp), and Signal Delivery (Ben) -- find capacity-gap groups, enrich and classify inbound records, deliver client-ready briefs. No proprietary CL logic. Note: CE Scoring and Signal Intake (Cassie, Kyle) are intentionally not included -- those are tied to CL's own methodology and stay placement-exclusive."
     },
     {
-      "name": "fulfillment-open",
-      "source": "./Plugins/fulfillment-open",
+      "name": "fulfillment",
+      "source": "./Plugins/fulfillment",
       "description": "Open-source Fulfillment role: Playbook Builder (onboarding, success, and expansion playbooks for active clients). Bring your own Notion DB IDs and templates. No proprietary CL logic."
     },
     {
-      "name": "ops-team-open",
-      "source": "./Plugins/ops-team-open",
+      "name": "ops-team",
+      "source": "./Plugins/ops-team",
       "description": "Open-source 3-role site Ops team: QA Reviewer (post-deploy audits), Design Lead (brand-consistent visual assets and web specs), and Infra Lead (build pipeline, CDN, DNS, GitHub Actions). Bring your own site standards, brand guidelines, and infra config. No proprietary CL logic."
     }
   ]

@@ -1,4 +1,4 @@
-# Lori - Lead Scout (sales-bd-team-open) -- Automation Setup
+# Lori - Lead Scout (sales-bd-team) -- Automation Setup
 
 How to put Lori on a recurring schedule instead of running her by hand. Two options
 depending on your platform: Claude's scheduled routines, or ChatGPT's Scheduled Tasks.
@@ -7,7 +7,7 @@ Pick one - you don't need both.
 Install the plugin and fill in `customization/my-icp-profile.json`,
 `customization/my-outreach-config.json`, and `customization/my-company-profile.json`
 first. Automation just runs the same prompts from
-[`Prompts/sales-bd-team-open.md`](../Prompts/sales-bd-team-open.md) on a timer.
+[`Prompts/sales-bd-team.md`](../Prompts/sales-bd-team.md) on a timer.
 
 ---
 
@@ -33,7 +33,7 @@ up front, but it survives independent of any Claude session.
 If your `customization/my-icp-profile.json` and `my-outreach-config.json` live in a
 GitHub repo (this one, your fork, or your own), set the routine's source to that repo and
 keep the CCR prompt itself thin: "Read
-`Plugins/sales-bd-team-open/skills/lori-prospect-scout/SKILL.md` and your
+`Plugins/sales-bd-team/skills/lori-prospect-scout/SKILL.md` and your
 `customization/` files in this repo, then run today's sourcing pass." Claude Code CCRs
 re-clone the source repo fresh on every run, so editing the SKILL.md or your
 customization files is enough - you never have to touch the routine's stored prompt. Save

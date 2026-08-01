@@ -1,4 +1,4 @@
-# Eric, Infrastructure Lead (ops-team-open) -- Deliverable Templates
+# Eric, Infrastructure Lead (ops-team) -- Deliverable Templates
 
 Blank version of the document Eric produces. Use it directly (fill in your own data by
 hand) or as the reference format the plugin's output should match. Every `[bracket]` is

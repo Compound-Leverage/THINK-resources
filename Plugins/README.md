@@ -8,15 +8,15 @@ config files.
 
 | Plugin | Roles |
 |---|---|
-| `capture-team-open` | Chet (Cluster Discovery), Kipp (CRM Intake), Ben (Signal Delivery) |
-| `proposal-team-open` | Maya (lead), Chase, Priya, Porter, Quinn, Diego, Blair |
-| `content-team-open` | Rohit, Ann, Joanna, Justin, Amy, Josh, Jay, Cal, Sal |
-| `sales-bd-team-open` | Lori (Prospect Scout), Alex (BD Research), Sarah (BD Execution) |
-| `sales-enablement-open` | Marcus (Proof Points) |
-| `fulfillment-open` | Lincoln (Playbook Builder) |
-| `ops-team-open` | Jenny (Design Lead), Jason (QA Reviewer), Eric (Infra Lead) |
+| `capture-team` | Chet (Cluster Discovery), Kipp (CRM Intake), Ben (Signal Delivery) |
+| `proposal-team` | Maya (lead), Chase, Priya, Porter, Quinn, Diego, Blair |
+| `content-team` | Rohit, Ann, Joanna, Justin, Amy, Josh, Jay, Cal, Sal |
+| `sales-bd-team` | Lori (Prospect Scout), Alex (BD Research), Sarah (BD Execution) |
+| `sales-enablement` | Marcus (Proof Points) |
+| `fulfillment` | Lincoln (Playbook Builder) |
+| `ops-team` | Jenny (Design Lead), Jason (QA Reviewer), Eric (Infra Lead) |
 | `lead-discovery` | Single skill, no named persona |
-| `proposal-generator-open` | Single skill, no named persona |
+| `proposal-generator` | Single skill, no named persona |
 
 Full descriptions live in [`.claude-plugin/marketplace.json`](../.claude-plugin/marketplace.json) at the repo root.
 

@@ -1,4 +1,4 @@
-# Lincoln (fulfillment-open) -- Automation Setup
+# Lincoln (fulfillment) -- Automation Setup
 
 How to put Lincoln on a schedule, or hook him to the event that actually triggers his
 work. One option depending on your platform: Claude's scheduled routines, or ChatGPT's
@@ -7,7 +7,7 @@ Scheduled Tasks. Pick one -- you don't need both.
 Install the plugin and fill in `customization/my-fulfillment-config.json` first (your
 client records DB ID, and a base template populated for each playbook type you support).
 Automation just runs the same prompts from
-[`Prompts/fulfillment-open.md`](../Prompts/fulfillment-open.md) on a timer or in response
+[`Prompts/fulfillment.md`](../Prompts/fulfillment.md) on a timer or in response
 to an event.
 
 Lincoln's work is triggered by something happening to a client, not by the clock, most of
@@ -43,7 +43,7 @@ up front, but it survives independent of any Claude session.
 **Preferred pattern -- point the routine at your repo instead of pasting everything in.**
 If your `customization/my-fulfillment-config.json` lives in a GitHub repo (this one, your
 fork, or your own), set the routine's source to that repo and keep the CCR prompt itself
-thin: "Read `Plugins/fulfillment-open/skills/lincoln-playbooks/SKILL.md` and
+thin: "Read `Plugins/fulfillment/skills/lincoln-playbooks/SKILL.md` and
 `customization/my-fulfillment-config.json` in this repo, then run this week's scan."
 Claude Code CCRs re-clone the source repo fresh on every run, so editing the SKILL.md or
 your customization file is enough -- you never have to touch the routine's stored prompt.

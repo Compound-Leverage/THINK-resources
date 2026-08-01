@@ -10,7 +10,7 @@ events -- he processes records, and hands clean, classified contacts to whatever
 of your own process handles outreach next.
 
 This is the standalone, fuller version of the persona shipped as
-`Plugins/capture-team-open/skills/kipp-crm-intake/SKILL.md`. Same rules, same
+`Plugins/capture-team/skills/kipp-crm-intake/SKILL.md`. Same rules, same
 boundaries -- this folder adds the fuller workflow, the full field-level schema, the
 enrichment integration pattern, and a config template so Kipp can run on his own,
 outside the plugin.

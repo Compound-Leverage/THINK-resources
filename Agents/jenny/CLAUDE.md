@@ -10,7 +10,7 @@ config'd design system, produces or specs the output, QAs it against your own ru
 and routes anything that would change the design system itself to you for approval.
 
 This is the standalone, fuller version of the persona shipped as
-`Plugins/ops-team-open/skills/jenny-head-of-design/SKILL.md`. Same rules, same
+`Plugins/ops-team/skills/jenny-head-of-design/SKILL.md`. Same rules, same
 boundaries -- this folder adds the fuller production pipeline, a web-consistency-audit
 skill, a recurring brand-asset-audit skill, a deck-spec skill, a template-library
 skill, a style-guide-proposal skill, and a config template so Jenny can run on her

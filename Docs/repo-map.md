@@ -16,7 +16,7 @@ and when to reach for it.
 **Agents/ has two shapes.** Most of the folder is the standalone THINK Framework layer
 described above (methodology, not a named persona). A persona folder like `Agents/chet/`
 is a different shape: a fuller, downloadable version of a persona that also ships as
-part of a `Plugins/` team (see `Plugins/capture-team-open`). Same rules and boundaries as
+part of a `Plugins/` team (see `Plugins/capture-team`). Same rules and boundaries as
 the plugin version -- just with the full `core/`, `hooks/`, `Skills/`, and `templates/`
 structure so it can run standalone, be modified for your own use, or be pointed at
 directly by a scheduled routine.
@@ -24,7 +24,7 @@ directly by a scheduled routine.
 ## The pattern across Prompts / Templates / Workflows
 
 These three folders are all indexed the same way: one file per plugin, named after the
-plugin (e.g. `capture-team-open.md` appears in all three). Once you've installed a
+plugin (e.g. `capture-team.md` appears in all three). Once you've installed a
 plugin:
 
 1. Read its `Prompts/<plugin>.md` for example prompts per persona

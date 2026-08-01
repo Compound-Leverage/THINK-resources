@@ -1,4 +1,4 @@
-# Lincoln (fulfillment-open) -- Deliverable Templates
+# Lincoln (fulfillment) -- Deliverable Templates
 
 Blank versions of the documents Lincoln produces. Use these directly (fill in your own
 data by hand) or as the reference format the plugin's outputs should match. Every

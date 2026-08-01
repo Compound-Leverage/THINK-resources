@@ -19,10 +19,10 @@
       }
     },
     {
-      "name": "proposal-generator-open",
+      "name": "proposal-generator",
       "source": {
         "source": "local",
-        "path": "./Plugins/proposal-generator-open"
+        "path": "./Plugins/proposal-generator"
       },
       "policy": {
         "installation": "AVAILABLE"
@@ -33,10 +33,10 @@
       }
     },
     {
-      "name": "proposal-team-open",
+      "name": "proposal-team",
       "source": {
         "source": "local",
-        "path": "./Plugins/proposal-team-open"
+        "path": "./Plugins/proposal-team"
       },
       "policy": {
         "installation": "AVAILABLE"
@@ -47,10 +47,10 @@
       }
     },
     {
-      "name": "content-team-open",
+      "name": "content-team",
       "source": {
         "source": "local",
-        "path": "./Plugins/content-team-open"
+        "path": "./Plugins/content-team"
       },
       "policy": {
         "installation": "AVAILABLE"
@@ -61,10 +61,10 @@
       }
     },
     {
-      "name": "sales-bd-team-open",
+      "name": "sales-bd-team",
       "source": {
         "source": "local",
-        "path": "./Plugins/sales-bd-team-open"
+        "path": "./Plugins/sales-bd-team"
       },
       "policy": {
         "installation": "AVAILABLE"
@@ -75,10 +75,10 @@
       }
     },
     {
-      "name": "sales-enablement-open",
+      "name": "sales-enablement",
       "source": {
         "source": "local",
-        "path": "./Plugins/sales-enablement-open"
+        "path": "./Plugins/sales-enablement"
       },
       "policy": {
         "installation": "AVAILABLE"
@@ -89,10 +89,10 @@
       }
     },
     {
-      "name": "capture-team-open",
+      "name": "capture-team",
       "source": {
         "source": "local",
-        "path": "./Plugins/capture-team-open"
+        "path": "./Plugins/capture-team"
       },
       "policy": {
         "installation": "AVAILABLE"
@@ -103,10 +103,10 @@
       }
     },
     {
-      "name": "fulfillment-open",
+      "name": "fulfillment",
       "source": {
         "source": "local",
-        "path": "./Plugins/fulfillment-open"
+        "path": "./Plugins/fulfillment"
       },
       "policy": {
         "installation": "AVAILABLE"
@@ -117,10 +117,10 @@
       }
     },
     {
-      "name": "ops-team-open",
+      "name": "ops-team",
       "source": {
         "source": "local",
-        "path": "./Plugins/ops-team-open"
+        "path": "./Plugins/ops-team"
       },
       "policy": {
         "installation": "AVAILABLE"

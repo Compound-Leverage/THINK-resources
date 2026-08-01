@@ -1,4 +1,4 @@
-# Alex - BD Research (sales-bd-team-open) -- Deliverable Templates
+# Alex - BD Research (sales-bd-team) -- Deliverable Templates
 
 Blank version of the document Alex produces. Use this directly (fill in your own data by
 hand) or as the reference format the plugin's output should match. Every `[bracket]` is a

@@ -1,4 +1,4 @@
-# Maya (proposal-team-open) -- Deliverable Templates
+# Maya (proposal-team) -- Deliverable Templates
 
 Blank version of the document Maya, the Proposal Engine Lead, produces. Use this
 directly (fill in your own data by hand) or as the reference format the plugin's output

@@ -1,4 +1,4 @@
-# Sarah - BD Execution (sales-bd-team-open) -- Deliverable Templates
+# Sarah - BD Execution (sales-bd-team) -- Deliverable Templates
 
 Blank version of the document Sarah produces. Use this directly (fill in your own data by
 hand) or as the reference format the plugin's output should match. Every `[bracket]` is a

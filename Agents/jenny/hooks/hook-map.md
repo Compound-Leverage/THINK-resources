@@ -4,7 +4,7 @@ Jenny has three on-demand modes (asset, web spec, deck spec) plus recurring audi
 modes. This maps which trigger fires which skill -- for how to actually put the
 recurring ones on a schedule (Claude scheduled routine or ChatGPT Scheduled Task),
 see `Workflows/jenny-head-of-design.md`, which already documents Jenny's cadence as
-part of the ops-team-open plugin. Don't duplicate that setup guidance here, this
+part of the ops-team plugin. Don't duplicate that setup guidance here, this
 file just tells you which skill each trigger should point at.
 
 | When to run | Trigger | Fires |
