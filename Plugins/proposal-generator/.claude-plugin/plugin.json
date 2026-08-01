@@ -1,7 +1,7 @@
 {
   "name": "proposal-generator",
   "version": "1.0.0",
-  "description": "Generate institutional proposals for high-value deals ($25K-$150K+) using a structured 7-phase methodology with strategic positioning before writing. Bring your own company data -- fill in the customization/ files with your pricing, case studies, and brand guidelines.",
+  "description": "Runs one high-value deal through the full proposal methodology -- intake, research, assessment, positioning, drafting, and QA -- end to end, gated by your approval at each phase. Bring your own company data -- fill in the customization/ files.",
   "author": {
     "name": "Compound Leverage"
   }

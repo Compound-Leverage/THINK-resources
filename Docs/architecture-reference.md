@@ -7,6 +7,7 @@ bring-your-own-data.
 Full architecture reference (all three repos, MCP tools, entitlement model) lives in
 Compound Leverage's private internal documentation and is not published in this repo.
 
-Install this marketplace with **"Sync automatically" turned OFF** — these plugins are
-meant to be customized with your own data (`customization/*.json`, IDs in
-`Skills/schema.md`), and sync would overwrite those changes.
+Install this marketplace with **auto-update turned off** (`/plugin` → **Marketplaces**
+→ `think-school` → **Disable auto-update**) — these plugins are meant to be customized
+with your own data (`customization/*.json`, IDs in `Skills/schema.md`), and an
+auto-update would overwrite those changes.

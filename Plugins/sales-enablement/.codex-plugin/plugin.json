@@ -1,7 +1,7 @@
 {
   "name": "sales-enablement",
   "version": "1.0.0",
-  "description": "Open-source Sales Enablement role: Proof Points, which extracts 1-page case study narratives from active engagements and maintains a minimum evidence inventory for proposal work. Bring your own buyer tags and Notion DB IDs via customization/. No proprietary CL logic.",
+  "description": "Pulls completed client engagements and turns them into 1-page case study narratives tagged by buyer type, keeping a ready supply of proof points on hand for proposal and outreach work. Bring your own buyer tags and Notion DB IDs. No proprietary CL logic.",
   "author": {
     "name": "Compound Leverage"
   },

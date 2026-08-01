@@ -1,7 +1,7 @@
 {
   "name": "capture-team",
   "version": "1.0.0",
-  "description": "Open-source 3-role Capture Team: Cluster Discovery (Chet), CRM Intake (Kipp), and Signal Delivery (Ben) -- find capacity-gap groups, enrich and classify inbound records, deliver client-ready briefs. Bring your own capability map, ICP, Notion DB IDs, and enrichment provider via customization/. No proprietary CL logic.",
+  "description": "Finds organizations and named groups worth pursuing, enriches and classifies inbound leads against your ICP, and turns raw signals into client-ready intelligence briefs. 3 roles: Chet (Cluster Discovery), Kipp (CRM Intake), Ben (Signal Delivery). No proprietary CL logic. Note: CE Scoring and Signal Intake (Cassie, Kyle) are intentionally not included -- those are tied to CL's own methodology and stay placement-exclusive.",
   "author": {
     "name": "Compound Leverage"
   },

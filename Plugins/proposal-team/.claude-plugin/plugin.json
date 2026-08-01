@@ -1,7 +1,7 @@
 {
   "name": "proposal-team",
   "version": "1.0.0",
-  "description": "Open-source 7-role Proposal Team: orchestrator, researcher, analyst, strategist, writer, QA, and grant/funder pitch development. Bring your own pricing, case studies, and brand guidelines via customization/. No proprietary logic included.",
+  "description": "Runs a qualified opportunity through a full proposal pipeline -- research, deal assessment, competitive positioning, drafting, and QA -- producing a submission-ready proposal with your approval at each stage, plus a separate grant/funder track. 7 roles: Maya (lead), Chase, Priya, Porter, Quinn, Diego, Blair. Bring your own pricing, case studies, and brand guidelines. No proprietary CL logic.",
   "author": {
     "name": "Compound Leverage"
   }

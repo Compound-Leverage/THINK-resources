@@ -1,7 +1,7 @@
 {
   "name": "ops-team",
   "version": "1.0.0",
-  "description": "Open-source 3-role site Ops team: QA Reviewer (post-deploy SEO/H1/redirect/copy audits), Design Lead (brand-consistent visual assets and web specs), and Infra Lead (build pipeline, CDN, DNS, and GitHub Actions). Bring your own site standards, brand guidelines, and infra config via customization/. No proprietary CL logic.",
+  "description": "Keeps a website running well after every deploy -- auditing SEO, copy, and broken links; producing on-brand design assets and web specs; and managing the build pipeline, DNS, and CI. 3 roles: Jenny (Design Lead), Jason (QA Reviewer), Eric (Infra Lead). Bring your own site standards, brand guidelines, and infra config. No proprietary CL logic.",
   "author": {
     "name": "Compound Leverage"
   }

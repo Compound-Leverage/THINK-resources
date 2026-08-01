@@ -1,7 +1,7 @@
 {
   "name": "lead-discovery",
   "version": "1.0.0",
-  "description": "Automate lead qualification for government contractors and economic development organizations. Scores opportunities across 5 dimensions and surfaces weekly decision-ready prospects from procurement sources, grant databases, and funding announcements.",
+  "description": "Scans procurement, grant, and funding sources weekly and scores each opportunity across 5 dimensions, surfacing a ranked, decision-ready shortlist of the deals worth pursuing. Automates lead qualification for government contractors and economic development organizations.",
   "author": {
     "name": "Compound Leverage"
   },

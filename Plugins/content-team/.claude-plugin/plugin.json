@@ -1,7 +1,7 @@
 {
   "name": "content-team",
   "version": "1.0.0",
-  "description": "Open-source 9-role Content Team: Intel Scanner, Newsletter Editor, Blog Writer, LinkedIn Content, YouTube Scripts, Intelligence Brief, Theme Proposer, Weekly Brief, and Course Builder. Bring your own signal sources, ICP voice profiles, and Notion DB IDs via customization/. No proprietary CL logic.",
+  "description": "Scans your content signal sources weekly and turns the strongest findings into newsletters, blog posts, LinkedIn posts, YouTube scripts, intelligence briefs, monthly theme proposals, a weekly owner brief, and full courses. 9 roles: Rohit, Ann, Joanna, Justin, Amy, Josh, Jay, Cal, Sal. Bring your own signal sources, ICP voice profiles, and Notion DB IDs. No proprietary CL logic.",
   "author": {
     "name": "Compound Leverage"
   }
