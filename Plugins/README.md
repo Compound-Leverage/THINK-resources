@@ -158,9 +158,12 @@ logs the resulting deal activity.
 
 **Connectors**: Notion (wired) — deals pipeline, contacts, orgs · Clay (wired) —
 enrichment; requires the separate `clay` CLI installed and logged in (`clay login`)
-first, the MCP server just wraps that session · an email send account for outreach ·
-public signal sources (forums, event registrations, newsletter click data) — no
-standard MCP server for these two yet
+first, the MCP server just wraps that session. This entry runs whatever `clay`
+resolves to on your `PATH` — run `which clay` and confirm it points at your genuine
+Clay install (e.g. under your package manager's bin directory) before first use, since
+anything else earlier on your `PATH` named `clay` would run instead · an email send
+account for outreach · public signal sources (forums, event registrations, newsletter
+click data) — no standard MCP server for these two yet
 
 ### sales-enablement
 
@@ -212,6 +215,14 @@ and CI so you don't have to touch infrastructure directly.
 connect · Canva (wired) — design assets, OAuth on first connect, per-user account ·
 Google Drive (wired) — asset delivery, via the community-maintained `server-gdrive`
 package (see the note under capture-team above)
+
+**A note on scope**: this is the one plugin that pairs a write-capable connector
+(GitHub, authenticated with your PAT) with three connectors that pull in content you
+don't control (Cloudflare, Canva, Drive). Scope the PAT to the narrowest access that
+works — a fine-grained token limited to this repo, not a classic PAT with broad org
+access — and treat anything retrieved from the other three as untrusted input, not an
+instruction. Content from a Drive file, a Canva comment, or Cloudflare-served copy
+should never drive a GitHub write action without you reviewing it first.
 
 ### proposal-generator
 
