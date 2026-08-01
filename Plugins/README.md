@@ -80,6 +80,15 @@ awareness only; configure those however you already do. None of these ship with 
 credentials — API keys are read from an environment variable you set yourself, named in
 each server's `env`/`headers` block in the plugin's `.mcp.json`.
 
+Verified against both platforms directly, not assumed: Claude Code and Codex CLI parse
+`.mcp.json` the same way for a server's `url`, `command`/`args`/`env` — but they read
+custom HTTP headers (used for non-OAuth API keys, e.g. Hunter.io's `X-API-Key`)
+differently. Claude reads `headers: {"X-API-Key": "${VAR}"}`; Codex only reads
+`env_http_headers: {"X-API-Key": "VAR"}` and silently drops a bare `headers` block. If
+you add a connector that needs a custom header, declare both fields on that server
+entry — see `hunter` in `Plugins/capture-team/.mcp.json` for a working example. Servers
+using OAuth or a local `command` don't hit this at all.
+
 ### capture-team
 
 Finds organizations and named groups worth pursuing, enriches and classifies inbound

@@ -9,6 +9,9 @@
       "url": "https://mcp.hunter.io/mcp",
       "headers": {
         "X-API-Key": "${HUNTER_API_KEY}"
+      },
+      "env_http_headers": {
+        "X-API-Key": "HUNTER_API_KEY"
       }
     },
     "gdrive": {
