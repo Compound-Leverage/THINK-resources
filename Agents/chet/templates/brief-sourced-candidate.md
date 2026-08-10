@@ -1,8 +1,8 @@
 # Brief-Sourced Cluster Candidate -- Template
 
-Used by `Skills/brief-to-cluster-bridge/`. Same base fields as the Chet template in
-`Templates/capture-team.md`, plus a source-brief reference and a note on which
-fields are brief-derived versus still unconfirmed.
+Used by `Skills/brief-to-cluster-bridge/`. Same base fields as
+`Templates/cluster-discovery-chet.md`, plus a source-brief reference and a note on
+which fields are brief-derived versus still unconfirmed.
 
 ```
 Cluster Candidate: [Group name]

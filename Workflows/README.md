@@ -13,63 +13,63 @@ plugin's other persona files first.
 
 | Persona | Role | File |
 |---|---|---|
-| Chet | Cluster Discovery | [`chet-cluster-discovery.md`](./chet-cluster-discovery.md) |
-| Kipp | CRM Intake | [`kipp-crm-intake.md`](./kipp-crm-intake.md) |
-| Ben | Signal Delivery | [`ben-signal-delivery.md`](./ben-signal-delivery.md) (full pipeline note lives here) |
+| Chet | Cluster Discovery | [`cluster-discovery-chet.md`](./cluster-discovery-chet.md) |
+| Kipp | CRM Intake | [`crm-intake-kipp.md`](./crm-intake-kipp.md) |
+| Ben | Signal Delivery | [`signal-delivery-ben.md`](./signal-delivery-ben.md) (full pipeline note lives here) |
 
 ### Proposal Team (proposal-team)
 
 | Persona | Role | File |
 |---|---|---|
-| Maya | Proposal Engine Lead | [`maya-proposal-engine-lead.md`](./maya-proposal-engine-lead.md) (full pipeline note lives here) |
-| Chase | Proposal Researcher | [`chase-proposal-researcher.md`](./chase-proposal-researcher.md) |
-| Priya | Proposal Analyst | [`priya-proposal-analyst.md`](./priya-proposal-analyst.md) |
-| Porter | Proposal Strategist | [`porter-proposal-strategist.md`](./porter-proposal-strategist.md) |
-| Quinn | Proposal Writer | [`quinn-proposal-writer.md`](./quinn-proposal-writer.md) |
-| Diego | Proposal QA | [`diego-proposal-qa.md`](./diego-proposal-qa.md) |
-| Blair | Pitch Development (separate track) | [`blair-pitch-development.md`](./blair-pitch-development.md) |
+| Maya | Proposal Engine Lead | [`proposal-engine-lead-maya.md`](./proposal-engine-lead-maya.md) (full pipeline note lives here) |
+| Chase | Proposal Researcher | [`proposal-researcher-chase.md`](./proposal-researcher-chase.md) |
+| Priya | Proposal Analyst | [`proposal-analyst-priya.md`](./proposal-analyst-priya.md) |
+| Porter | Proposal Strategist | [`proposal-strategist-porter.md`](./proposal-strategist-porter.md) |
+| Quinn | Proposal Writer | [`proposal-writer-quinn.md`](./proposal-writer-quinn.md) |
+| Diego | Proposal QA | [`proposal-qa-diego.md`](./proposal-qa-diego.md) |
+| Blair | Pitch Development (separate track) | [`pitch-development-blair.md`](./pitch-development-blair.md) |
 
 ### Content Team (content-team)
 
 | Persona | Role | File |
 |---|---|---|
-| Rohit | Master Intel Scan | [`rohit-master-intel-scan.md`](./rohit-master-intel-scan.md) (full pipeline note lives here) |
-| Ann | Newsletter Editor | [`ann-newsletter-editor.md`](./ann-newsletter-editor.md) |
-| Joanna | Blog Writer | [`joanna-blog-writer.md`](./joanna-blog-writer.md) |
-| Justin | LinkedIn Content | [`justin-linkedin-content.md`](./justin-linkedin-content.md) |
-| Amy | YouTube Scripts | [`amy-youtube-scripts.md`](./amy-youtube-scripts.md) |
-| Josh | Intelligence Brief | [`josh-brief-writer.md`](./josh-brief-writer.md) |
-| Jay | Theme Proposer (outside the weekly chain) | [`jay-theme-proposer.md`](./jay-theme-proposer.md) |
-| Cal | Weekly Brief | [`cal-weekly-brief.md`](./cal-weekly-brief.md) (full pipeline note lives here) |
-| Sal | Course Builder (outside the weekly chain) | [`sal-course-builder.md`](./sal-course-builder.md) |
+| Rohit | Master Intel Scan | [`master-intel-scan-rohit.md`](./master-intel-scan-rohit.md) (full pipeline note lives here) |
+| Ann | Newsletter Editor | [`newsletter-editor-ann.md`](./newsletter-editor-ann.md) |
+| Joanna | Blog Writer | [`blog-writer-joanna.md`](./blog-writer-joanna.md) |
+| Justin | LinkedIn Content | [`linkedin-content-justin.md`](./linkedin-content-justin.md) |
+| Amy | YouTube Scripts | [`youtube-scripts-amy.md`](./youtube-scripts-amy.md) |
+| Josh | Intelligence Brief | [`brief-writer-josh.md`](./brief-writer-josh.md) |
+| Jay | Theme Proposer (outside the weekly chain) | [`theme-proposer-jay.md`](./theme-proposer-jay.md) |
+| Cal | Weekly Brief | [`weekly-brief-cal.md`](./weekly-brief-cal.md) (full pipeline note lives here) |
+| Sal | Course Builder (outside the weekly chain) | [`course-builder-sal.md`](./course-builder-sal.md) |
 
 ### Sales BD Team (sales-bd-team)
 
 | Persona | Role | File |
 |---|---|---|
-| Lori | Prospect Scout | [`lori-prospect-scout.md`](./lori-prospect-scout.md) (full pipeline note lives here) |
-| Alex | BD Research | [`alex-bd-research.md`](./alex-bd-research.md) |
-| Sarah | BD Execution | [`sarah-bd-execution.md`](./sarah-bd-execution.md) |
+| Lori | Prospect Scout | [`prospect-scout-lori.md`](./prospect-scout-lori.md) (full pipeline note lives here) |
+| Alex | BD Research | [`bd-research-alex.md`](./bd-research-alex.md) |
+| Sarah | BD Execution | [`bd-execution-sarah.md`](./bd-execution-sarah.md) |
 
 ### Sales Enablement (sales-enablement)
 
 | Persona | Role | File |
 |---|---|---|
-| Marcus | Proof Points | [`marcus-proof-points.md`](./marcus-proof-points.md) |
+| Marcus | Proof Points | [`proof-points-marcus.md`](./proof-points-marcus.md) |
 
 ### Fulfillment (fulfillment)
 
 | Persona | Role | File |
 |---|---|---|
-| Lincoln | Playbook Builder | [`lincoln-playbooks.md`](./lincoln-playbooks.md) |
+| Lincoln | Playbook Builder | [`playbooks-lincoln.md`](./playbooks-lincoln.md) |
 
 ### Ops Team (ops-team)
 
 | Persona | Role | File |
 |---|---|---|
-| Jenny | Design Lead | [`jenny-head-of-design.md`](./jenny-head-of-design.md) |
-| Jason | QA Reviewer | [`jason-qa-reviewer.md`](./jason-qa-reviewer.md) |
-| Eric | Infra Lead | [`eric-infrastructure.md`](./eric-infrastructure.md) |
+| Jenny | Design Lead | [`head-of-design-jenny.md`](./head-of-design-jenny.md) |
+| Jason | QA Reviewer | [`qa-reviewer-jason.md`](./qa-reviewer-jason.md) |
+| Eric | Infra Lead | [`infrastructure-eric.md`](./infrastructure-eric.md) |
 
 ### Standalone (no named persona)
 

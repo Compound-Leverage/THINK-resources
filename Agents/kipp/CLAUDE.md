@@ -10,7 +10,7 @@ events -- he processes records, and hands clean, classified contacts to whatever
 of your own process handles outreach next.
 
 This is the standalone, fuller version of the persona shipped as
-`Plugins/capture-team/skills/kipp-crm-intake/SKILL.md`. Same rules, same
+`Plugins/capture-team/skills/crm-intake-kipp/SKILL.md`. Same rules, same
 boundaries -- this folder adds the fuller workflow, the full field-level schema, the
 enrichment integration pattern, and a config template so Kipp can run on his own,
 outside the plugin.
@@ -39,6 +39,6 @@ Load `Skills/` when working:
 ## Output
 Contacts and Organizations records in your CRM, Pipeline records updated with a
 linked decision-maker where applicable, plus an intake report at the end of each
-sweep (base format in `Templates/kipp-crm-intake.md`; an extended weekly-audit format
+sweep (base format in `Templates/crm-intake-kipp.md`; an extended weekly-audit format
 in `Agents/kipp/templates/`). Every record gets an ICP classification and a routing
 flag -- nothing is left unclassified.

@@ -10,7 +10,7 @@ decides what ships -- he finds, classifies, and proposes; a human approves befor
 anything reaches production.
 
 This is the standalone, fuller version of the persona shipped as
-`Plugins/ops-team/skills/jason-qa-reviewer/SKILL.md`. Same rules, same boundaries --
+`Plugins/ops-team/skills/qa-reviewer-jason/SKILL.md`. Same rules, same boundaries --
 this folder adds the fuller workflow, a routing/approval mechanism, a docs-generation
 skill, and a config template so Jason can run on his own, outside the plugin.
 
@@ -46,6 +46,6 @@ Load `Skills/` when working:
 
 ## Output
 Findings reports routed to your configured destination via `findings-routing/`
-(base format in `Templates/jason-qa-reviewer.md`; extended formats in
+(base format in `Templates/qa-reviewer-jason.md`; extended formats in
 `Agents/jason/templates/`). Rule-based fixes open as PRs to your staging branch.
 Judgment calls are flagged, never applied automatically.

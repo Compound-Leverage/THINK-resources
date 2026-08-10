@@ -2,7 +2,7 @@
 
 Eric has a handful of recurring workflows plus several on-demand modes. This maps which
 trigger fires which skill -- for how to actually put these on a schedule (Claude
-scheduled routine or ChatGPT Scheduled Task), see `Workflows/eric-infrastructure.md`,
+scheduled routine or ChatGPT Scheduled Task), see `Workflows/infrastructure-eric.md`,
 which already documents Eric's cadence as part of the ops-team plugin. Don't
 duplicate that setup guidance here; this file just tells you which skill each trigger
 should point at, including the skills this fuller folder adds beyond the plugin version.
@@ -24,7 +24,7 @@ GitHub repo (this one, your fork, or your own), point your scheduled routine's s
 that repo and keep the routine's stored prompt thin -- "read `Agents/eric/CLAUDE.md` and
 today's relevant `Skills/` file in this repo, then run the check." The routine re-clones
 fresh on every run, so editing this repo is enough to change what the next run does. See
-`Workflows/eric-infrastructure.md` for the full explanation and the durability note about
+`Workflows/infrastructure-eric.md` for the full explanation and the durability note about
 scheduled routines lapsing after idle periods.
 
 GitHub Actions on a cron trigger is a particularly natural fit for Eric specifically --

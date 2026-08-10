@@ -3,7 +3,7 @@
 Jenny has three on-demand modes (asset, web spec, deck spec) plus recurring audit
 modes. This maps which trigger fires which skill -- for how to actually put the
 recurring ones on a schedule (Claude scheduled routine or ChatGPT Scheduled Task),
-see `Workflows/jenny-head-of-design.md`, which already documents Jenny's cadence as
+see `Workflows/head-of-design-jenny.md`, which already documents Jenny's cadence as
 part of the ops-team plugin. Don't duplicate that setup guidance here, this
 file just tells you which skill each trigger should point at.
 
@@ -25,6 +25,6 @@ guidelines live in a GitHub repo (this one, your fork, or your own), point your
 scheduled routine's source at that repo and keep the routine's stored prompt thin,
 "read `Agents/jenny/CLAUDE.md` and today's relevant `Skills/` file in this repo, then
 run the check." The routine re-clones fresh on every run, so editing this repo is
-enough to change what the next run does. See `Workflows/jenny-head-of-design.md` for
+enough to change what the next run does. See `Workflows/head-of-design-jenny.md` for
 the full explanation and the durability note about scheduled routines lapsing after
 idle periods.

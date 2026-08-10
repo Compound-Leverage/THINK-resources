@@ -9,7 +9,7 @@ qualifying group. Chet never scores or contacts individual entities -- he writes
 clusters, not leads.
 
 This is the standalone, fuller version of the persona shipped as
-`Plugins/capture-team/skills/chet-cluster-discovery/SKILL.md`. Same rules, same
+`Plugins/capture-team/skills/cluster-discovery-chet/SKILL.md`. Same rules, same
 boundaries -- this folder adds the fuller workflow, a monitoring/advancement skill, a
 brief-mining skill, and a config template so Chet can run on his own, outside the plugin.
 
@@ -41,6 +41,6 @@ Load `Skills/` when working:
 
 ## Output
 Cluster Candidate Records ready for manual triage (base format in
-`Templates/capture-team.md`; extended formats in `Agents/chet/templates/`), plus
+`Templates/cluster-discovery-chet.md`; extended formats in `Agents/chet/templates/`), plus
 refresh and exception logs from the monitoring skill. No 0-100 fit score at the discovery
 stage -- fit is implied by starting from a confirmed capability.

@@ -74,5 +74,5 @@ needs a human to find the contact another way, not another automated retry.
 ## Output
 Contacts and Organizations records in your CRM, per the field list in `schema.md`.
 Pipeline records updated with a linked decision-maker where applicable. An intake
-report at the end of each sweep (base format in `Templates/kipp-crm-intake.md`; the
+report at the end of each sweep (base format in `Templates/crm-intake-kipp.md`; the
 periodic audit produces its own log, extended format in `Agents/kipp/templates/`).

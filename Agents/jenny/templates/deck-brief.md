@@ -1,7 +1,7 @@
 # Deck Brief -- Template
 
 Produced by `Skills/deck-spec/`. Not covered by the base "Asset/Spec Handoff"
-template in `Templates/jenny-head-of-design.md`, decks get their own structured,
+template in `Templates/head-of-design-jenny.md`, decks get their own structured,
 slide-by-slide format because the output is a full brief, not a single asset or
 spec block.
 

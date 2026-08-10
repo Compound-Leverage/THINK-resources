@@ -3,7 +3,7 @@
 Jason has a PR-triggered lane, a pre-push lane, a post-deploy lane, and a scheduled lane
 for the slower checks. This maps which trigger fires which skill -- for how to actually
 put the scheduled checks on a timer (Claude scheduled routine or ChatGPT Scheduled Task),
-see `Workflows/jason-qa-reviewer.md`, which already documents this as part of the Ops
+see `Workflows/qa-reviewer-jason.md`, which already documents this as part of the Ops
 Team plugin. Don't duplicate that setup guidance here; this file just tells you which
 skill each trigger should point at.
 
@@ -26,5 +26,5 @@ config live in a GitHub repo (this one, your fork, or your own), point your sche
 routine's source at that repo and keep the routine's stored prompt thin -- "read
 `Agents/jason/CLAUDE.md` and today's relevant `Skills/` file in this repo, then run the
 check." The routine re-clones fresh on every run, so editing this repo is enough to
-change what the next run does. See `Workflows/jason-qa-reviewer.md` for the full
+change what the next run does. See `Workflows/qa-reviewer-jason.md` for the full
 explanation and the durability note about scheduled routines lapsing after idle periods.

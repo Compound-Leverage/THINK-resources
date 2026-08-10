@@ -2,7 +2,7 @@
 
 Produced at the end of each `Skills/brand-asset-audit/` sweep. A fuller, multi-asset
 version of the "Brand audit findings" section in the base template at
-`Templates/jenny-head-of-design.md`, this is the report format for a full recurring
+`Templates/head-of-design-jenny.md`, this is the report format for a full recurring
 sweep rather than a single audit trigger.
 
 ```

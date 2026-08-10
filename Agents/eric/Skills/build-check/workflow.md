@@ -48,5 +48,5 @@ longer exists.
 | All clear | No action needed |
 
 ## Output
-See `Templates/eric-infrastructure.md`'s Infra/Deploy Audit Report for the combined
+See `Templates/infrastructure-eric.md`'s Infra/Deploy Audit Report for the combined
 output format this and the other audit skills share.

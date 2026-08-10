@@ -96,5 +96,5 @@ sweep complete -- all clear for tomorrow's runs."
 
 ## Output
 See `templates/preflight-sweep-log.md` in this repo's `Agents/eric/templates/` for the
-log format, or `Templates/eric-infrastructure.md`'s Infra/Deploy Audit Report if you'd
+log format, or `Templates/infrastructure-eric.md`'s Infra/Deploy Audit Report if you'd
 rather fold this into your combined audit report instead.

@@ -20,7 +20,7 @@ For every FLAG or RECOMMEND, check whether it matches an entry in your
 - PASSes are dropped from the detail view and rolled into a single count.
 
 ## Step 3: Format
-Use `Templates/jason-qa-reviewer.md`'s Post-Deploy Audit Report as the base format for
+Use `Templates/qa-reviewer-jason.md`'s Post-Deploy Audit Report as the base format for
 routine site-audit and content-qa runs. Use `templates/agent-fleet-audit-report.md` in
 this repo's `Agents/jason/templates/` for agent-fleet-audit runs, and
 `templates/docs-update-proposal.md` or `templates/changelog-entry.md` for

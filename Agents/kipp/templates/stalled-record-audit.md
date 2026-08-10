@@ -1,7 +1,7 @@
 # Stalled Record Audit -- Template
 
 Produced by the periodic audit step in `Skills/crm-intake/workflow.md` (Step 7) --
-not a substitute for the per-sweep intake report in `Templates/kipp-crm-intake.md`,
+not a substitute for the per-sweep intake report in `Templates/crm-intake-kipp.md`,
 which stays the record of what happened on each daily run. This template is for the
 separate, lower-frequency pass that catches records still stuck mid-intake.
 
