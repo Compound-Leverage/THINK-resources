@@ -9,7 +9,19 @@
   "homepage": "https://www.skool.com/thinkschool/about",
   "repository": "https://github.com/Compound-Leverage/THINK-school",
   "license": "PolyForm-Shield-1.0.0",
-  "keywords": ["ai-team", "digital-employee", "think-school", "capture", "lead-enrichment", "crm", "intelligence-brief"],
+  "keywords": [
+    "ai-team",
+    "digital-employee",
+    "think-school",
+    "capture",
+    "lead-enrichment",
+    "crm",
+    "intelligence-brief",
+    "government-contractor",
+    "govcon",
+    "nonprofit",
+    "grant-seeking"
+  ],
   "skills": "./skills",
   "interface": {
     "displayName": "Capture Team",
@@ -17,7 +29,10 @@
     "longDescription": "An AI Team of three specialized Digital Employees: Chet finds named, bounded groups worth pursuing; Kipp enriches and classifies inbound org and contact records against your ICP; Ben turns the resulting signals into client-ready intelligence briefs. Bring your own enrichment tool, ICP criteria, and CRM database. Want to build, customize, and manage AI Teams like this one for your own workflows? That's what THINK School on Skool teaches -- see skool.com/thinkschool/about.",
     "developerName": "Compound Leverage",
     "category": "Sales",
-    "capabilities": ["Read", "Write"],
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
     "websiteURL": "https://www.skool.com/thinkschool/about",
     "privacyPolicyURL": "https://www.compoundleverage.com/privacy/",
     "termsOfServiceURL": "https://www.compoundleverage.com/terms/",

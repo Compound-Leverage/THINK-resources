@@ -2,17 +2,17 @@
 
 Compound Leverage's training and educational resource hub, every training we produce is
 THINK School, whether or not the person using it is a formal (paid) member. Free,
-source-available, community-shareable skills and plugins -- a practitioner's resource for
-people doing capture, proposal, growth, and grant work, whatever kind of organization
-they do it for.
+source-available, community-shareable skills and plugins for people doing capture,
+proposal, growth, and grant work, whatever kind of organization they do it for.
 
 New here and wondering what THINK School is? Learn more at
 [skool.com/thinkschool/about](https://www.skool.com/thinkschool/about).
 
 ## Getting started: your first AI Teams
 
-New to Digital Employees? Start with these three -- they follow the same journey most
-opportunity-driven work does: find it, win it, deliver it.
+New here? Start with these three AI Teams -- specialized AI agents that work together on
+one job -- following the same journey most opportunity-driven work does: find it, win it,
+deliver it.
 
 | Order | Team | Does |
 |---|---|---|

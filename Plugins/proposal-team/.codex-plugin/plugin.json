@@ -9,7 +9,18 @@
   "homepage": "https://www.skool.com/thinkschool/about",
   "repository": "https://github.com/Compound-Leverage/THINK-school",
   "license": "PolyForm-Shield-1.0.0",
-  "keywords": ["ai-team", "digital-employee", "think-school", "proposal", "rfp", "capture-management", "grant-writing"],
+  "keywords": [
+    "ai-team",
+    "digital-employee",
+    "think-school",
+    "proposal",
+    "rfp",
+    "capture-management",
+    "grant-writing",
+    "government-contractor",
+    "govcon",
+    "small-business"
+  ],
   "skills": "./skills",
   "interface": {
     "displayName": "Proposal Team",
@@ -17,7 +28,10 @@
     "longDescription": "An AI Team of seven specialized Digital Employees, orchestrated by Maya, that carries a qualified opportunity from research through a submission-ready proposal: Chase researches, Priya assesses deal fit and pricing, Porter builds competitive positioning, Quinn drafts, Diego runs QA, and Blair handles the parallel grant/funder track. Every stage stops for your approval before moving on. Bring your own pricing, case studies, and brand guidelines. Want to build, customize, and manage AI Teams like this one for your own workflows? That's what THINK School on Skool teaches -- see skool.com/thinkschool/about.",
     "developerName": "Compound Leverage",
     "category": "Sales",
-    "capabilities": ["Read", "Write"],
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
     "websiteURL": "https://www.skool.com/thinkschool/about",
     "privacyPolicyURL": "https://www.compoundleverage.com/privacy/",
     "termsOfServiceURL": "https://www.compoundleverage.com/terms/",

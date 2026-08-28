@@ -2,6 +2,9 @@
 
 - **Community & questions:** post in the
   [THINK School community](https://www.skool.com/thinkschool/about) (Wins, Q&A).
+- **Just want to learn more first, not ready to join yet?** Browse
+  [free tools, guides, articles, and research](https://www.compoundleverage.com/examples/)
+  -- no signup required.
 - **Partnerships / institutional licensing:**
   [compoundleverage.com/contact-sales](https://www.compoundleverage.com/contact-sales/)
   or [partners@compoundleverage.com](mailto:partners@compoundleverage.com).
