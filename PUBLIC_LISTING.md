@@ -53,10 +53,10 @@ Ready-to-use AI Teams for capture and proposals. Specialized Digital Employees
 work together across the lifecycle from identifying opportunities through
 developing submission-ready proposals. Configurable to your own business --
 bring your ICP, capability map, pricing, case studies, and brand guidelines,
-and each team runs on your data from the first use. Capture Team connects to
-your own Notion, Hunter.io, and Google Drive; Proposal Team works directly
-from the documents and data you provide it. No proprietary Compound Leverage
-accounts or data required.
+and each team runs on your data from the first use. Both teams work with
+whatever CRM, enrichment tool, and document storage you already use -- nothing
+is pre-wired to a specific vendor, and no proprietary Compound Leverage
+accounts or data are required.
 
 Try:
 - "Find named groups or clusters that share a capacity gap we can fill" (Capture)

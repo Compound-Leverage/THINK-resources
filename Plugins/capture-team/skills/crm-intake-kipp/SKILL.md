@@ -11,10 +11,15 @@ CRM.
 
 ## Setup required
 
-Configure `customization/my-capture-config.json` before first use:
+Connect your own CRM (Notion, Airtable, HubSpot, Salesforce, or whatever you
+already use) and enrichment tool via their MCP connectors, or however you
+already access them in this session. Configure
+`customization/my-capture-config.json` before first use:
 - `icp_profiles` -- your classification criteria
 - `routing_flags` -- how classified records get flagged
 - `notion.*_db_id` -- your Contacts, Orgs, and Deals Pipeline database IDs
+  (shown as Notion fields for illustration -- rename/restructure to match
+  whatever CRM you actually use)
 - `enrichment.provider` and `enrichment.api_key_env_var` -- your enrichment tool
 
 ## Process
