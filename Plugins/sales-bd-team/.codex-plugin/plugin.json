@@ -1,14 +1,33 @@
 {
   "name": "sales-bd-team",
-  "version": "1.0.0",
-  "description": "Sources people and organizations actively signaling demand for what you sell, enriches and scores them against your ICP, then drafts and sends outreach and logs the resulting deal activity. 3 roles: Lori (Prospect Scout), Alex (BD Research), Sarah (BD Execution). Bring your own ICP, enrichment tool, and send-from config. No proprietary CL logic.",
+  "version": "1.1.0",
+  "description": "Sources people and organizations actively signaling demand for what you sell, enriches and scores them against your ICP, then drafts and sends outreach and logs the resulting deal activity. 3 roles: Lori (Prospect Scout), Alex (BD Research), Sarah (BD Execution). Bring your own ICP, enrichment tool, and send-from config.",
   "author": {
-    "name": "Compound Leverage"
+    "name": "Compound Leverage",
+    "url": "https://compoundleverage.com"
   },
+  "homepage": "https://www.skool.com/thinkschool/about",
+  "repository": "https://github.com/Compound-Leverage/THINK-school",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": ["ai-team", "digital-employee", "think-school", "sales", "business-development", "outreach", "lead-scoring"],
   "skills": "./skills",
   "interface": {
-    "displayName": "Sales BD Team Open",
+    "displayName": "Sales BD Team",
     "shortDescription": "3-role BD pipeline: lead sourcing, enrichment, and scored outreach",
-    "category": "Sales"
+    "longDescription": "An AI Team of three specialized Digital Employees: Lori scouts people and organizations showing active demand signals, Alex enriches and scores them against your ICP, and Sarah drafts and sends outreach and logs deal activity. Bring your own ICP, enrichment tool, and send-from configuration.",
+    "developerName": "Compound Leverage",
+    "category": "Sales",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://www.skool.com/thinkschool/about",
+    "privacyPolicyURL": "https://www.compoundleverage.com/privacy/",
+    "termsOfServiceURL": "https://www.compoundleverage.com/terms/",
+    "brandColor": "#6944BA",
+    "composerIcon": "./assets/think-school.png",
+    "logo": "./assets/think-school.png",
+    "defaultPrompt": [
+      "Find people or orgs actively signaling demand for what we sell",
+      "Enrich and score this list of prospects against our ICP",
+      "Draft outreach for our top-scored prospects this week"
+    ]
   }
 }

@@ -7,7 +7,7 @@
     "capabilities": [
       {
         "capability_id": "[CAPABILITY-1]",
-        "capacity_solved": "[e.g. 'Grant-writing support for HBCU research offices']",
+        "capacity_solved": "[e.g. 'Grant-writing support for university research offices']",
         "signal_keywords": ["[KEYWORD 1]", "[KEYWORD 2]"],
         "known_groups": []
       }

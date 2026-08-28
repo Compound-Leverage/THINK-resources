@@ -1,8 +1,13 @@
 {
   "name": "content-team",
-  "version": "1.0.0",
-  "description": "Scans your content signal sources weekly and turns the strongest findings into newsletters, blog posts, LinkedIn posts, YouTube scripts, intelligence briefs, monthly theme proposals, a weekly owner brief, and full courses. 9 roles: Rohit, Ann, Joanna, Justin, Amy, Josh, Jay, Cal, Sal. Bring your own signal sources, ICP voice profiles, and Notion DB IDs. No proprietary CL logic.",
+  "version": "1.1.0",
+  "description": "Scans your content signal sources weekly and turns the strongest findings into newsletters, blog posts, LinkedIn posts, YouTube scripts, intelligence briefs, monthly theme proposals, a weekly owner brief, and full courses. 9 roles: Rohit, Ann, Joanna, Justin, Amy, Josh, Jay, Cal, Sal. Bring your own signal sources, ICP voice profiles, and Notion DB IDs.",
   "author": {
-    "name": "Compound Leverage"
-  }
+    "name": "Compound Leverage",
+    "url": "https://compoundleverage.com"
+  },
+  "homepage": "https://www.skool.com/thinkschool/about",
+  "repository": "https://github.com/Compound-Leverage/THINK-school",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": ["ai-team", "digital-employee", "think-school", "content", "newsletter", "blog", "linkedin", "youtube"]
 }

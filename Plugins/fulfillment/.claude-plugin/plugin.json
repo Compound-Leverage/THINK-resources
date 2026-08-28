@@ -1,8 +1,13 @@
 {
   "name": "fulfillment",
-  "version": "1.0.1",
-  "description": "Builds customized onboarding, customer-success, and expansion playbooks for a specific active client, using your own base frameworks and that client's CRM record as inputs. Bring your own Notion DB IDs and templates. No proprietary CL logic.",
+  "version": "1.1.0",
+  "description": "Builds customized onboarding, customer-success, and expansion playbooks for a specific active client, using your own base frameworks and that client's CRM record as inputs. Bring your own Notion DB IDs and templates.",
   "author": {
-    "name": "Compound Leverage"
-  }
+    "name": "Compound Leverage",
+    "url": "https://compoundleverage.com"
+  },
+  "homepage": "https://www.skool.com/thinkschool/about",
+  "repository": "https://github.com/Compound-Leverage/THINK-school",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": ["ai-team", "digital-employee", "think-school", "fulfillment", "onboarding", "customer-success"]
 }

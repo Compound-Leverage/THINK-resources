@@ -1,8 +1,13 @@
 {
   "name": "proposal-team",
-  "version": "1.0.0",
-  "description": "Runs a qualified opportunity through a full proposal pipeline -- research, deal assessment, competitive positioning, drafting, and QA -- producing a submission-ready proposal with your approval at each stage, plus a separate grant/funder track. 7 roles: Maya (lead), Chase, Priya, Porter, Quinn, Diego, Blair. Bring your own pricing, case studies, and brand guidelines. No proprietary CL logic.",
+  "version": "1.1.0",
+  "description": "Runs a qualified opportunity through a full proposal pipeline -- research, deal assessment, competitive positioning, drafting, and QA -- producing a submission-ready proposal with your approval at each stage, plus a separate grant/funder track. 7 roles: Maya (lead), Chase, Priya, Porter, Quinn, Diego, Blair. Bring your own pricing, case studies, and brand guidelines.",
   "author": {
-    "name": "Compound Leverage"
-  }
+    "name": "Compound Leverage",
+    "url": "https://compoundleverage.com"
+  },
+  "homepage": "https://www.skool.com/thinkschool/about",
+  "repository": "https://github.com/Compound-Leverage/THINK-school",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": ["ai-team", "digital-employee", "think-school", "proposal", "rfp", "capture-management", "grant-writing"]
 }

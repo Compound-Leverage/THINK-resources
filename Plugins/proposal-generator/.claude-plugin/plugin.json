@@ -1,8 +1,13 @@
 {
   "name": "proposal-generator",
-  "version": "1.0.0",
-  "description": "Runs one high-value deal through the full proposal methodology -- intake, research, assessment, positioning, drafting, and QA -- end to end, gated by your approval at each phase. Bring your own company data -- fill in the customization/ files.",
+  "version": "1.1.0",
+  "description": "Runs one high-value deal through the full proposal methodology -- intake, research, assessment, positioning, drafting, and QA -- end to end, gated by your approval at each phase. A single-operator tool for one proposal at a time -- see Proposal Team for the multi-role pipeline. Bring your own company data -- fill in the customization/ files.",
   "author": {
-    "name": "Compound Leverage"
-  }
+    "name": "Compound Leverage",
+    "url": "https://compoundleverage.com"
+  },
+  "homepage": "https://www.skool.com/thinkschool/about",
+  "repository": "https://github.com/Compound-Leverage/THINK-school",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": ["ai-team", "digital-employee", "think-school", "proposal", "single-tool"]
 }

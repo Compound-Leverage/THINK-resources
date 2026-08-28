@@ -1,8 +1,13 @@
 {
   "name": "sales-enablement",
-  "version": "1.0.0",
-  "description": "Pulls completed client engagements and turns them into 1-page case study narratives tagged by buyer type, keeping a ready supply of proof points on hand for proposal and outreach work. Bring your own buyer tags and Notion DB IDs. No proprietary CL logic.",
+  "version": "1.1.0",
+  "description": "Pulls completed client engagements and turns them into 1-page case study narratives tagged by buyer type, keeping a ready supply of proof points on hand for proposal and outreach work. Bring your own buyer tags and Notion DB IDs.",
   "author": {
-    "name": "Compound Leverage"
-  }
+    "name": "Compound Leverage",
+    "url": "https://compoundleverage.com"
+  },
+  "homepage": "https://www.skool.com/thinkschool/about",
+  "repository": "https://github.com/Compound-Leverage/THINK-school",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": ["ai-team", "digital-employee", "think-school", "sales-enablement", "case-study", "proof-points"]
 }

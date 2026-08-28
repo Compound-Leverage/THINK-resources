@@ -1,8 +1,13 @@
 {
   "name": "ops-team",
-  "version": "1.0.0",
-  "description": "Keeps a website running well after every deploy -- auditing SEO, copy, and broken links; producing on-brand design assets and web specs; and managing the build pipeline, DNS, and CI. 3 roles: Jenny (Design Lead), Jason (QA Reviewer), Eric (Infra Lead). Bring your own site standards, brand guidelines, and infra config. No proprietary CL logic.",
+  "version": "1.1.0",
+  "description": "Keeps a website running well after every deploy -- auditing SEO, copy, and broken links; producing on-brand design assets and web specs; and managing the build pipeline, DNS, and CI. 3 roles: Jenny (Design Lead), Jason (QA Reviewer), Eric (Infra Lead). Bring your own site standards, brand guidelines, and infra config.",
   "author": {
-    "name": "Compound Leverage"
-  }
+    "name": "Compound Leverage",
+    "url": "https://compoundleverage.com"
+  },
+  "homepage": "https://www.skool.com/thinkschool/about",
+  "repository": "https://github.com/Compound-Leverage/THINK-school",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": ["ai-team", "digital-employee", "think-school", "ops", "web-qa", "design", "infra"]
 }

@@ -2,10 +2,29 @@
 
 Compound Leverage's training and educational resource hub, every training we produce is
 THINK School, whether or not the person using it is a formal (paid) member. Free,
-source-available, community-shareable skills and plugins.
+source-available, community-shareable skills and plugins -- a practitioner's resource for
+people doing capture, proposal, growth, and grant work, whatever kind of organization
+they do it for.
 
 New here and wondering what THINK School is? Learn more at
 [skool.com/thinkschool/about](https://www.skool.com/thinkschool/about).
+
+## Getting started: your first AI Teams
+
+New to Digital Employees? Start with these three -- they follow the same journey most
+opportunity-driven work does: find it, win it, deliver it.
+
+| Order | Team | Does |
+|---|---|---|
+| 1 | [Capture Team](Plugins/capture-team) | Find, research, qualify, and pursue the right opportunities |
+| 2 | [Proposal Team](Plugins/proposal-team) | Turn qualified opportunities into compliant, competitive submissions |
+| 3 | [Fulfillment](Plugins/fulfillment) | Support execution after the work is won |
+
+Install any of them with `/plugin marketplace add Compound-Leverage/THINK-school`, then
+`/plugin install <plugin-name>@think-school` (see [`Plugins/README.md`](Plugins/README.md)
+for full install steps). Think of them as your first hires. Once you've got a feel for
+how an AI Team works, the rest of the roster in `Plugins/README.md` covers content, sales
+BD, sales enablement, lead discovery, and site ops.
 
 ## Structure
 

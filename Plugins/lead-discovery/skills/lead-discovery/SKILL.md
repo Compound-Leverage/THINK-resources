@@ -1,16 +1,16 @@
 ---
 name: lead-discovery
-description: Automate lead qualification for government contractors and economic development organizations. Scores opportunities across 5 dimensions and surfaces weekly decision-ready prospects from procurement sources, grant databases, and funding announcements.
+description: Automate lead qualification for capture, proposal, growth, and grant work, whatever kind of organization you do it for. Scores opportunities across 5 dimensions and surfaces weekly decision-ready prospects from procurement sources, foundation and government grant databases, and funding announcements.
 ---
 
 # Lead Discovery and Prioritization Module
 
 ## Skill Overview
-Automates lead qualification for government contractors, economic development organizations, and consulting firms to surface weekly decision-ready opportunities. Reduces manual review time by 70%+ by eliminating scanning and interpretation work.
+Automates lead qualification for capture, proposal, growth, and grant work to surface weekly decision-ready opportunities, whether the pursuit is a government contract, a foundation grant, or a commercial deal. Reduces manual review time by 70%+ by eliminating scanning and interpretation work.
 
 ## Trigger Patterns
 Use this skill when the user:
-- Needs to qualify leads from procurement sources (SAM.gov, state/local portals, grants databases)
+- Needs to qualify leads from procurement and grant sources (SAM.gov, state/local portals, private/family/community foundation databases)
 - Wants automated weekly shortlists of high-probability opportunities
 - Asks to evaluate RFPs, grants, budget disclosures, or hiring signals
 - Requests lead scoring across multiple dimensions
@@ -38,10 +38,16 @@ Qualified leads must have ALL of:
 ### Source Hierarchy
 **Primary (High Signal)**
 - SAM.gov RFPs and contract awards
-- State/local procurement portals
+- Other procurement/capture platforms practitioners already subscribe to (e.g. GovWin/GovWin IQ, BidNet, Higher.gov, GovTribe, Deltek, eMMA Marketplace, Unison Marketplace, FedBizOpps, DSBS Search, BidPrime, C2P, Fed Compass) -- ask which ones the user already has access to rather than assuming SAM.gov alone
+- fpds.gov and usaspending.gov (award history and competitor intelligence)
+- State/local procurement portals (e.g. e-Maryland and equivalents elsewhere)
+- State and local government grant programs
 - County business filings
 - Lis pendens (foreclosure/legal filings indicating need)
-- Federal/state grants databases
+- Federal and state grants databases
+- Private and family foundation grant databases (e.g. Candid/Foundation Directory, Instrumentl, foundation 990s)
+- Community foundation funding announcements
+- Corporate giving and CSR grant programs
 - Workforce development budget disclosures
 
 **Secondary (Requires Trigger)**
@@ -49,6 +55,11 @@ Qualified leads must have ALL of:
 - Organizational restructuring + compliance deadline
 - Technology modernization + RFP language
 - Real estate/Zillow data (only with foreclosure/distress signal)
+
+Don't stop at SAM.gov and grants.gov -- a real search should range as wide as the
+client's fundable-by universe: government procurement AND grant-making, private
+philanthropy, and community/corporate giving all belong in scope unless the
+client has told you to narrow it.
 
 ### Scoring Dimensions (1-5 scale)
 
@@ -157,7 +168,7 @@ This module does NOT:
 - Win: 4 ([comparable prior partnership] demonstrates capability)
 - Value: 4 ($75K)
 - Timeline: 5 (8 weeks ample)
-- Leverage: 5 (HBCU partnership expansion, conference content)
+- Leverage: 5 (university partnership expansion, conference content)
 - Aggregate: 23
 - Recommended Action: Pursue
 - Risks: None material

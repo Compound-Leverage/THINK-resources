@@ -1,5 +1,10 @@
 {
   "name": "think-school",
+  "description": "THINK School — free, source-available AI Teams for people doing capture, proposal, growth, and grant work (start with Capture Team, Proposal Team, and Fulfillment) plus a full roster for content, sales, and ops. PolyForm Shield License: free to use, no competing product/service. Bring-your-own-data templates, no proprietary CL logic or pricing included.",
+  "owner": {
+    "name": "Compound Leverage",
+    "url": "https://compoundleverage.com"
+  },
   "interface": {
     "displayName": "THINK School"
   },
@@ -29,7 +34,7 @@
       },
       "category": "Sales",
       "interface": {
-        "displayName": "Proposal Generator Open"
+        "displayName": "Proposal Drafter"
       }
     },
     {
@@ -43,7 +48,7 @@
       },
       "category": "Sales",
       "interface": {
-        "displayName": "Proposal Team Open"
+        "displayName": "Proposal Team"
       }
     },
     {
@@ -57,7 +62,7 @@
       },
       "category": "Marketing",
       "interface": {
-        "displayName": "Content Team Open"
+        "displayName": "Content Team"
       }
     },
     {
@@ -71,7 +76,7 @@
       },
       "category": "Sales",
       "interface": {
-        "displayName": "Sales BD Team Open"
+        "displayName": "Sales BD Team"
       }
     },
     {
@@ -85,7 +90,7 @@
       },
       "category": "Sales",
       "interface": {
-        "displayName": "Sales Enablement Open"
+        "displayName": "Sales Enablement"
       }
     },
     {
@@ -99,7 +104,7 @@
       },
       "category": "Sales",
       "interface": {
-        "displayName": "Capture Team Open"
+        "displayName": "Capture Team"
       }
     },
     {
@@ -113,7 +118,7 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "Fulfillment Open"
+        "displayName": "Fulfillment"
       }
     },
     {
@@ -127,7 +132,7 @@
       },
       "category": "Productivity",
       "interface": {
-        "displayName": "Ops Team Open"
+        "displayName": "Ops Team"
       }
     }
   ]

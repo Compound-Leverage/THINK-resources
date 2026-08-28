@@ -4,53 +4,53 @@
     "name": "Compound Leverage"
   },
   "metadata": {
-    "description": "THINK School \u2014 free, source-available Digital Employee plugins for members (PolyForm Shield License: free to use, no competing product/service). Bring-your-own-data templates, no proprietary CL logic or pricing included. Link to this from Skool instead of pasting content directly."
+    "description": "THINK School \u2014 free, source-available AI Teams for your first Digital Employee hires (start with Capture Team, Proposal Team, and Fulfillment) plus a full roster for content, sales, and ops. PolyForm Shield License: free to use, no competing product/service. Bring-your-own-data templates, no proprietary CL logic or pricing included. Link to this from Skool instead of pasting content directly."
   },
   "plugins": [
     {
       "name": "lead-discovery",
       "source": "./Plugins/lead-discovery",
-      "description": "Scans procurement, grant, and funding sources weekly and scores each opportunity across 5 dimensions, surfacing a ranked, decision-ready shortlist of the deals worth pursuing. Automates lead qualification for government contractors and economic development organizations."
+      "description": "Scans procurement, grant, and funding sources weekly and scores each opportunity across 5 dimensions, surfacing a ranked, decision-ready shortlist of the deals worth pursuing. Built for people doing capture, proposal, growth, and grant work, whatever kind of organization they do it for."
     },
     {
       "name": "proposal-generator",
       "source": "./Plugins/proposal-generator",
-      "description": "Runs one high-value deal through the full proposal methodology -- intake, research, assessment, positioning, drafting, and QA -- end to end, gated by your approval at each phase. Bring your own company data -- fill in the customization/ files."
+      "description": "Runs one high-value deal through the full proposal methodology -- intake, research, assessment, positioning, drafting, and QA -- end to end, gated by your approval at each phase. A single-operator tool for one proposal at a time -- see Proposal Team for the multi-role pipeline. Bring your own company data -- fill in the customization/ files."
     },
     {
       "name": "proposal-team",
       "source": "./Plugins/proposal-team",
-      "description": "Runs a qualified opportunity through a full proposal pipeline -- research, deal assessment, competitive positioning, drafting, and QA -- producing a submission-ready proposal with your approval at each stage, plus a separate grant/funder track. 7 roles: Maya (lead), Chase, Priya, Porter, Quinn, Diego, Blair. Bring your own pricing, case studies, and brand guidelines. No proprietary CL logic."
+      "description": "Runs a qualified opportunity through a full proposal pipeline -- research, deal assessment, competitive positioning, drafting, and QA -- producing a submission-ready proposal with your approval at each stage, plus a separate grant/funder track. 7 roles: Maya (lead), Chase, Priya, Porter, Quinn, Diego, Blair. Bring your own pricing, case studies, and brand guidelines."
     },
     {
       "name": "content-team",
       "source": "./Plugins/content-team",
-      "description": "Scans your content signal sources weekly and turns the strongest findings into newsletters, blog posts, LinkedIn posts, YouTube scripts, intelligence briefs, monthly theme proposals, a weekly owner brief, and full courses. 9 roles: Rohit, Ann, Joanna, Justin, Amy, Josh, Jay, Cal, Sal. Bring your own signal sources, ICP voice profiles, and Notion DB IDs. No proprietary CL logic."
+      "description": "Scans your content signal sources weekly and turns the strongest findings into newsletters, blog posts, LinkedIn posts, YouTube scripts, intelligence briefs, monthly theme proposals, a weekly owner brief, and full courses. 9 roles: Rohit, Ann, Joanna, Justin, Amy, Josh, Jay, Cal, Sal. Bring your own signal sources, ICP voice profiles, and Notion DB IDs."
     },
     {
       "name": "sales-bd-team",
       "source": "./Plugins/sales-bd-team",
-      "description": "Sources people and organizations actively signaling demand for what you sell, enriches and scores them against your ICP, then drafts and sends outreach and logs the resulting deal activity. 3 roles: Lori (Prospect Scout), Alex (BD Research), Sarah (BD Execution). Bring your own ICP, enrichment tool, and send-from config. No proprietary CL logic."
+      "description": "Sources people and organizations actively signaling demand for what you sell, enriches and scores them against your ICP, then drafts and sends outreach and logs the resulting deal activity. 3 roles: Lori (Prospect Scout), Alex (BD Research), Sarah (BD Execution). Bring your own ICP, enrichment tool, and send-from config."
     },
     {
       "name": "sales-enablement",
       "source": "./Plugins/sales-enablement",
-      "description": "Pulls completed client engagements and turns them into 1-page case study narratives tagged by buyer type, keeping a ready supply of proof points on hand for proposal and outreach work. Bring your own buyer tags and Notion DB IDs. No proprietary CL logic."
+      "description": "Pulls completed client engagements and turns them into 1-page case study narratives tagged by buyer type, keeping a ready supply of proof points on hand for proposal and outreach work. Bring your own buyer tags and Notion DB IDs."
     },
     {
       "name": "capture-team",
       "source": "./Plugins/capture-team",
-      "description": "Finds organizations and named groups worth pursuing, enriches and classifies inbound leads against your ICP, and turns raw signals into client-ready intelligence briefs. 3 roles: Chet (Cluster Discovery), Kipp (CRM Intake), Ben (Signal Delivery). No proprietary CL logic. Note: CE Scoring and Signal Intake (Cassie, Kyle) are intentionally not included -- those are tied to CL's own methodology and stay placement-exclusive."
+      "description": "Finds organizations and named groups worth pursuing, enriches and classifies inbound leads against your ICP, and turns raw signals into client-ready intelligence briefs. 3 roles: Chet (Cluster Discovery), Kipp (CRM Intake), Ben (Signal Delivery)."
     },
     {
       "name": "fulfillment",
       "source": "./Plugins/fulfillment",
-      "description": "Builds customized onboarding, customer-success, and expansion playbooks for a specific active client, using your own base frameworks and that client's CRM record as inputs. Bring your own Notion DB IDs and templates. No proprietary CL logic."
+      "description": "Builds customized onboarding, customer-success, and expansion playbooks for a specific active client, using your own base frameworks and that client's CRM record as inputs. Bring your own Notion DB IDs and templates."
     },
     {
       "name": "ops-team",
       "source": "./Plugins/ops-team",
-      "description": "Keeps a website running well after every deploy -- auditing SEO, copy, and broken links; producing on-brand design assets and web specs; and managing the build pipeline, DNS, and CI. 3 roles: Jenny (Design Lead), Jason (QA Reviewer), Eric (Infra Lead). Bring your own site standards, brand guidelines, and infra config. No proprietary CL logic."
+      "description": "Keeps a website running well after every deploy -- auditing SEO, copy, and broken links; producing on-brand design assets and web specs; and managing the build pipeline, DNS, and CI. 3 roles: Jenny (Design Lead), Jason (QA Reviewer), Eric (Infra Lead). Bring your own site standards, brand guidelines, and infra config."
     }
   ]
 }

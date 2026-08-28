@@ -75,7 +75,7 @@ Ask questions **one at a time**, in this order. Wait for each answer before aski
 
 **Q4**: What manual, repetitive processes are organizations in that sector still doing by hand that should be automated?
 
-**Q5**: Who has the budget but hasn't built the solution yet — government agencies, primes, HBCUs, chambers, workforce boards, community colleges?
+**Q5**: Who has the budget but hasn't built the solution yet — government agencies, primes, universities, chambers, workforce boards, community colleges?
 
 ---
 
@@ -154,7 +154,7 @@ CAPITAL EVENT MAP — [Sector]
 What it is: [1 sentence]
 Funding: $[X] | Timeline: [X months to window]
 Your angle: [How their blindspot positions them here]
-Who to partner with: [Org type — HBCU, EDO, prime, chamber]
+Who to partner with: [Org type — university, EDO, prime, chamber]
 
 🟡 MOVE THIS MONTH (70-84) — Score: [X]/100
 [Same format]
@@ -187,9 +187,9 @@ Ask **one at a time**:
 
 **P2 — Analyze:** When you find an opportunity, what's your process for evaluating whether to pursue it? What's your go/no-go filter?
 
-**P3 — Position:** How do you typically communicate your value to institutional partners — agencies, primes, HBCUs, chambers? What's your opening move?
+**P3 — Position:** How do you typically communicate your value to institutional partners — agencies, primes, universities, chambers? What's your opening move?
 
-**P4 — Partner:** Who are your highest-leverage partnership nodes right now? (HBCUs, EDOs, chambers, primes, workforce boards?) What's missing?
+**P4 — Partner:** Who are your highest-leverage partnership nodes right now? (universities, EDOs, chambers, primes, workforce boards?) What's missing?
 
 **P5 — Deploy:** How do you deliver? What's your core methodology or program structure?
 

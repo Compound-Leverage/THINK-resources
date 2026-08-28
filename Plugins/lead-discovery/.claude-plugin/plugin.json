@@ -1,8 +1,13 @@
 {
   "name": "lead-discovery",
-  "version": "1.0.0",
-  "description": "Scans procurement, grant, and funding sources weekly and scores each opportunity across 5 dimensions, surfacing a ranked, decision-ready shortlist of the deals worth pursuing. Automates lead qualification for government contractors and economic development organizations.",
+  "version": "1.1.0",
+  "description": "Scans procurement, grant, and funding sources weekly and scores each opportunity across 5 dimensions, surfacing a ranked, decision-ready shortlist of the deals worth pursuing. Built for people doing capture, proposal, growth, and grant work, whatever kind of organization they do it for.",
   "author": {
-    "name": "Compound Leverage"
-  }
+    "name": "Compound Leverage",
+    "url": "https://compoundleverage.com"
+  },
+  "homepage": "https://www.skool.com/thinkschool/about",
+  "repository": "https://github.com/Compound-Leverage/THINK-school",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": ["ai-team", "digital-employee", "think-school", "lead-discovery", "govcon", "grants", "procurement"]
 }

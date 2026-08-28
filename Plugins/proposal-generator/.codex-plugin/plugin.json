@@ -1,14 +1,33 @@
 {
   "name": "proposal-generator",
-  "version": "1.0.0",
-  "description": "Runs one high-value deal through the full proposal methodology -- intake, research, assessment, positioning, drafting, and QA -- end to end, gated by your approval at each phase. Bring your own company data -- fill in the customization/ files.",
+  "version": "1.1.0",
+  "description": "Runs one high-value deal through the full proposal methodology -- intake, research, assessment, positioning, drafting, and QA -- end to end, gated by your approval at each phase. A single-operator tool for one proposal at a time -- see Proposal Team for the multi-role pipeline. Bring your own company data -- fill in the customization/ files.",
   "author": {
-    "name": "Compound Leverage"
+    "name": "Compound Leverage",
+    "url": "https://compoundleverage.com"
   },
+  "homepage": "https://www.skool.com/thinkschool/about",
+  "repository": "https://github.com/Compound-Leverage/THINK-school",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": ["ai-team", "digital-employee", "think-school", "proposal", "single-tool"],
   "skills": "./skills",
   "interface": {
-    "displayName": "Proposal Generator Open",
-    "shortDescription": "Generates institutional proposals through a 7-phase gated methodology",
-    "category": "Sales"
+    "displayName": "Proposal Drafter",
+    "shortDescription": "Generates one institutional proposal through a 7-phase gated methodology",
+    "longDescription": "A single-tool proposal builder for one high-value deal at a time: intake, research, assessment, positioning, drafting, and QA, with your approval gating each phase. For a multi-role team that carries several proposals through the same stages in parallel, see Proposal Team. Bring your own company data by filling in the customization/ files.",
+    "developerName": "Compound Leverage",
+    "category": "Sales",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://www.skool.com/thinkschool/about",
+    "privacyPolicyURL": "https://www.compoundleverage.com/privacy/",
+    "termsOfServiceURL": "https://www.compoundleverage.com/terms/",
+    "brandColor": "#6944BA",
+    "composerIcon": "./assets/think-school.png",
+    "logo": "./assets/think-school.png",
+    "defaultPrompt": [
+      "Start a proposal for this deal -- run intake first",
+      "Move this proposal to the drafting phase",
+      "Run QA on this draft before we submit"
+    ]
   }
 }

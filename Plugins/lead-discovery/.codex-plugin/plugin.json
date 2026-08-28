@@ -1,14 +1,33 @@
 {
   "name": "lead-discovery",
-  "version": "1.0.0",
-  "description": "Scans procurement, grant, and funding sources weekly and scores each opportunity across 5 dimensions, surfacing a ranked, decision-ready shortlist of the deals worth pursuing. Automates lead qualification for government contractors and economic development organizations.",
+  "version": "1.1.0",
+  "description": "Scans procurement, grant, and funding sources weekly and scores each opportunity across 5 dimensions, surfacing a ranked, decision-ready shortlist of the deals worth pursuing. Built for people doing capture, proposal, growth, and grant work, whatever kind of organization they do it for.",
   "author": {
-    "name": "Compound Leverage"
+    "name": "Compound Leverage",
+    "url": "https://compoundleverage.com"
   },
+  "homepage": "https://www.skool.com/thinkschool/about",
+  "repository": "https://github.com/Compound-Leverage/THINK-school",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": ["ai-team", "digital-employee", "think-school", "lead-discovery", "govcon", "grants", "procurement"],
   "skills": "./skills",
   "interface": {
     "displayName": "Lead Discovery",
     "shortDescription": "Scores and surfaces weekly decision-ready government/EDO leads",
-    "category": "Sales"
+    "longDescription": "A Digital Employee that scans procurement, grant, and funding sources weekly and scores each opportunity across 5 dimensions, surfacing a ranked, decision-ready shortlist of the deals worth pursuing. Built for capture, proposal, growth, and grant work -- government contracting, philanthropic funding, or commercial pursuit, wherever the opportunity shows up.",
+    "developerName": "Compound Leverage",
+    "category": "Sales",
+    "capabilities": ["Read"],
+    "websiteURL": "https://www.skool.com/thinkschool/about",
+    "privacyPolicyURL": "https://www.compoundleverage.com/privacy/",
+    "termsOfServiceURL": "https://www.compoundleverage.com/terms/",
+    "brandColor": "#6944BA",
+    "composerIcon": "./assets/think-school.png",
+    "logo": "./assets/think-school.png",
+    "defaultPrompt": [
+      "Scan this week's procurement and grant sources for new opportunities",
+      "Score this list of opportunities across the 5 qualification dimensions",
+      "Give me this week's ranked, decision-ready lead shortlist"
+    ]
   }
 }

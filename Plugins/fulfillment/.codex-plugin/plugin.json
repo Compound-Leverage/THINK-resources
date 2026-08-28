@@ -1,14 +1,33 @@
 {
   "name": "fulfillment",
-  "version": "1.0.1",
-  "description": "Builds customized onboarding, customer-success, and expansion playbooks for a specific active client, using your own base frameworks and that client's CRM record as inputs. Bring your own Notion DB IDs and templates. No proprietary CL logic.",
+  "version": "1.1.0",
+  "description": "Builds customized onboarding, customer-success, and expansion playbooks for a specific active client, using your own base frameworks and that client's CRM record as inputs. Bring your own Notion DB IDs and templates.",
   "author": {
-    "name": "Compound Leverage"
+    "name": "Compound Leverage",
+    "url": "https://compoundleverage.com"
   },
+  "homepage": "https://www.skool.com/thinkschool/about",
+  "repository": "https://github.com/Compound-Leverage/THINK-school",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": ["ai-team", "digital-employee", "think-school", "fulfillment", "onboarding", "customer-success"],
   "skills": "./skills",
   "interface": {
-    "displayName": "Fulfillment Open",
+    "displayName": "Fulfillment",
     "shortDescription": "Builds onboarding, success, and expansion playbooks for active clients",
-    "category": "Productivity"
+    "longDescription": "A Digital Employee that builds customized onboarding, customer-success, and expansion playbooks for a specific active client, using your own base frameworks and that client's CRM record as inputs. Bring your own Notion database IDs and templates. Want to build, customize, and manage AI Teams like this one for your own workflows? That's what THINK School on Skool teaches -- see skool.com/thinkschool/about.",
+    "developerName": "Compound Leverage",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://www.skool.com/thinkschool/about",
+    "privacyPolicyURL": "https://www.compoundleverage.com/privacy/",
+    "termsOfServiceURL": "https://www.compoundleverage.com/terms/",
+    "brandColor": "#6944BA",
+    "composerIcon": "./assets/think-school.png",
+    "logo": "./assets/think-school.png",
+    "defaultPrompt": [
+      "Build an onboarding playbook for this new client",
+      "Draft an expansion playbook based on this client's CRM record",
+      "Update this client's success playbook for their next stage"
+    ]
   }
 }

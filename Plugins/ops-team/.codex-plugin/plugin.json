@@ -1,14 +1,33 @@
 {
   "name": "ops-team",
-  "version": "1.0.0",
-  "description": "Keeps a website running well after every deploy -- auditing SEO, copy, and broken links; producing on-brand design assets and web specs; and managing the build pipeline, DNS, and CI. 3 roles: Jenny (Design Lead), Jason (QA Reviewer), Eric (Infra Lead). Bring your own site standards, brand guidelines, and infra config. No proprietary CL logic.",
+  "version": "1.1.0",
+  "description": "Keeps a website running well after every deploy -- auditing SEO, copy, and broken links; producing on-brand design assets and web specs; and managing the build pipeline, DNS, and CI. 3 roles: Jenny (Design Lead), Jason (QA Reviewer), Eric (Infra Lead). Bring your own site standards, brand guidelines, and infra config.",
   "author": {
-    "name": "Compound Leverage"
+    "name": "Compound Leverage",
+    "url": "https://compoundleverage.com"
   },
+  "homepage": "https://www.skool.com/thinkschool/about",
+  "repository": "https://github.com/Compound-Leverage/THINK-school",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": ["ai-team", "digital-employee", "think-school", "ops", "web-qa", "design", "infra"],
   "skills": "./skills",
   "interface": {
-    "displayName": "Ops Team Open",
+    "displayName": "Ops Team",
     "shortDescription": "3-role site ops team: QA audits, design assets, and infra/deploy pipeline",
-    "category": "Productivity"
+    "longDescription": "An AI Team of three specialized Digital Employees: Jenny leads design (thumbnails, social graphics, web specs), Jason audits sites post-deploy (SEO, copy, broken links), and Eric manages the build pipeline, DNS, and CI. Bring your own site standards, brand guidelines, and infra config.",
+    "developerName": "Compound Leverage",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://www.skool.com/thinkschool/about",
+    "privacyPolicyURL": "https://www.compoundleverage.com/privacy/",
+    "termsOfServiceURL": "https://www.compoundleverage.com/terms/",
+    "brandColor": "#6944BA",
+    "composerIcon": "./assets/think-school.png",
+    "logo": "./assets/think-school.png",
+    "defaultPrompt": [
+      "Audit the site after this deploy -- SEO, copy, and broken links",
+      "Design a social graphic for this launch",
+      "Set up the CI pipeline for this new site"
+    ]
   }
 }

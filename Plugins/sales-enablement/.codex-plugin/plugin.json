@@ -1,14 +1,33 @@
 {
   "name": "sales-enablement",
-  "version": "1.0.0",
-  "description": "Pulls completed client engagements and turns them into 1-page case study narratives tagged by buyer type, keeping a ready supply of proof points on hand for proposal and outreach work. Bring your own buyer tags and Notion DB IDs. No proprietary CL logic.",
+  "version": "1.1.0",
+  "description": "Pulls completed client engagements and turns them into 1-page case study narratives tagged by buyer type, keeping a ready supply of proof points on hand for proposal and outreach work. Bring your own buyer tags and Notion DB IDs.",
   "author": {
-    "name": "Compound Leverage"
+    "name": "Compound Leverage",
+    "url": "https://compoundleverage.com"
   },
+  "homepage": "https://www.skool.com/thinkschool/about",
+  "repository": "https://github.com/Compound-Leverage/THINK-school",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": ["ai-team", "digital-employee", "think-school", "sales-enablement", "case-study", "proof-points"],
   "skills": "./skills",
   "interface": {
-    "displayName": "Sales Enablement Open",
+    "displayName": "Sales Enablement",
     "shortDescription": "Extracts case study narratives and maintains a proof point inventory",
-    "category": "Sales"
+    "longDescription": "A Digital Employee that pulls completed client engagements and turns them into 1-page case study narratives tagged by buyer type, keeping a ready supply of proof points on hand for proposal and outreach work. Bring your own buyer tags and Notion database IDs.",
+    "developerName": "Compound Leverage",
+    "category": "Sales",
+    "capabilities": ["Read"],
+    "websiteURL": "https://www.skool.com/thinkschool/about",
+    "privacyPolicyURL": "https://www.compoundleverage.com/privacy/",
+    "termsOfServiceURL": "https://www.compoundleverage.com/terms/",
+    "brandColor": "#6944BA",
+    "composerIcon": "./assets/think-school.png",
+    "logo": "./assets/think-school.png",
+    "defaultPrompt": [
+      "Turn this completed engagement into a 1-page case study",
+      "Pull our current proof point inventory tagged by buyer type",
+      "Find proof points relevant to this proposal's buyer type"
+    ]
   }
 }
