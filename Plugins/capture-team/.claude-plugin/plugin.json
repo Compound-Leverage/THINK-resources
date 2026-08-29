@@ -1,7 +1,7 @@
 {
   "name": "capture-team",
   "version": "1.1.0",
-  "description": "Finds organizations and named groups worth pursuing, enriches and classifies inbound leads against your ICP, and turns raw signals into client-ready intelligence briefs. 3 roles: Chet (Cluster Discovery), Kipp (CRM Intake), Ben (Signal Delivery).",
+  "description": "THINK School AI Capture Team helps practitioners discover opportunities worth pursuing, qualify and prioritize them against organizational criteria, and turn the resulting intelligence into decision-ready Capture Briefs. Three Digital Employees work together: Chet discovers, Kipp qualifies and prioritizes, and Ben develops capture intelligence and pursuit recommendations.",
   "author": {
     "name": "Compound Leverage",
     "url": "https://compoundleverage.com"
@@ -9,5 +9,13 @@
   "homepage": "https://www.skool.com/thinkschool/about",
   "repository": "https://github.com/Compound-Leverage/THINK-school",
   "license": "PolyForm-Shield-1.0.0",
-  "keywords": ["ai-team", "digital-employee", "think-school", "capture", "lead-enrichment", "crm", "intelligence-brief"]
+  "keywords": [
+    "ai-team",
+    "digital-employee",
+    "think-school",
+    "capture",
+    "lead-enrichment",
+    "crm",
+    "intelligence-brief"
+  ]
 }

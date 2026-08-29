@@ -40,7 +40,7 @@
     {
       "name": "capture-team",
       "source": "./Plugins/capture-team",
-      "description": "Finds organizations and named groups worth pursuing, enriches and classifies inbound leads against your ICP, and turns raw signals into client-ready intelligence briefs. 3 roles: Chet (Cluster Discovery), Kipp (CRM Intake), Ben (Signal Delivery)."
+      "description": "THINK School AI Capture Team helps practitioners discover opportunities worth pursuing, qualify and prioritize them against organizational criteria, and turn the resulting intelligence into decision-ready Capture Briefs. Three Digital Employees work together: Chet discovers, Kipp qualifies and prioritizes, and Ben develops capture intelligence and pursuit recommendations."
     },
     {
       "name": "fulfillment",

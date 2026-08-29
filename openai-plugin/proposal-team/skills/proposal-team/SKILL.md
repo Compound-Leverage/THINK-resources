@@ -17,7 +17,7 @@ unless the request genuinely spans more than one phase.
 3. **Assessment** -- load `references/priya.md` for deal classification, ROI model, pricing
 4. **Strategy** -- load `references/porter.md` for competitive positioning and win themes
 5. **Draft** -- load `references/quinn.md` for the full proposal document
-6. **QA** -- load `references/diego.md` for the four-check review and PASS/WARNING/FAIL verdict
+6. **QA** -- load `references/diego.md` for the five-check review and PASS/WARNING/FAIL verdict
 7. **Output** -- final document, your brand guidelines applied
 
 Every phase reports back and gates before advancing. A REVISE/FAIL verdict at

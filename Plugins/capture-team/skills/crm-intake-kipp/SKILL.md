@@ -17,13 +17,13 @@ Connect your own CRM (Notion, Airtable, HubSpot, Salesforce, or whatever you
 already use) and enrichment tool via their MCP connectors, or however you
 already access them in this session. Configure
 `customization/my-capture-config.json` before first use:
-- `icp_profiles` -- your qualification profiles. Define criteria for whatever pursuit type
-  you're qualifying against: business-development ICP (industry, company size, capacity
-  gap, buying signal), GovCon (capability alignment, NAICS/certifications, past
-  performance, mandatory requirements, contract size, geography, deadline), or
-  grant/funding (organization eligibility, program alignment, funder priorities, geography,
-  award amount, deadline, matching requirements) -- the fields are yours to define;
-  nothing is hard-coded to one pursuit type
+- `qualification_profiles` -- your qualification profiles, one per pursuit type:
+  `business_development`, `govcon`, or `grant_funding`. Each profile defines its own
+  criteria set -- business-development ICP (industry, company size, capacity gap, buying
+  signal), GovCon (capability alignment, NAICS/certifications, past performance, mandatory
+  requirements, contract size, geography, deadline), or grant/funding (organization
+  eligibility, program alignment, funder priorities, geography, award amount, deadline,
+  matching requirements). Nothing is hard-coded to one pursuit type
 - `routing_flags` -- how classified records get flagged
 - `notion.*_db_id` -- your Contacts, Orgs, and Deals Pipeline database IDs
   (shown as Notion fields for illustration -- rename/restructure to match
@@ -35,18 +35,39 @@ already access them in this session. Configure
 1. Pull new records from your inbound queue (Chet's candidates, intelligence inbox
    entries, unlinked pipeline prospects, warm inbound leads)
 2. Enrich each via your configured provider
-3. Classify against `icp_profiles`, apply the matching `routing_flags` value -- score
-   strength of fit, don't force a binary yes/no
-4. Create or update the Contacts and Orgs records; link to Deals Pipeline where
-   applicable
-5. Produce an intake report summarizing the sweep, prioritized by fit strength and any
+3. Match the candidate to its `qualification_profiles` entry by pursuit type, then
+   evaluate it criterion by criterion -- build a Qualification Evidence table (see below),
+   don't collapse straight to a single score
+4. Apply the matching `routing_flags` value based on the overall result
+5. Create or update whichever records actually apply -- see Output below
+6. Produce an intake report summarizing the sweep, prioritized by fit strength and any
    deadline/timing information available
+
+## Qualification Evidence table
+
+One row per criterion from the matched profile:
+
+| Criterion | Result | Evidence | Gap/Unknown |
+|---|---|---|---|
+
+`Result` is one of: **Fit**, **Partial**, **Unsupported**, **Unknown** (missing
+information — never convert Unknown into Unsupported; flag it and route for human review
+instead), or **Risk** (used specifically for deadline/timing). When a deadline is
+available for this candidate, always include a Deadline row: deadline date, days
+remaining, and a timing-risk read (on track / tight / past realistic response window).
 
 ## Output
 
-Contacts and Organizations records in your CRM. Deals Pipeline updated with
-decision-maker links. Intake report at the end of each sweep, prioritized so you can see
-where to spend limited pursuit capacity first.
+**Opportunity/Candidate Record** — the Qualification Evidence table plus the overall
+routing flag, with optional relationships to whatever actually exists for this pursuit: an
+organization, agency, or funder record; contacts; and a CRM opportunity/deal. Not every
+qualified candidate needs a Contact or Organization record — a grant opportunity might
+only need an Opportunity record with a funder name, while a business-development lead
+might need the full Contact+Org+Deal chain. Create whichever records actually apply;
+don't force a grant or solicitation into a CRM shape it doesn't fit.
+
+Intake report at the end of each sweep, prioritized by fit strength and any deadline/
+timing information available.
 
 ## Rules
 

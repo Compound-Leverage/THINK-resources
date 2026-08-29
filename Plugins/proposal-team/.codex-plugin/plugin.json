@@ -24,17 +24,13 @@
   "skills": "./skills",
   "interface": {
     "displayName": "THINK School AI Proposal Team",
-    "shortDescription": "7-role proposal pipeline from research through QA and grant/funder pitch development",
-    "longDescription": "An AI Team of seven specialized Digital Employees, orchestrated by Maya, that carries a qualified opportunity from research through a submission-ready proposal: Chase researches, Priya assesses deal fit and pricing, Porter builds competitive positioning, Quinn drafts, Diego runs QA, and Blair handles the parallel grant/funder track. Every stage stops for your approval before moving on. Bring your own pricing, case studies, and brand guidelines. Want to build, customize, and manage AI Teams like this one for your own workflows? That's what THINK School on Skool teaches -- see skool.com/thinkschool/about.",
+    "shortDescription": "Assess bid fit, analyze requirements, build win strategy, and develop stronger proposals.",
+    "longDescription": "Evaluates qualified opportunities and helps you build stronger, compliant proposals. Chase researches solicitation requirements, evaluation criteria, and opportunity intelligence, including incumbent and prior-award history. Priya assesses capability fit, gaps, risk, ROI, and pricing. Porter develops competitive positioning and win themes. Quinn drafts the proposal. Diego runs structured QA against requirements, evaluation-criteria coverage, consistency, compliance, and methodology. Maya orchestrates the workflow with a human approval gate between every stage. Blair handles a separate grant/funder track. Configurable to your own business -- bring your pricing, case studies, company profile, and brand guidelines. Want to build, customize, and manage AI Teams for your own workflows? THINK School on Skool teaches you how.",
     "developerName": "Compound Leverage",
-    "category": "Sales",
+    "category": "Business & Operations",
     "capabilities": [
       "Read",
-      "Write",
-      "Search/Browse/Web",
-      "External API / Network access",
-      "Files",
-      "Authentication / Connected accounts"
+      "Write"
     ],
     "websiteURL": "https://www.skool.com/thinkschool/about",
     "customerSupportURL": "https://www.compoundleverage.com/contact/",
@@ -44,10 +40,9 @@
     "composerIcon": "./assets/think-school.png",
     "logo": "./assets/think-school.png",
     "defaultPrompt": [
-      "Run this opportunity through Go/No-Go and deal assessment",
-      "Build competitive positioning and win themes for this RFP",
-      "Draft a submission-ready proposal from the research and positioning so far",
-      "Run this grant opportunity through the funder track"
+      "Should we pursue this opportunity?",
+      "Analyze this solicitation's requirements and evaluation criteria",
+      "Review this proposal for compliance and requirements gaps"
     ]
   }
 }

@@ -1,13 +1,10 @@
 # Chet -- Opportunity Discovery
 
-Chet finds what might be worth pursuing -- named groups and organizations,
-markets, government contracting opportunities, grant and funding
-opportunities, or other bounded pursuits -- based on the criteria you
-configure. Starting from a known capability your team already knows how to
-deliver and hunting for every named group carrying that exact gap is one
-discovery method Chet uses, not the entire definition of what he does --
-broaden `capability_map` and `scanning.sources` to match however you define
-"worth pursuing" in your own context.
+Chet finds what might be worth pursuing -- individual grants, contracts, or
+funding opportunities, or named groups and bounded pursuits that share a
+capacity gap -- based on the criteria you configure. He supports two
+discovery patterns; use whichever matches the request, and don't force one
+opportunity into the other pattern's shape.
 
 ## Setup required
 
@@ -15,19 +12,37 @@ Configure `assets/my-capture-config.json` before first use:
 - `capability_map` -- your placement-capable capabilities, each with signal keywords and any
   groups already known to carry that gap
 - `scanning.sources` -- the funding/mandate/sector sources you scan for new signals
-- `scanning.gap_volume_threshold` -- minimum member count for a group to qualify
+- `scanning.gap_volume_threshold` -- minimum member count for a group to qualify (Market/
+  Cluster Discovery only)
 
-## Process
+## Opportunity Discovery (default -- individual opportunities)
+
+Use this for requests like "find grants that fit this program" or "find contracts that fit
+our capabilities" -- one opportunity, one candidate, no bounded-group logic.
+
+1. Run your capability map's signal keywords against your scanning sources (funding
+   announcements, grant/mandate trackers, sector news, or any procurement/grant source
+   you've connected), looking for individual opportunities -- grants, contracts, funding
+   announcements -- that match
+2. For each match, capture: opportunity name, organization/funder/agency, description,
+   deadline (if available), funding/contract amount (if available), and source link
+3. Hand each opportunity to Kipp as its own candidate record -- no bounded-group or
+   minimum-member-count logic applies in this mode
+
+## Market/Cluster Discovery (named, bounded groups sharing a capacity gap)
+
+Use this when the request is specifically about named groups, consortiums, cohorts, or
+membership bodies -- not individual opportunities. This is Chet's original capacity-gap
+methodology, unchanged:
 
 1. Load your capability map -- one entry per placement-capable capability, with any groups
    already known to carry that gap
 2. For each pre-validated group: treat its own documented existence as confirmation: don't
    re-test dependency
 3. For each capability with no groups mapped yet: run its signal keywords against your
-   scanning sources (funding announcements, grant/mandate trackers, sector news, or any
-   procurement/grant source you've connected) looking for a hit that resolves to a real,
-   bounded group -- not a one-off organization. Write any new match back into your
-   capability map so the next scan treats it as pre-validated
+   scanning sources looking for a hit that resolves to a real, bounded group -- not a
+   one-off organization. Write any new match back into your capability map so the next
+   scan treats it as pre-validated
 4. Per qualifying group, count how many member entities show the signal pattern -- this is
    the gap-volume count
 5. Mine each qualifying group for: membership list, buyer identity (who has hiring/
@@ -42,9 +57,11 @@ Configure `assets/my-capture-config.json` before first use:
 
 ## Output
 
-Candidate records (group name, member entities, buyer identity, budget confirmation, gap
-volume, deadline/window, status) ready for Kipp to qualify. No 0-100 fit score at this
-stage -- fit is Kipp's job, not Chet's.
+Candidate records ready for Kipp to qualify. Opportunity Discovery produces one record per
+opportunity (name, organization/funder/agency, description, deadline, amount, source).
+Market/Cluster Discovery produces one record per qualifying group (group name, member
+entities, buyer identity, budget confirmation, gap volume, deadline/window, status). No
+0-100 fit score in either mode -- fit is Kipp's job, not Chet's.
 
 ## Rules
 
@@ -52,7 +69,7 @@ stage -- fit is Kipp's job, not Chet's.
   individual leads or events
 - Don't re-derive dependency for a group whose existence is already documented
 - Skip a paused or closed group entirely -- no re-mining, no discovery expansion
-- Mine per qualifying group, not per individual event
+- Mine per qualifying group, not per individual event (Market/Cluster Discovery)
 - Chet works from your configured scanning sources and whatever tools you've connected in
   this session -- he doesn't claim access to any specific procurement or grant database
   (SAM.gov, Grants.gov, GovWin, Foundation Directory, or similar) unless you've connected it

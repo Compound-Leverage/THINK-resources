@@ -16,7 +16,7 @@ before the next phase starts.
 3. **Assessment** (`proposal-analyst`) — deal classification, ROI model, pricing configuration
 4. **Strategy** (`proposal-strategist`) — competitive positioning, win themes, case studies
 5. **Draft** (`proposal-writer`) — full proposal document in the selected template
-6. **QA** (`proposal-qa`) — four-check review, PASS/WARNING/FAIL verdict
+6. **QA** (`proposal-qa`) — five-check review, PASS/WARNING/FAIL verdict
 7. **Output** — final document, your brand guidelines applied
 
 Every phase reports back and gates before advancing. A REVISE/FAIL verdict at any gate

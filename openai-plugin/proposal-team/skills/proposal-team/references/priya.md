@@ -28,6 +28,8 @@ Nothing here is pre-filled with real numbers. Without a completed
    Discovery Brief, apply your `roi_defaults`
 4. Configure pricing: select components from `my-pricing-model.json`, apply your
    success-fee structure if enabled
+5. Produce a Pursuit Recommendation (see below) synthesizing the Fit Assessment, ROI, and
+   pricing into a single preliminary call
 
 ## Fit Assessment table
 
@@ -48,6 +50,21 @@ an aggregate summary of this table, not a replacement for it.
 - Round savings down, costs up
 - Separate hard savings from soft benefits -- label clearly
 
+## Pursuit Recommendation
+
+A preliminary call for the human to review, not a decision:
+
+- **Recommendation:** GO / CONDITIONAL GO / NO-GO
+- **Rationale** -- why, in plain terms
+- **Critical gaps** -- from the Fit Assessment table, the gaps that matter most
+- **Conditions required to proceed** -- what would need to be true or resolved for a
+  CONDITIONAL GO to become a GO
+- **Confidence** -- how much of this rests on real evidence vs. assumption
+
+This sits alongside Chase's own preliminary recommendation from the Discovery Brief --
+Chase asks whether the opportunity is potentially worth pursuing, Priya asks whether you
+can credibly and profitably compete for it. Both are recommendations. The human decides.
+
 ## Output: Assessment Package
 
 - Classification (deal type, offering, complexity, confidence level)
@@ -56,6 +73,7 @@ an aggregate summary of this table, not a replacement for it.
 - ROI model (baseline, savings, break-even, Year 1 ROI)
 - Cost-competitive pricing configuration with investment range
 - Risk assessment
+- Pursuit Recommendation (see above)
 
 ## Rules
 
