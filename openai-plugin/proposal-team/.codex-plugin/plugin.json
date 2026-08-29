@@ -1,0 +1,47 @@
+{
+  "name": "proposal-team",
+  "version": "1.1.0",
+  "description": "Runs a qualified opportunity through a full proposal pipeline -- research, deal assessment, competitive positioning, drafting, and QA -- producing a submission-ready proposal with your approval at each stage, plus a separate grant/funder track. 7 roles: Maya (lead), Chase, Priya, Porter, Quinn, Diego, Blair. Bring your own pricing, case studies, and brand guidelines.",
+  "author": {
+    "name": "Compound Leverage",
+    "url": "https://compoundleverage.com"
+  },
+  "homepage": "https://www.skool.com/thinkschool/about",
+  "repository": "https://github.com/Compound-Leverage/THINK-school",
+  "license": "PolyForm-Shield-1.0.0",
+  "keywords": [
+    "ai-team",
+    "digital-employee",
+    "think-school",
+    "proposal",
+    "rfp",
+    "capture-management",
+    "grant-writing",
+    "government-contractor",
+    "govcon",
+    "small-business"
+  ],
+  "interface": {
+    "displayName": "THINK School AI Proposal Team",
+    "shortDescription": "7-role proposal pipeline from research through QA and grant/funder pitch development",
+    "longDescription": "An AI Team of seven specialized Digital Employees, orchestrated by Maya, that carries a qualified opportunity from research through a submission-ready proposal: Chase researches, Priya assesses deal fit and pricing, Porter builds competitive positioning, Quinn drafts, Diego runs QA, and Blair handles the parallel grant/funder track. Every stage stops for your approval before moving on. Bring your own pricing, case studies, and brand guidelines. Want to build, customize, and manage AI Teams like this one for your own workflows? That's what THINK School on Skool teaches -- see skool.com/thinkschool/about.",
+    "developerName": "Compound Leverage",
+    "category": "Sales",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.skool.com/thinkschool/about",
+    "privacyPolicyURL": "https://www.compoundleverage.com/privacy/",
+    "termsOfServiceURL": "https://www.compoundleverage.com/terms/",
+    "brandColor": "#6944BA",
+    "composerIcon": "./assets/think-school.png",
+    "logo": "./assets/think-school.png",
+    "defaultPrompt": [
+      "Run this opportunity through Go/No-Go and deal assessment",
+      "Build competitive positioning and win themes for this RFP",
+      "Draft a submission-ready proposal from the research and positioning so far",
+      "Run this grant opportunity through the funder track"
+    ]
+  }
+}
