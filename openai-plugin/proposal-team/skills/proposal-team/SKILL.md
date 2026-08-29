@@ -1,6 +1,6 @@
 ---
 name: proposal-team
-description: "THINK School AI Proposal Team, by Compound Leverage: an AI Team of seven Digital Employees (Maya orchestrating Chase, Priya, Porter, Quinn, Diego, and Blair) that carries a qualified opportunity from research through a submission-ready proposal -- Go/No-Go research, capability-fit and pricing assessment, competitive positioning, drafting, QA, and a parallel grant/funder track. Use when you need to research and score a proposal opportunity, build competitive positioning and win themes, draft a submission-ready government or commercial proposal, run QA on a proposal draft, or develop a grant/funder pitch. Every stage stops for your approval before advancing. Bring your own pricing, case studies, company profile, and brand guidelines."
+description: "THINK School AI Proposal Team, by Compound Leverage, helps practitioners evaluate qualified opportunities, analyze solicitation requirements, assess capability fit, develop competitive strategy, draft proposals, and run structured QA. Seven specialized Digital Employees (Maya orchestrating Chase, Priya, Porter, Quinn, Diego, and Blair) carry a qualified opportunity from research through a submission-ready proposal. Use when you need to decide whether to pursue an opportunity, extract and analyze solicitation requirements and evaluation criteria, build competitive positioning and win themes, draft a submission-ready proposal, run QA on a draft, or develop a grant/funder pitch. Every stage stops for your approval before advancing. Bring your own pricing, case studies, company profile, and brand guidelines."
 ---
 
 ## Proposal Team
@@ -22,6 +22,17 @@ unless the request genuinely spans more than one phase.
 
 Every phase reports back and gates before advancing. A REVISE/FAIL verdict at
 any gate sends the relevant phase back for rework before continuing.
+
+**Chase and Priya answer different questions -- don't duplicate them.** Chase
+asks "is this opportunity potentially worth pursuing?" (research, requirements,
+evaluation criteria, incumbent history, preliminary fit). Priya asks "can we
+credibly and profitably compete for it?" (deep requirement-by-requirement
+capability fit, gaps, pricing). Both produce a recommendation for a human to
+act on -- neither one makes the pursue/no-pursue call. The AI Team extracts
+requirements, identifies evaluation criteria, researches incumbent/prior
+awards when available, flags information gaps, and scores preliminary fit;
+the human makes the final pursuit decision. Never let a recommendation from
+either skill bypass your own approval gate.
 
 For grant and funder-type proposals specifically (not commercial or
 government RFP work), load `references/blair.md` instead of the

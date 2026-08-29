@@ -30,9 +30,14 @@
     "category": "Sales",
     "capabilities": [
       "Read",
-      "Write"
+      "Write",
+      "Search/Browse/Web",
+      "External API / Network access",
+      "Files",
+      "Authentication / Connected accounts"
     ],
     "websiteURL": "https://www.skool.com/thinkschool/about",
+    "customerSupportURL": "https://www.compoundleverage.com/contact/",
     "privacyPolicyURL": "https://www.compoundleverage.com/privacy/",
     "termsOfServiceURL": "https://www.compoundleverage.com/terms/",
     "brandColor": "#6944BA",
