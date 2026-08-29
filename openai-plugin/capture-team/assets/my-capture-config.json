@@ -1,0 +1,67 @@
+{
+  "_instructions": "REQUIRED: Configure your capability map, ICP criteria, CRM database IDs, enrichment provider, and delivery destination for Capture Team (Chet, Kipp, Ben). Notion and Google Drive fields below are illustrative -- rename/restructure to match whatever CRM and storage you actually use. Update whenever your capture process changes.",
+  "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
+
+  "capability_map": {
+    "_instructions": "One entry per placement-capable capability, for Chet's cluster discovery.",
+    "capabilities": [
+      {
+        "capability_id": "[CAPABILITY-1]",
+        "capacity_solved": "[e.g. 'Grant-writing support for university research offices']",
+        "signal_keywords": ["[KEYWORD 1]", "[KEYWORD 2]"],
+        "known_groups": []
+      }
+    ]
+  },
+
+  "scanning": {
+    "_instructions": "Sources Chet scans for new signals, and the minimum group size to qualify as a cluster.",
+    "sources": ["[e.g. Grants.gov]", "[e.g. sector news]"],
+    "gap_volume_threshold": "[e.g. 3 -- minimum member count for a group to qualify]"
+  },
+
+  "icp_profiles": [
+    {
+      "profile_id": "[PROFILE-1]",
+      "label": "[e.g. 'Government contractor, 10-200 employees']",
+      "org_types": ["[TYPE 1]", "[TYPE 2]"],
+      "size_range": "[e.g. 10-200 employees or a revenue range]",
+      "classification_criteria": [
+        "[Signal or field that qualifies a record for this profile]"
+      ]
+    }
+  ],
+
+  "routing_flags": {
+    "_instructions": "How Kipp's classified records get routed after intake.",
+    "qualified_flag": "[e.g. 'ICP-Match']",
+    "unqualified_flag": "[e.g. 'Monitor']",
+    "escalation_flag": "[e.g. 'Warm Inbound -- Review']"
+  },
+
+  "notion": {
+    "_instructions": "Named 'notion' for illustration only -- if you use a different CRM (Airtable, HubSpot, Salesforce, etc.), rename these keys and adapt the ID format to match.",
+    "clusters_db_id": "[YOUR CLUSTERS/CAMPAIGN DB ID]",
+    "contacts_db_id": "[YOUR CRM CONTACTS DB ID]",
+    "orgs_db_id": "[YOUR CRM ORGS DB ID]",
+    "deals_pipeline_db_id": "[YOUR CRM DEALS PIPELINE DB ID]",
+    "signal_inbox_db_id": "[YOUR SIGNAL/INTELLIGENCE INBOX DB ID]"
+  },
+
+  "enrichment": {
+    "_instructions": "Kipp's contact/company enrichment provider and key.",
+    "provider": "[e.g. Hunter.io, Clearbit, Apollo, or whatever you use]",
+    "api_key_env_var": "[NAME OF YOUR ENV VAR -- never paste the key itself here]"
+  },
+
+  "delivery": {
+    "_instructions": "Where Ben's finished briefs land. Named for Google Drive for illustration only -- use whatever storage location (OneDrive, SharePoint, etc.) and identifier your own tool needs.",
+    "google_drive_folder_id": "[YOUR STORAGE FOLDER/LOCATION ID]",
+    "share_with_owner_on_completion": true
+  },
+
+  "brief_structure": {
+    "_instructions": "Section headers for Ben's brief output. Customize to your delivery format.",
+    "sections": ["[Executive Summary]", "[Signal Detail]", "[Market Context]", "[Recommended Actions]"]
+  }
+}

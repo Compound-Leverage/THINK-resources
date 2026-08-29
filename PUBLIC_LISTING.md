@@ -8,14 +8,54 @@ rest of the roster remain installable).
 
 ## Structure
 
-**THINK School AI Teams**
+**Two separate plugin listings, not one bundled app** (decision finalized
+2026-08-28, per Julian's growth-lane review -- see rationale below):
 
-- **ChatGPT:** Capture Team + Proposal Team
-- **Claude:** Capture Team + Proposal Team
+- **ChatGPT:** "THINK School AI Capture Team" (standalone listing) +
+  "THINK School AI Proposal Team" (standalone listing)
+- **Claude:** same two, same split
 - **THINK School on Skool:** the complete environment -- full team library
   (including Fulfillment and the rest of the roster), Digital Employees, this
   GitHub repository, training, customization, team-building methodology,
   updates, community.
+
+**Why two listings:** ChatGPT/Claude directory search is semantic, matching a
+user's natural-language query against a listing's name + description. A
+capture manager searches "capture management" / "RFP capture"; a proposal or
+grant writer searches "grant proposal writing" / "proposal compliance" -- two
+different queries a single bundled listing would have to serve at once,
+diluting match strength for both. Two single-skill listings are also the
+confirmed-supported platform format; one listing bundling two named
+sub-skills was never confirmed as supported, so this also removes a real,
+unnecessary submission risk.
+
+**Naming: "THINK School AI [Team]," not a bare generic name, not a shortened
+"THINK."** Julian's original argument was to drop branding entirely from the
+searchable name (spend the whole ~30-char budget on the job-function term,
+since THINK School has no prior recognition in this channel yet). Overruled
+-- a fully generic name like bare "Capture Team" is exactly what OpenAI's own
+submission guidance warns against ("avoid overly generic names... not
+clearly tied to your brand"), and it risks colliding with an unrelated plugin
+using the same generic phrase, with zero way for a user to tell them apart or
+find this one again. A shortened "THINK [Team]" was tried next, but
+overruled too -- "THINK" alone is not an actual marketed term (Compound
+Leverage markets "THINK School" as a whole phrase, never "THINK" on its own),
+so it would carry zero real brand recognition, just an invented abbreviation.
+Resolution: use the full "THINK School AI [Team]" -- "THINK School AI Capture
+Team" (28 chars) and "THINK School AI Proposal Team" (29 chars) fit the
+~30-char budget, use the actual marketed brand phrase, add "AI" for category
+clarity, and keep the job-function search term intact.
+
+**Publisher: Compound Leverage, not THINK School.** Per this project's
+original brief, Compound Leverage is the company/publisher and THINK School
+is the product brand -- and OpenAI's developer identity verification
+(completed 2026-08-28) is already tied to "Business -- Compound Leverage."
+That's the identity OpenAI will show as the verified publisher regardless of
+listing copy, so the subtitle says "by Compound Leverage" to match rather
+than introducing a third, unexplained brand name on top of the two already in
+the listing name and description. Manifest `author.name`/`developerName`
+fields already say "Compound Leverage" for both plugins -- no change needed
+there.
 
 Guiding principle: **public plugins help you do the work. THINK School teaches
 you how to build, customize, and manage the workforce.** The free tier is not
@@ -35,36 +75,51 @@ upsell line (that stays a single, clean CTA to Skool, per OpenAI's
 anti-advertising guidance) -- it lives in repo docs people read once they're
 already engaged, e.g. `SUPPORT.md`.
 
-## Listing name
+## Listing 1: THINK School AI Capture Team
 
-**THINK School**
+**Name:** THINK School AI Capture Team
+(28 chars -- fits the ~30-char limit reported for this field; verify in the
+submission portal.)
 
-(~30-char limit reported for this field -- verify in the submission portal.)
+**Subtitle:** Find and pursue opportunities -- by Compound Leverage
+(~53 chars -- verify the portal's actual subtitle limit before submitting.
+Publisher goes here, matching the verified developer identity -- see naming
+note below.)
 
-## Listing subtitle
+**Description:** Part of THINK School, Compound Leverage's free practitioner
+resource. An AI Team of three Digital Employees that finds named groups worth
+pursuing, enriches and classifies inbound leads against your ICP, and turns
+signals into client-ready intelligence briefs. Configurable to your own
+business -- bring your ICP, capability map, and connect whatever CRM,
+enrichment tool, and document storage you already use. Nothing is pre-wired
+to a specific vendor, and no proprietary Compound Leverage accounts or data
+are required.
 
-**Get your own AI Capture and Proposal Team**
+Try: "Find named groups or clusters that share a capacity gap we can fill"
 
-(~41 chars -- verify the portal's actual subtitle limit before submitting.)
+## Listing 2: THINK School AI Proposal Team
 
-## Listing description
+**Name:** THINK School AI Proposal Team
+(29 chars -- fits the ~30-char limit; verify in the submission portal.)
 
-Ready-to-use AI Teams for capture and proposals. Specialized Digital Employees
-work together across the lifecycle from identifying opportunities through
-developing submission-ready proposals. Configurable to your own business --
-bring your ICP, capability map, pricing, case studies, and brand guidelines,
-and each team runs on your data from the first use. Both teams work with
-whatever CRM, enrichment tool, and document storage you already use -- nothing
-is pre-wired to a specific vendor, and no proprietary Compound Leverage
-accounts or data are required.
+**Subtitle:** Win the work with compliant proposals -- by Compound Leverage
+(~63 chars -- verify the portal's actual subtitle limit; may need trimming.
+Publisher goes here, matching the verified developer identity.)
 
-Try:
-- "Find named groups or clusters that share a capacity gap we can fill" (Capture)
-- "Run this opportunity through Go/No-Go and deal assessment" (Proposal)
+**Description:** Part of THINK School, Compound Leverage's free practitioner
+resource. An AI Team of seven Digital Employees that carries a qualified
+opportunity from research through a submission-ready proposal -- requirement
+extraction, competitive positioning, drafting, and QA, plus a parallel
+grant/funder track. Every stage stops for your approval before moving on.
+Configurable to your own business -- bring your pricing, case studies, and
+brand guidelines.
 
-(Format check: confirm in the submission portal whether example prompts belong
-inline in the full description or are handled entirely by the separate
-starter-prompt field each plugin manifest already sets via `defaultPrompt`.)
+Try: "Run this opportunity through Go/No-Go and deal assessment"
+
+(Format check for both: confirm in the submission portal whether example
+prompts belong inline in the full description or are handled entirely by the
+separate starter-prompt field each plugin manifest already sets via
+`defaultPrompt`.)
 
 ## The two teams (submission scope)
 

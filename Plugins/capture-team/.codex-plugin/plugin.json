@@ -24,7 +24,7 @@
   ],
   "skills": "./skills",
   "interface": {
-    "displayName": "Capture Team",
+    "displayName": "THINK School AI Capture Team",
     "shortDescription": "Find capacity-gap groups, enrich inbound records, and deliver client-ready briefs",
     "longDescription": "An AI Team of three specialized Digital Employees: Chet finds named, bounded groups worth pursuing; Kipp enriches and classifies inbound org and contact records against your ICP; Ben turns the resulting signals into client-ready intelligence briefs. Bring your own enrichment tool, ICP criteria, and CRM database. Want to build, customize, and manage AI Teams like this one for your own workflows? That's what THINK School on Skool teaches -- see skool.com/thinkschool/about.",
     "developerName": "Compound Leverage",
