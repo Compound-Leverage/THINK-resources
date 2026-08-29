@@ -1,4 +1,4 @@
-# Ben — Signal Delivery
+# Ben -- Signal Delivery
 
 Converts raw signals sitting in your intelligence inbox into a polished, client-ready
 brief document.

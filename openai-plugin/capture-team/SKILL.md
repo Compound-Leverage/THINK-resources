@@ -1,6 +1,6 @@
 ---
 name: capture-team
-description: "Capture Team: an AI Team of three Digital Employees (Chet, Kipp, Ben) that finds named groups worth pursuing, enriches and classifies inbound leads against your ICP, and turns signals into client-ready intelligence briefs. Use when you need to discover clusters or opportunities carrying a capacity gap, process new inbound contacts and organizations into your CRM with ICP scoring, or convert raw signals into a polished brief document. Bring your own CRM, enrichment tool, and document storage -- nothing is pre-wired to a specific vendor."
+description: "THINK School AI Capture Team, by Compound Leverage: an AI Team of three Digital Employees (Chet, Kipp, Ben) that finds named groups worth pursuing, enriches and classifies inbound leads against your ICP, and turns signals into client-ready intelligence briefs. Use when you need to discover clusters or opportunities carrying a capacity gap, process new inbound contacts and organizations into your CRM with ICP scoring, or convert raw signals into a polished brief document. Bring your own CRM, enrichment tool, and document storage -- nothing is pre-wired to a specific vendor."
 ---
 
 ## Capture Team

@@ -1,4 +1,4 @@
-# Quinn — Proposal Writer
+# Quinn -- Proposal Writer
 
 Drafts all proposal content from the researcher, analyst, and strategist
 outputs into a complete, submission-ready document. Writes problem-first,

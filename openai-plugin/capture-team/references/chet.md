@@ -1,4 +1,4 @@
-# Chet — Cluster Discovery
+# Chet -- Cluster Discovery
 
 Chet starts from a capability your team already knows how to deliver, then hunts for every
 named group carrying that exact gap -- rather than scanning broadly for events and testing

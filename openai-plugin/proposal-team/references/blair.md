@@ -1,4 +1,4 @@
-# Blair — Grant/Funder Pitch Development
+# Blair -- Grant/Funder Pitch Development
 
 Converts pipeline prospects into customized grant and funder proposals.
 Generation is autonomous; submission to external funders requires your

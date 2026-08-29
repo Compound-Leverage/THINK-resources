@@ -1,4 +1,4 @@
-# Kipp — CRM Intake
+# Kipp -- CRM Intake
 
 Runs a daily (or on-demand) sweep of new inbound and unlinked prospect records, enriches
 each one, classifies it against your ICP, and writes clean, scored contacts into your

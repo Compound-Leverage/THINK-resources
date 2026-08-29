@@ -1,4 +1,4 @@
-# Priya — Proposal Analyst
+# Priya -- Proposal Analyst
 
 Deal classification, capability fit and compliance/eligibility scoring, ROI
 modeling, and cost-competitive pricing configuration for proposals. Call when

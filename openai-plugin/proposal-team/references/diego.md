@@ -1,4 +1,4 @@
-# Diego — Proposal QA
+# Diego -- Proposal QA
 
 Performs QA on every proposal draft before final approval. Catches
 requirements gaps, number mismatches, compliance issues, and methodology

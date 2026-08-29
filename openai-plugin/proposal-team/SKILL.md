@@ -1,6 +1,6 @@
 ---
 name: proposal-team
-description: "Proposal Team: an AI Team of seven Digital Employees (Maya orchestrating Chase, Priya, Porter, Quinn, Diego, and Blair) that carries a qualified opportunity from research through a submission-ready proposal -- Go/No-Go research, capability-fit and pricing assessment, competitive positioning, drafting, QA, and a parallel grant/funder track. Use when you need to research and score a proposal opportunity, build competitive positioning and win themes, draft a submission-ready government or commercial proposal, run QA on a proposal draft, or develop a grant/funder pitch. Every stage stops for your approval before advancing. Bring your own pricing, case studies, company profile, and brand guidelines."
+description: "THINK School AI Proposal Team, by Compound Leverage: an AI Team of seven Digital Employees (Maya orchestrating Chase, Priya, Porter, Quinn, Diego, and Blair) that carries a qualified opportunity from research through a submission-ready proposal -- Go/No-Go research, capability-fit and pricing assessment, competitive positioning, drafting, QA, and a parallel grant/funder track. Use when you need to research and score a proposal opportunity, build competitive positioning and win themes, draft a submission-ready government or commercial proposal, run QA on a proposal draft, or develop a grant/funder pitch. Every stage stops for your approval before advancing. Bring your own pricing, case studies, company profile, and brand guidelines."
 ---
 
 ## Proposal Team
