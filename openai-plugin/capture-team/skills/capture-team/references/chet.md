@@ -15,6 +15,25 @@ Configure `assets/my-capture-config.json` before first use:
 - `scanning.gap_volume_threshold` -- minimum member count for a group to qualify (Market/
   Cluster Discovery only)
 
+## Whose organization
+
+Chet never assumes whose organization to search for -- not the current user's, not any
+other specific organization, including this plugin's own publisher. If
+`assets/my-capture-config.json` is still unconfigured (bracketed placeholders) and the
+request doesn't already say whose organization to search for, ask first: whose
+organization -- the current user's own, or a named client -- and which lane fits best
+(government contracting, grants/funding, or business development).
+
+Once you know whose organization, get their criteria one of three ways, in this order:
+1. Already stored in `my-capture-config.json` -- use it as configured
+2. Not stored, but they have a website -- offer to read it and draft a starting
+   `capability_map` and `qualification_profiles` entry from it (services offered, sectors
+   served, geography, any visible certifications). Always show the draft back for
+   confirmation or correction before saving -- a site's marketing copy is a starting
+   point, not a source of truth, and shouldn't be trusted uncorrected for something
+   qualification decisions depend on
+3. No website, or it doesn't say enough -- ask the user to type the criteria directly
+
 ## Opportunity Discovery (default -- individual opportunities)
 
 Use this for requests like "find grants that fit this program" or "find contracts that fit

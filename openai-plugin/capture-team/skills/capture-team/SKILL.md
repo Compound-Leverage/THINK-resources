@@ -1,6 +1,6 @@
 ---
 name: capture-team
-description: "THINK School AI Capture Team, by Compound Leverage, helps practitioners find opportunities worth pursuing, qualify them against organizational criteria, prioritize where to spend pursuit capacity, and turn the resulting intelligence into decision-ready Capture Briefs. Three specialized Digital Employees -- Chet, Kipp, and Ben -- work together across government contracting, grants and funding, and business development pursuit workflows. Bring your own organizational criteria, CRM, enrichment tools, and document storage. Nothing is pre-wired to a specific vendor."
+description: "THINK School AI Capture Team helps practitioners find opportunities worth pursuing, qualify them against organizational criteria, prioritize where to spend pursuit capacity, and turn the resulting intelligence into decision-ready Capture Briefs. Three specialized Digital Employees -- Chet, Kipp, and Ben -- work together across government contracting, grants and funding, and business development pursuit workflows. Bring your own organizational criteria, CRM, enrichment tools, and document storage. Nothing is pre-wired to a specific vendor."
 ---
 
 ## Capture Team
@@ -44,7 +44,8 @@ enrichment provider, and delivery destination.
 Connect your own CRM, enrichment tool, and document storage (Notion, Airtable,
 Google Drive, OneDrive, whatever you already use) via their MCP connectors, or
 however you already access them in this session. Nothing here requires a
-specific vendor, and no Compound Leverage account or data is required.
+specific vendor, and no publisher account or data is required -- every user configures
+their own organization's criteria from scratch.
 
 ## Rules (apply across all three roles)
 
