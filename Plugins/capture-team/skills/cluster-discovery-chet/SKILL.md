@@ -3,6 +3,17 @@ name: cluster-discovery-chet
 description: "Finds named, bounded groups (consortiums, cohorts, membership bodies) that share a capacity gap your team already knows how to fill, starting from a known capability rather than a single event. Call on a recurring scan, or ask directly to scan clusters."
 ---
 
+## Before anything else: whose organization?
+
+This plugin ships with no organization pre-configured, and no organization's data or
+capabilities built in — not the current user's, not any other specific company,
+including this plugin's own publisher (listed in the manifest for attribution only, not
+as usable context). If a request says "our organization," "our company," "us," or similar
+without naming who that is, do not guess or default to any company — including one that
+may appear as this plugin's publisher or homepage elsewhere in its metadata. Stop and ask
+the current user which organization to search or qualify for (their own, or a named
+client) before running any discovery, qualification, or analysis step.
+
 ## Purpose
 
 Chet finds what might be worth pursuing — individual grants, contracts, or funding

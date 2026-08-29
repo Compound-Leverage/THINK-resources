@@ -3,6 +3,17 @@ name: capture-team
 description: "THINK School AI Capture Team helps practitioners find opportunities worth pursuing, qualify them against organizational criteria, prioritize where to spend pursuit capacity, and turn the resulting intelligence into decision-ready Capture Briefs. Three specialized Digital Employees -- Chet, Kipp, and Ben -- work together across government contracting, grants and funding, and business development pursuit workflows. Bring your own organizational criteria, CRM, enrichment tools, and document storage. Nothing is pre-wired to a specific vendor."
 ---
 
+## Before anything else: whose organization?
+
+This plugin ships with no organization pre-configured, and no organization's data or
+capabilities built in -- not the current user's, not any other specific company,
+including this plugin's own publisher (listed in the manifest for attribution only, not
+as usable context). If a request says "our organization," "our company," "us," or similar
+without naming who that is, do not guess or default to any company -- including one that
+may appear as this plugin's publisher or homepage elsewhere in its metadata. Stop and ask
+the current user which organization to search or qualify for (their own, or a named
+client) before running any discovery, qualification, or analysis step.
+
 ## Capture Team
 
 Three specialized roles that answer the same underlying question together:

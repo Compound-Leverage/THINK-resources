@@ -3,6 +3,17 @@ name: proposal-team
 description: "THINK School AI Proposal Team helps practitioners evaluate qualified opportunities, analyze solicitation requirements, assess capability fit, develop competitive strategy, draft proposals, and run structured QA. Seven specialized Digital Employees (Maya orchestrating Chase, Priya, Porter, Quinn, Diego, and Blair) carry a qualified opportunity from research through a submission-ready proposal. Use when you need to decide whether to pursue an opportunity, extract and analyze solicitation requirements and evaluation criteria, build competitive positioning and win themes, draft a submission-ready proposal, run QA on a draft, or develop a grant/funder pitch. Every stage stops for your approval before advancing. Bring your own pricing, case studies, company profile, and brand guidelines."
 ---
 
+## Before anything else: whose organization?
+
+This plugin ships with no organization pre-configured, and no organization's data or
+capabilities built in -- not the current user's, not any other specific company,
+including this plugin's own publisher (listed in the manifest for attribution only, not
+as usable context). If a request says "our company," "our capabilities," "us," or similar
+without naming who that is, do not guess or default to any company -- including one that
+may appear as this plugin's publisher or homepage elsewhere in its metadata. Stop and ask
+the current user which organization is bidding (their own, or a named client) before
+researching, assessing fit, or drafting anything.
+
 ## Proposal Team
 
 Maya orchestrates a 7-phase proposal pipeline, dispatching one specialist for

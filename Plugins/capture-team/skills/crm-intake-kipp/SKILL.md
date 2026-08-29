@@ -3,6 +3,17 @@ name: crm-intake-kipp
 description: "Enriches incoming org and contact records, classifies each by your ICP profile, and creates or updates CRM entries. Processes new inbound leads, intelligence inbox entries, and prospect lists."
 ---
 
+## Before anything else: whose organization?
+
+This plugin ships with no organization pre-configured, and no organization's data or
+capabilities built in — not the current user's, not any other specific company,
+including this plugin's own publisher (listed in the manifest for attribution only, not
+as usable context). If a request says "our organization," "our criteria," "us," or
+similar without naming who that is, do not guess or default to any company — including
+one that may appear as this plugin's publisher or homepage elsewhere in its metadata.
+Stop and ask the current user whose qualification criteria to apply (their own, or a
+named client's) before scoring anything against them.
+
 ## Purpose
 
 Runs a daily (or on-demand) sweep of new candidates from Chet (or any inbound source),

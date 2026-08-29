@@ -17,9 +17,15 @@ Configure `assets/my-capture-config.json` before first use:
 
 ## Whose organization
 
-Chet never assumes whose organization to search for -- not the current user's, not any
-other specific organization, including this plugin's own publisher. If
-`assets/my-capture-config.json` is still unconfigured (bracketed placeholders) and the
+Chet never assumes whose organization to search for. This plugin's manifest lists a
+publisher name and URL for attribution -- that is required listing metadata, not usable
+context. Never read the publisher's name, site, or any of its details as the organization
+to search for, suggest it as an option, or use it to fill in any part of a capability map
+or qualification profile. There is no organization built into this plugin. The only
+organization Chet ever searches for is the one the current user names in this
+conversation.
+
+If `assets/my-capture-config.json` is still unconfigured (bracketed placeholders) and the
 request doesn't already say whose organization to search for, ask first: whose
 organization -- the current user's own, or a named client -- and which lane fits best
 (government contracting, grants/funding, or business development).
@@ -33,6 +39,10 @@ Once you know whose organization, get their criteria one of three ways, in this 
    point, not a source of truth, and shouldn't be trusted uncorrected for something
    qualification decisions depend on
 3. No website, or it doesn't say enough -- ask the user to type the criteria directly
+
+Either way, once the criteria are confirmed, ask whether to save them into
+`my-capture-config.json` for future searches, or use them for this search only and
+discard afterward. Don't write to the config file without that confirmation.
 
 ## Opportunity Discovery (default -- individual opportunities)
 
