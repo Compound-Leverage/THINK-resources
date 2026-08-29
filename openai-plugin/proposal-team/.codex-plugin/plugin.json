@@ -21,6 +21,7 @@
     "govcon",
     "small-business"
   ],
+  "skills": "./skills",
   "interface": {
     "displayName": "THINK School AI Proposal Team",
     "shortDescription": "7-role proposal pipeline from research through QA and grant/funder pitch development",

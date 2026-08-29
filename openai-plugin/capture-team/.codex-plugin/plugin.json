@@ -22,6 +22,7 @@
     "nonprofit",
     "grant-seeking"
   ],
+  "skills": "./skills",
   "interface": {
     "displayName": "THINK School AI Capture Team",
     "shortDescription": "Find capacity-gap groups, enrich inbound records, and deliver client-ready briefs",
