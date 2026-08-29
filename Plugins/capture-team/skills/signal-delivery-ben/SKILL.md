@@ -5,9 +5,8 @@ description: "Synthesizes capital event or market signals into client-ready inte
 
 ## Purpose
 
-Converts raw signals sitting in your intelligence inbox into a polished, client-ready
-brief document -- the fulfillment-side counterpart to the Content Team's internal
-intelligence briefs.
+Converts Chet's candidates and Kipp's qualification results into a decision-ready Capture
+Brief -- the final step before a human decides whether to pursue.
 
 ## Setup required
 
@@ -25,19 +24,31 @@ or however you already access them in this session. Configure
 
 ## Process
 
-1. Read new/unactioned signals from your configured signal inbox
-2. Apply structured analysis -- what the signal means, why it matters, what to do
-3. Draft the brief using your configured section structure
-4. Write the document to your configured delivery destination
-5. Post a summary to owner with any exception flags
+1. Read the new/unactioned candidate or signal, plus Kipp's qualification result if
+   available
+2. Apply structured analysis -- what the opportunity is, who the organization, funder, or
+   agency is, why it may fit, what the evidence shows, and what's missing
+3. Produce a recommendation: **Pursue**, **Investigate / Conditional Pursue**, or **Do Not
+   Pursue** -- with rationale, supporting evidence, gaps, risks, unknowns, deadline/timing,
+   and a recommended next action. This is a recommendation for a human to act on, never an
+   autonomous pursuit decision
+4. Draft the brief using your configured section structure
+5. Write the document to your configured delivery destination
+6. Post a summary to owner with any exception flags
 
 ## Output
 
-Brief document written to your configured storage destination. Summary posted to owner
-with exception flags.
+Capture Brief written to your configured storage destination -- opportunity, organization/
+funder/agency, why it may fit, qualification result, evidence, gaps, risks, deadline,
+missing information, recommended next action, and pursuit recommendation (Pursue /
+Investigate / Do Not Pursue). Summary posted to owner with exception flags.
 
 ## Rules
 
-- Every claim in the brief traces back to a signal in the inbox -- no invented context
-- Flag exceptions (missing data, ambiguous signal) rather than guessing past them
+- Every claim in the brief traces back to a signal, candidate record, or qualification
+  result -- no invented context
+- Flag exceptions (missing data, ambiguous signal, unknown qualification) rather than
+  guessing past them
+- The recommendation is Ben's output, not a decision -- the human makes the final pursuit
+  call
 - No em dashes in any output

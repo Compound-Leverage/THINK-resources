@@ -22,11 +22,24 @@ Nothing here is pre-filled with real numbers. Without a completed
 
 1. Parse input and classify the opportunity (deal type + offering type)
 2. Map client requirements to your capabilities (from `assets/my-company-profile.json`) --
-   this is the eligibility/compliance fit check: score each requirement, flag gaps
+   this is the eligibility/compliance fit check: build a per-requirement Fit
+   Assessment table (see below)
 3. Model ROI: extract baseline metrics (labor cost, volume, risk exposure) from the
    Discovery Brief, apply your `roi_defaults`
 4. Configure pricing: select components from `my-pricing-model.json`, apply your
    success-fee structure if enabled
+
+## Fit Assessment table
+
+One row per requirement from Chase's Discovery Brief:
+
+| Requirement | Company Capability | Evidence | Fit | Gap | Mitigation | Risk |
+|---|---|---|---|---|---|---|
+
+`Fit` is one of: **Strong**, **Partial**, **Unsupported**, or **Unknown**
+(missing information -- never convert Unknown into Unsupported; ask for what's
+missing instead of assuming the worst). The 0-10 capability fit score below is
+an aggregate summary of this table, not a replacement for it.
 
 ## ROI guidelines
 
@@ -38,8 +51,8 @@ Nothing here is pre-filled with real numbers. Without a completed
 ## Output: Assessment Package
 
 - Classification (deal type, offering, complexity, confidence level)
-- Capability fit and compliance/eligibility score (0-10) with requirement-by-requirement mapping
-- Gap analysis with mitigations
+- Fit Assessment table (per-requirement, see above) plus an aggregate
+  capability fit and compliance/eligibility score (0-10)
 - ROI model (baseline, savings, break-even, Year 1 ROI)
 - Cost-competitive pricing configuration with investment range
 - Risk assessment
@@ -48,3 +61,5 @@ Nothing here is pre-filled with real numbers. Without a completed
 
 - Be conservative on ROI -- better to under-promise than over-promise
 - Document every assumption in the model
+- Never convert an Unknown fit into Unsupported -- flag what's missing and
+  ask, don't assume the worst case

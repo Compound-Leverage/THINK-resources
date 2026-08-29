@@ -25,8 +25,8 @@
   "skills": "./skills",
   "interface": {
     "displayName": "THINK School AI Capture Team",
-    "shortDescription": "Find capacity-gap groups, enrich inbound records, and deliver client-ready briefs",
-    "longDescription": "An AI Team of three specialized Digital Employees that helps you identify groups and opportunities worth pursuing, qualify organizations and contacts against your ICP, and turn market signals into client-ready intelligence briefs. Use it to discover potential markets and opportunities, research and qualify inbound organizations, or convert raw intelligence into actionable briefs. Bring your own CRM, enrichment tool, and document storage. Nothing is pre-wired to a specific vendor. Want to build, customize, and manage AI Teams for your own workflows? THINK School on Skool teaches you how.",
+    "shortDescription": "Find the right opportunities, assess fit, and focus on what is worth pursuing.",
+    "longDescription": "An AI Capture Team of specialized Digital Employees that helps practitioners identify opportunities, assess fit against organizational criteria, prioritize where to spend limited pursuit capacity, and turn the resulting intelligence into decision-ready Capture Briefs. Use it across government contracting, grants and funding, or business development workflows. Bring your own organizational criteria, CRM, enrichment tools, opportunity sources, and document storage. Nothing is pre-wired to a specific vendor. Chet discovers, Kipp qualifies and prioritizes, and Ben turns the result into a decision-ready brief. Want to build, customize, and manage AI Teams for your own workflows? THINK School on Skool teaches you how.",
     "developerName": "Compound Leverage",
     "category": "Business & Operations",
     "capabilities": [
@@ -45,9 +45,9 @@
     "composerIcon": "./assets/think-school.png",
     "logo": "./assets/think-school.png",
     "defaultPrompt": [
-      "Find groups and opportunities worth pursuing",
-      "Qualify this organization against our ICP",
-      "Turn this intelligence into a client-ready brief"
+      "Find opportunities that fit our organization",
+      "Should we pursue this opportunity?",
+      "Qualify these opportunities and tell me which to prioritize"
     ]
   }
 }

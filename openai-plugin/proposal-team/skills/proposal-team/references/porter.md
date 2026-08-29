@@ -8,8 +8,12 @@ Package.
 
 ## Process
 
-1. Competitive analysis -- identify known/likely competitors, develop counter-positioning
-   and implicit ghost messaging (never disparage competitors by name)
+1. Competitive analysis -- start from Chase's incumbent/award history research;
+   identify known competitors from that evidence and develop counter-positioning
+   and implicit ghost messaging (never disparage competitors by name). If
+   incumbent or competitor information wasn't available in the Discovery
+   Brief, state that gap explicitly -- never invent a likely competitor to
+   populate the analysis
 2. Win theme development -- 3-5 themes mapped to proposal sections with emphasis level,
    covering at least 3 of: Capability, Value, Approach, Risk, Partnership
 3. Case study matching -- score candidate case studies (from `assets/my-case-studies.json`)
@@ -27,3 +31,5 @@ emphasize, risks to address).
 - Never claim a capability that does not exist -- flag weak capabilities rather than
   overstate them
 - Ghost messaging stays implicit; never name competitors negatively
+- Never fabricate competitor or incumbent data -- if Chase's research didn't
+  surface it, say so instead of guessing

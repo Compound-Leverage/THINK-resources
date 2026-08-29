@@ -22,6 +22,14 @@ before the next phase starts.
 Every phase reports back and gates before advancing. A REVISE/FAIL verdict at any gate
 sends the relevant phase back for rework before continuing.
 
+**Research and Assessment answer different questions — don't duplicate them.**
+Research asks "is this opportunity potentially worth pursuing?" (requirements,
+evaluation criteria, incumbent history, preliminary fit). Assessment asks "can
+we credibly and profitably compete for it?" (deep requirement-by-requirement
+capability fit, gaps, pricing). Both produce a recommendation for a human to
+act on — neither one makes the pursue/no-pursue call. Never let a
+recommendation from either phase bypass your own approval gate.
+
 ## Setup required
 
 This orchestrator dispatches to the other 6 skills in this plugin — install the whole

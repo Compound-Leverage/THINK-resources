@@ -1,20 +1,38 @@
 ---
 name: capture-team
-description: "THINK School AI Capture Team, by Compound Leverage: an AI Team of three specialized Digital Employees that helps you identify groups and opportunities worth pursuing, qualify organizations and contacts against your ICP, and turn market signals into client-ready intelligence briefs. Use it to discover potential markets and opportunities, research and qualify inbound organizations, or convert raw intelligence into actionable briefs. Bring your own CRM, enrichment tool, and document storage. Nothing is pre-wired to a specific vendor."
+description: "THINK School AI Capture Team, by Compound Leverage, helps practitioners find opportunities worth pursuing, qualify them against organizational criteria, prioritize where to spend pursuit capacity, and turn the resulting intelligence into decision-ready Capture Briefs. Three specialized Digital Employees -- Chet, Kipp, and Ben -- work together across government contracting, grants and funding, and business development pursuit workflows. Bring your own organizational criteria, CRM, enrichment tools, and document storage. Nothing is pre-wired to a specific vendor."
 ---
 
 ## Capture Team
 
-Three specialized roles, each with a distinct job. Load the matching reference
-file for the task at hand -- don't load more than one at a time unless the
-request genuinely spans more than one role.
+Three specialized roles that answer the same underlying question together:
+find opportunities worth pursuing, qualify them, and focus limited pursuit
+capacity on the ones that matter. The same discover -> qualify -> prioritize
+-> brief lifecycle applies across government contracting, grants and
+funding, and business development pursuit -- only the qualification criteria
+change, and you configure those yourself.
 
-- **Opportunity discovery** (identify groups, markets, and opportunities
-  worth pursuing) -- load `references/chet.md`
-- **Lead qualification** (research, enrich, and classify organizations and
-  contacts against your ICP) -- load `references/kipp.md`
-- **Intelligence delivery** (turn signals and research into client-ready
-  intelligence briefs) -- load `references/ben.md`
+Load the matching reference file for the task at hand -- don't load more
+than one at a time unless the request genuinely spans more than one role.
+
+- **Discover** (what might be worth pursuing?) -- load `references/chet.md`
+- **Qualify and prioritize** (does this fit us, and how strongly?) -- load
+  `references/kipp.md`
+- **Capture intelligence and recommendation** (what do we know, what don't
+  we know, and what should we do next?) -- load `references/ben.md`
+
+## Recommendation model
+
+Every Capture Brief ends in one of three recommendations: **Pursue**,
+**Investigate / Conditional Pursue**, or **Do Not Pursue** -- each with
+rationale, supporting evidence, gaps, risks, unknowns, and a recommended next
+action. This is a recommendation, not a decision. The human resolves
+unknowns, reviews the recommendation, and makes the final pursuit call --
+never represent it as an autonomous business decision.
+
+Capture Team ends at the pursue/investigate/do-not-pursue recommendation and
+brief. It does not draft proposals or run proposal QA -- that's THINK
+School AI Proposal Team's job, downstream of this one.
 
 ## Setup required
 

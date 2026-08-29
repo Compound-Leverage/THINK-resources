@@ -1,5 +1,5 @@
 {
-  "_instructions": "REQUIRED: Configure your capability map, ICP criteria, CRM database IDs, enrichment provider, and delivery destination for Capture Team (Chet, Kipp, Ben). Notion and Google Drive fields below are illustrative -- rename/restructure to match whatever CRM and storage you actually use. Update whenever your capture process changes.",
+  "_instructions": "REQUIRED: Configure your capability map, qualification criteria, CRM database IDs, enrichment provider, and delivery destination for Capture Team (Chet, Kipp, Ben). 'icp_profiles' below covers any pursuit-qualification type -- business-development ICP, GovCon eligibility/capability alignment, or grant eligibility/program alignment -- just fill in the criteria fields for whichever applies to you; the schema doesn't change. Notion and Google Drive fields below are illustrative -- rename/restructure to match whatever CRM and storage you actually use. Update whenever your capture process changes.",
   "_last_updated": "[DATE YOU LAST UPDATED THIS FILE]",
 
   "capability_map": {
@@ -23,11 +23,11 @@
   "icp_profiles": [
     {
       "profile_id": "[PROFILE-1]",
-      "label": "[e.g. 'Government contractor, 10-200 employees']",
+      "label": "[e.g. 'Government contractor, 10-200 employees' -- or a grant/funding profile like 'Community nonprofit, education programs', or a GovCon profile like 'Set-aside eligible, NAICS 541611']",
       "org_types": ["[TYPE 1]", "[TYPE 2]"],
-      "size_range": "[e.g. 10-200 employees or a revenue range]",
+      "size_range": "[e.g. 10-200 employees or a revenue range -- leave blank if not applicable to this profile type]",
       "classification_criteria": [
-        "[Signal or field that qualifies a record for this profile]"
+        "[Signal or field that qualifies a record for this profile -- e.g. NAICS/certification alignment, program eligibility, geography, deadline, or whatever your pursuit type actually requires]"
       ]
     }
   ],
