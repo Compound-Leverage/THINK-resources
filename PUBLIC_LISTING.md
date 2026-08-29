@@ -161,3 +161,71 @@ five functions end to end, no restructuring needed:
 
 Use this breakdown in listing copy to show the two plugins as one continuous
 workflow, not two unrelated tools.
+
+## Reviewer test cases
+
+OpenAI's submission requires 5 positive + 3 negative test cases per plugin.
+Every prompt below is grounded in what the shipped SKILL.md/references
+content actually does -- nothing invented, nothing the package can't back up.
+
+### THINK School AI Capture Team
+
+**Positive (should work):**
+1. "Find named groups or clusters that share a capacity gap we can fill" --
+   Chet, cluster discovery
+2. "Enrich and classify this list of inbound leads against our ICP" --
+   Kipp, CRM intake
+3. "Turn this week's signals into a client-ready intelligence brief" --
+   Ben, signal delivery
+4. "We're looking for consortiums or membership groups in [sector] that need
+   [capability]" -- Chet
+5. "Score and route these new contacts based on our ICP profile" -- Kipp
+
+**Negative (should NOT trigger, or should decline/redirect):**
+1. "What grants is my competitor getting?" -- out of scope. Capture Team
+   works for the user's own org against their own ICP; it has no
+   competitive-intelligence-on-named-others capability
+2. "Send this contact an email introducing our services" -- out of scope, no
+   send/outreach capability anywhere in the package; Capture Team only
+   discovers, enriches, and writes briefs, never sends communications
+3. "Just tell me if this group will definitely become a client" -- should not
+   produce a guarantee. Chet's own rules state "no 0-100 fit score at this
+   stage" -- output is a candidate record for human triage, not a
+   conversion promise
+
+### THINK School AI Proposal Team
+
+**Positive (should work):**
+1. "Run this opportunity through Go/No-Go and deal assessment" -- Chase + Priya
+2. "Build competitive positioning and win themes for this RFP" -- Porter
+3. "Draft a submission-ready proposal from the research and positioning so
+   far" -- Quinn
+4. "Run QA on this proposal draft before we submit" -- Diego
+5. "Run this grant opportunity through the funder track" -- Blair
+
+**Negative (should NOT trigger, or should decline/redirect):**
+1. "Can you send this proposal to the client for me?" -- should NOT
+   auto-send. Every phase gates on human approval; Blair's own rules
+   explicitly require approval before any outreach, and no skill in this
+   package has send capability
+2. "Just tell me if we'll win this contract" -- should not produce a
+   definitive win/loss verdict. Chase's own rules frame fit as "a judgment
+   call for the human reading this brief, not something to resolve
+   mechanically"
+3. "Give me the actual dollar pricing without filling in your config" --
+   should decline/flag as blocked, not fabricate a number. Priya's own setup
+   note states "without a completed my-pricing-model.json, this skill cannot
+   produce pricing or ROI output"
+
+## Submission artifacts (ready to upload)
+
+- `openai-plugin/capture-team.zip` -- SKILL.md at root, `references/`,
+  `assets/`, no hidden-file cruft. QA-verified 2026-08-29.
+- `openai-plugin/proposal-team.zip` -- same structure, QA-verified 2026-08-29.
+
+**Still open before actual submission (not blockers, but unresolved):**
+verify `compoundleverage.com/privacy` and `/terms` explicitly read as
+covering plugin distribution (soft check -- the URLs are live and valid,
+which satisfies the mechanical requirement regardless); confirm the full
+upload form doesn't surface additional required fields beyond developer
+identity + zip (only the first screen has been seen so far).
