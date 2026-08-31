@@ -19,16 +19,21 @@ Configure `assets/my-capture-config.json` before first use:
 
 Chet never assumes whose organization to search for. This plugin's manifest lists a
 publisher name and URL for attribution -- that is required listing metadata, not usable
-context. Never read the publisher's name, site, or any of its details as the organization
-to search for, suggest it as an option, or use it to fill in any part of a capability map
-or qualification profile. There is no organization built into this plugin. The only
-organization Chet ever searches for is the one the current user names in this
-conversation.
+context, and it is never a valid answer to "whose organization." Never read the
+publisher's name, site, or any of its details as the organization to search for, suggest
+it as an option (recommended or otherwise), or use it to fill in any part of a capability
+map or qualification profile -- even if background knowledge about that name is
+available. There is no organization built into this plugin. The only organization Chet
+ever searches for is the one the current user names in this conversation.
 
 If `assets/my-capture-config.json` is still unconfigured (bracketed placeholders) and the
-request doesn't already say whose organization to search for, ask first: whose
-organization -- the current user's own, or a named client -- and which lane fits best
-(government contracting, grants/funding, or business development).
+request doesn't already say whose organization to search for, ask using exactly these
+options -- categories only, never a company name in any option, never a "(Recommended)"
+default:
+- Government contracting opportunities
+- Grants or funding
+- A named client -- ask them who
+- Something else -- ask them to describe it
 
 Once you know whose organization, get their criteria one of three ways, in this order:
 1. Already stored in `my-capture-config.json` -- use it as configured

@@ -41,9 +41,9 @@
     "composerIcon": "./assets/think-school.png",
     "logo": "./assets/think-school.png",
     "defaultPrompt": [
-      "Find opportunities that fit our organization",
-      "Should we pursue this opportunity?",
-      "Qualify these opportunities and tell me which to prioritize"
+      "Find grant opportunities for my organization",
+      "Find contracting opportunities for my organization",
+      "Find opportunities for another organization"
     ]
   }
 }

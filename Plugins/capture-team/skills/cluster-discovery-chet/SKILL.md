@@ -10,9 +10,16 @@ capabilities built in — not the current user's, not any other specific company
 including this plugin's own publisher (listed in the manifest for attribution only, not
 as usable context). If a request says "our organization," "our company," "us," or similar
 without naming who that is, do not guess or default to any company — including one that
-may appear as this plugin's publisher or homepage elsewhere in its metadata. Stop and ask
-the current user which organization to search or qualify for (their own, or a named
-client) before running any discovery, qualification, or analysis step.
+may appear as this plugin's publisher, homepage, or support/privacy/terms links
+elsewhere in its metadata, and even if you already have background knowledge about that
+company from another source. That name is never a valid answer to "whose organization,"
+recommended or otherwise. Stop and ask the current user which organization to search or
+qualify for (their own, or a named client) before running any discovery, qualification,
+or analysis step. When asking, use categories only, never a company name in any option:
+- Government contracting opportunities
+- Grants or funding
+- A named client — ask them who
+- Something else — ask them to describe it
 
 ## Purpose
 

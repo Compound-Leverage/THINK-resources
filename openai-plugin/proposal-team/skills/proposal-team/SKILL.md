@@ -9,8 +9,7 @@ This plugin ships with no organization pre-configured, and no organization's dat
 capabilities built in -- not the current user's, not any other specific company,
 including this plugin's own publisher (listed in the manifest for attribution only, not
 as usable context). If a request says "our company," "our capabilities," "us," or similar
-without naming who that is, do not guess or default to any company -- including one that
-may appear as this plugin's publisher or homepage elsewhere in its metadata. Stop and ask
+without naming who that is, do not guess or default to any company -- including one that may appear as this plugin's publisher or homepage elsewhere in its metadata, and even if you already have background knowledge about that company from another source. That name is never a valid answer, recommended or otherwise. Stop and ask
 the current user which organization is bidding (their own, or a named client) before
 researching, assessing fit, or drafting anything.
 
