@@ -1,6 +1,6 @@
 {
   "name": "proposal-team",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Runs a qualified opportunity through a full proposal pipeline -- research, deal assessment, competitive positioning, drafting, and QA -- producing a submission-ready proposal with your approval at each stage, plus a separate grant/funder track. 7 roles: Maya (lead), Chase, Priya, Porter, Quinn, Diego, Blair. Bring your own pricing, case studies, and brand guidelines.",
   "author": {
     "name": "Compound Leverage",
@@ -24,7 +24,7 @@
   "skills": "./skills",
   "interface": {
     "displayName": "THINK School AI Proposal Team",
-    "shortDescription": "Find, assess & prioritize bids",
+    "shortDescription": "Assess, strategize, & propose",
     "longDescription": "Evaluates qualified opportunities and helps you build stronger, compliant proposals. Chase researches solicitation requirements, evaluation criteria, and opportunity intelligence, including incumbent and prior-award history. Priya assesses capability fit, gaps, risk, ROI, and pricing. Porter develops competitive positioning and win themes. Quinn drafts the proposal. Diego runs structured QA against requirements, evaluation-criteria coverage, consistency, compliance, and methodology. Maya orchestrates the workflow with a human approval gate between every stage. Blair handles a separate grant/funder track. Configurable to your own business -- bring your pricing, case studies, company profile, and brand guidelines. Want to build, customize, and manage AI Teams for your own workflows? THINK School on Skool teaches you how.",
     "developerName": "Compound Leverage",
     "category": "Business & Operations",
