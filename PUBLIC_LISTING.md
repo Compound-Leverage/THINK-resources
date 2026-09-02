@@ -217,6 +217,28 @@ content actually does -- nothing invented, nothing the package can't back up.
    note states "without a completed my-pricing-model.json, this skill cannot
    produce pricing or ROI output"
 
+## Versioning
+
+Standard semver (`MAJOR.MINOR.PATCH`) applies to each plugin's `version`
+field independently -- Capture Team and Proposal Team version on their own
+schedules, not in lockstep.
+
+- **PATCH** (third digit) -- bug fixes, behavior corrections, wording/
+  instruction clarifications, metadata copy changes (description, subtitle,
+  support/privacy URLs). No change to what the plugin can do. Example: the
+  org-identity guard fix, description reformatting.
+- **MINOR** (second digit) -- new backward-compatible capability: a new
+  discovery mode, a new QA check, a new output section, a new persona. Old
+  configs and workflows still work unchanged.
+- **MAJOR** (first digit) -- breaking change: a config schema change that
+  invalidates existing filled-in `my-*-config.json` files, a removed or
+  renamed persona/role, a restructure that breaks an existing install.
+
+When a batch of changes mixes fix-level and capability-level work under one
+version number (as happened between 1.1.0 and 1.1.1 for both plugins this
+cycle), bump for the highest tier actually shipped, then start applying the
+per-change logic above going forward from that number.
+
 ## Submission artifacts (ready to upload)
 
 - `openai-plugin/capture-team.zip` -- SKILL.md at root, `references/`,
