@@ -1,6 +1,6 @@
 {
   "name": "capture-team",
-  "version": "1.1.1",
+  "version": "1.1.3",
   "description": "THINK School AI Capture Team helps practitioners discover opportunities worth pursuing, qualify and prioritize them against organizational criteria, and turn the resulting intelligence into decision-ready Capture Briefs. Three Digital Employees work together: Chet discovers, Kipp qualifies and prioritizes, and Ben develops capture intelligence and pursuit recommendations.",
   "author": {
     "name": "Compound Leverage",
@@ -25,7 +25,7 @@
   "skills": "./skills",
   "interface": {
     "displayName": "THINK School AI Capture Team",
-    "shortDescription": "Find the right opportunities, assess fit, and focus on what is worth pursuing.",
+    "shortDescription": "Find, assess & prioritize bids",
     "longDescription": "An AI Capture Team of specialized Digital Employees that helps practitioners identify opportunities, assess fit against organizational criteria, prioritize where to spend limited pursuit capacity, and turn the resulting intelligence into decision-ready Capture Briefs.\n\nUse it across government contracting, grants and funding, or business development workflows. Bring your own organizational criteria, CRM, enrichment tools, opportunity sources, and document storage.\n\nNothing is pre-wired to a specific vendor. Chet discovers, Kipp qualifies and prioritizes, and Ben turns the result into a decision-ready brief.\n\nWant to build, customize, and manage AI Teams for your own workflows?\n\nTHINK School on Skool teaches you how.",
     "developerName": "Compound Leverage",
     "category": "Business & Operations",
