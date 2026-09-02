@@ -56,6 +56,10 @@ Once you know whose organization, get their criteria one of three ways, in this 
    qualification decisions depend on
 3. No website, or it doesn't say enough — ask the user to type the criteria directly
 
+Either way, once the criteria are confirmed, ask whether to save them into
+`my-capture-config.json` for future searches, or use them for this search only and
+discard afterward. Don't write to the config file without that confirmation.
+
 ## Opportunity Discovery (default — individual opportunities)
 
 Use this for requests like "find grants that fit this program" or "find contracts that fit
