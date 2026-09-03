@@ -1,7 +1,7 @@
 {
   "name": "proposal-team",
   "version": "1.1.3",
-  "description": "Runs a qualified opportunity through a full proposal pipeline -- research, deal assessment, competitive positioning, drafting, and QA -- producing a submission-ready proposal with your approval at each stage, plus a separate grant/funder track. 7 roles: Maya (lead), Chase, Priya, Porter, Quinn, Diego, Blair. Bring your own pricing, case studies, and brand guidelines.",
+  "description": "Evaluate opportunities, understand what evaluators are looking for, and develop stronger, compliant proposals.\n\nThe THINK School AI Proposal Team takes you from bid assessment through strategy, drafting, and QA.\n\n- Chase analyzes solicitation requirements, evaluation criteria, incumbents, and opportunity intelligence.\n- Priya assesses capability fit, gaps, risk, ROI, and pricing.\n- Porter develops competitive positioning and win themes.\n- Quinn drafts the proposal, while Diego checks requirements, evaluation-criteria coverage, consistency, compliance, and methodology.\n- Maya orchestrates the workflow with human approval between each stage.\n- Blair provides a separate grant-and-funder track.\n\nConfigure the team with your own company profile, pricing, case studies, and brand guidelines.\n\nWant to build, customize, and manage AI Teams for your own workflows?\n\nTHINK School on Skool teaches you how.",
   "author": {
     "name": "Compound Leverage",
     "url": "https://compoundleverage.com"
@@ -9,5 +9,13 @@
   "homepage": "https://www.skool.com/thinkschool/about",
   "repository": "https://github.com/Compound-Leverage/THINK-school",
   "license": "PolyForm-Shield-1.0.0",
-  "keywords": ["ai-team", "digital-employee", "think-school", "proposal", "rfp", "capture-management", "grant-writing"]
+  "keywords": [
+    "ai-team",
+    "digital-employee",
+    "think-school",
+    "proposal",
+    "rfp",
+    "capture-management",
+    "grant-writing"
+  ]
 }
