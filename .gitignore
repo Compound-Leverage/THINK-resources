@@ -4,5 +4,7 @@ __pycache__/
 .env
 node_modules/
 .claude/
+!.claude/skills/
+!.claude/skills/**
 .DS_Store
 openai-plugin/*.zip
